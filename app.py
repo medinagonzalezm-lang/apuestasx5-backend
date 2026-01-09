@@ -18,9 +18,20 @@ app.add_middleware(
 )
 
 # ======================================================
+# ROOT (EVITA 404 EN RENDER)
+# ======================================================
+@app.get("/")
+def root():
+    return {
+        "status": "ok",
+        "service": "ApuestasX5 backend",
+        "endpoints": ["/partidos", "/matches"]
+    }
+
+# ======================================================
 # CONFIG API REAL (API-FOOTBALL)
 # ======================================================
-API_KEY = os.getenv("FOOTBALL_API_KEY")  # 🔐 AQUÍ SE LEE LA KEY
+API_KEY = os.getenv("FOOTBALL_API_KEY")  # 🔐 SOLO VARIABLE DE ENTORNO
 API_URL = "https://v3.football.api-sports.io/fixtures"
 HEADERS = {"x-apisports-key": API_KEY} if API_KEY else None
 
@@ -81,7 +92,7 @@ def partidos():
             "home": f["teams"]["home"]["name"],
             "away": f["teams"]["away"]["name"],
             "league": f["league"]["name"],
-            # ⚠️ Placeholder realista (la media real se puede calcular luego)
+            # Placeholder realista (mejorable con estadísticas reales)
             "home_goals_avg": 1.5,
             "away_goals_avg": 1.3,
             "home_concede_avg": 1.2,
@@ -134,9 +145,5 @@ def matches():
         "combinada": top3(analizados, "prob_combinada"),
         "fecha": str(datetime.date.today()),
     }
-@app.get("/")
-def root():
-    return {
-        "status": "ok",
-        "service": "ApuestasX5 backend",
-        "endpoints": ["/partidos", "/matches"]
+
+
