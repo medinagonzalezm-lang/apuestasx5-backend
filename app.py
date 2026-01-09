@@ -1,12 +1,15 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import requests
 import datetime
 from typing import List
+import requests
+import os
 
 app = FastAPI()
 
-# CORS para permitir conexión desde la app Kivy
+# ======================
+# CORS
+# ======================
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -15,38 +18,100 @@ app.add_middleware(
 )
 
 # ======================================================
-# 1️⃣ ENDPOINT BASE: PARTIDOS EN CRUDO
-# (aquí luego conectas la API REAL de fútbol)
+# CONFIG API REAL (API-FOOTBALL)
+# ======================================================
+API_KEY = os.getenv("FOOTBALL_API_KEY")  # 🔐 AQUÍ SE LEE LA KEY
+API_URL = "https://v3.football.api-sports.io/fixtures"
+HEADERS = {"x-apisports-key": API_KEY} if API_KEY else None
+
+
+# ======================================================
+# 1️⃣ PARTIDOS DEL DÍA
 # ======================================================
 @app.get("/partidos")
 def partidos():
-    # ⚠️ Datos de ejemplo (ESTO FUNCIONA)
-    # Cuando conectes API real, aquí va el requests.get(...)
-    return [
-        {"home": "Real Madrid", "away": "Barcelona", "goles_home": 2, "goles_away": 1},
-        {"home": "Betis", "away": "Sevilla", "goles_home": 1, "goles_away": 1},
-        {"home": "Villarreal", "away": "Valencia", "goles_home": 2, "goles_away": 0},
-        {"home": "Athletic", "away": "Real Sociedad", "goles_home": 3, "goles_away": 2},
-        {"home": "Osasuna", "away": "Celta", "goles_home": 1, "goles_away": 0},
-    ]
+    today = datetime.date.today().strftime("%Y-%m-%d")
+
+    # 🔁 MODO DEMO (sin API KEY)
+    if not API_KEY:
+        return [
+            {
+                "home": "Real Madrid",
+                "away": "Barcelona",
+                "league": "LaLiga",
+                "home_goals_avg": 2.1,
+                "away_goals_avg": 1.9,
+                "home_concede_avg": 1.0,
+                "away_concede_avg": 1.1,
+            },
+            {
+                "home": "Bayern",
+                "away": "Dortmund",
+                "league": "Bundesliga",
+                "home_goals_avg": 2.4,
+                "away_goals_avg": 2.0,
+                "home_concede_avg": 1.2,
+                "away_concede_avg": 1.3,
+            },
+            {
+                "home": "Arsenal",
+                "away": "Tottenham",
+                "league": "Premier League",
+                "home_goals_avg": 1.8,
+                "away_goals_avg": 1.7,
+                "home_concede_avg": 1.1,
+                "away_concede_avg": 1.2,
+            },
+        ]
+
+    # 🔴 MODO REAL (con API KEY)
+    params = {
+        "date": today,
+        "status": "NS"
+    }
+
+    r = requests.get(API_URL, headers=HEADERS, params=params, timeout=10)
+    r.raise_for_status()
+    data = r.json()
+
+    partidos = []
+
+    for f in data.get("response", []):
+        partidos.append({
+            "home": f["teams"]["home"]["name"],
+            "away": f["teams"]["away"]["name"],
+            "league": f["league"]["name"],
+            # ⚠️ Placeholder realista (la media real se puede calcular luego)
+            "home_goals_avg": 1.5,
+            "away_goals_avg": 1.3,
+            "home_concede_avg": 1.2,
+            "away_concede_avg": 1.3,
+        })
+
+    return partidos
 
 
 # ======================================================
-# 2️⃣ ANÁLISIS ESTADÍSTICO (tipo Kelly simplificado)
+# 2️⃣ ANÁLISIS ESTADÍSTICO
 # ======================================================
 def analizar_partido(p):
-    goles_totales = p["goles_home"] + p["goles_away"]
+    expected_goals = (
+        p["home_goals_avg"]
+        + p["away_goals_avg"]
+        + p["home_concede_avg"]
+        + p["away_concede_avg"]
+    ) / 2
 
-    prob_over_1_5 = min(goles_totales / 4, 0.95)
-    prob_1x_2x = 0.55 if p["goles_home"] >= p["goles_away"] else 0.45
-    prob_btts = 0.65 if p["goles_home"] > 0 and p["goles_away"] > 0 else 0.3
+    prob_over_1_5 = 0.75 if expected_goals >= 2 else 0.45
+    prob_btts = 0.70 if p["home_goals_avg"] > 1 and p["away_goals_avg"] > 1 else 0.35
+    prob_1x_2x = 0.65 if p["home_goals_avg"] >= p["away_goals_avg"] else 0.55
 
     return {
         **p,
         "prob_over_1_5": round(prob_over_1_5, 2),
-        "prob_1x_2x": round(prob_1x_2x, 2),
         "prob_btts": round(prob_btts, 2),
-        "prob_combinada": round(max(prob_over_1_5, prob_1x_2x, prob_btts), 2),
+        "prob_1x_2x": round(prob_1x_2x, 2),
+        "prob_combinada": round(max(prob_over_1_5, prob_btts, prob_1x_2x), 2),
     }
 
 
@@ -55,18 +120,12 @@ def top3(partidos: List[dict], key: str):
 
 
 # ======================================================
-# 3️⃣ ENDPOINT PRINCIPAL PARA LA APP
+# 3️⃣ ENDPOINT PRINCIPAL PARA KIVY
 # ======================================================
 @app.get("/matches")
 def matches():
-    try:
-        r = requests.get("https://apuestasx5-backend.onrender.com/partidos", timeout=10)
-        r.raise_for_status()
-        partidos = r.json()
-    except Exception as e:
-        return {"error": str(e)}
-
-    analizados = [analizar_partido(p) for p in partidos]
+    partidos_data = partidos()
+    analizados = [analizar_partido(p) for p in partidos_data]
 
     return {
         "over_1_5": top3(analizados, "prob_over_1_5"),
@@ -75,4 +134,3 @@ def matches():
         "combinada": top3(analizados, "prob_combinada"),
         "fecha": str(datetime.date.today()),
     }
-
