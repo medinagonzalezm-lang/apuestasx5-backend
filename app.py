@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import requests
 from typing import List
 import datetime
-import os  # Para leer la API key de variable de entorno
+import os
 
 app = FastAPI()
 
@@ -15,27 +15,34 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Leer la API key de variable de entorno
-API_KEY = os.environ.get("API_KEY")  # <--- Asegúrate de configurar esto en Render
-API_URL = "https://api-de-partidos-reales.com/matches"  # Tu API real
+# Poner tu API real aquí
+API_URL = "https://tu-api-real.com/matches"  # <--- Cambiar por tu API real
+API_KEY = os.getenv("API_KEY")  # Si tu API necesita key, poner en entorno de Render
 
-# Función para analizar partido con probabilidades Kelly y demás
+# Función para analizar partidos y calcular probabilidades
 def analizar_partido(partido):
-    # Ejemplo de análisis estadístico simplificado
-    goles_home = partido.get("home_goals", 1)
-    goles_away = partido.get("away_goals", 1)
-    
-    # Over 1.5 goles
+    """
+    Analiza un partido y devuelve probabilidades para:
+    - over 1.5 goles
+    - 1X/2X
+    - ambos marcan (BTT)
+    - combinada (la más segura)
+    """
+    # Extraer datos básicos
+    goles_home = partido.get("goals_home", 1)
+    goles_away = partido.get("goals_away", 1)
+
+    # Probabilidad Over 1.5 goles
     over_1_5 = min((goles_home + goles_away) / 5, 0.95)
 
-    # 1X / 2X (probabilidad ajustada por diferencia de goles)
+    # Probabilidad 1X/2X simplificada
     oneX_2X = 0.5 + (goles_home - goles_away) * 0.05
     oneX_2X = max(min(oneX_2X, 0.9), 0.1)
 
-    # Ambos marcan
+    # Probabilidad ambos marcan (BTT)
     btts = 0.6 if goles_home > 0 and goles_away > 0 else 0.3
 
-    # Combinada: la mayor probabilidad
+    # Probabilidad combinada: la que más seguridad da
     combinacion = max(over_1_5, oneX_2X, btts)
 
     return {
@@ -46,18 +53,18 @@ def analizar_partido(partido):
         "prob_combinacion": round(combinacion, 2)
     }
 
-# Seleccionar top 3 según clave de probabilidad
+# Selecciona los top 3 de cada categoría
 def seleccionar_top(partidos: List[dict], key: str):
     return sorted(partidos, key=lambda x: x[key], reverse=True)[:3]
 
 @app.get("/matches")
 def matches():
+    # Llamada a la API real
     headers = {"Authorization": f"Bearer {API_KEY}"} if API_KEY else {}
-
     try:
         respuesta = requests.get(API_URL, headers=headers, timeout=10)
         respuesta.raise_for_status()
-        partidos = respuesta.json()  # Lista de partidos
+        partidos = respuesta.json()  # Lista de partidos diarios reales
     except Exception as e:
         return {"error": "No se pudieron obtener los partidos de la API", "detalle": str(e)}
 
