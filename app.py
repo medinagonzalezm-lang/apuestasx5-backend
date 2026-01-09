@@ -134,3 +134,9 @@ def matches():
         "combinada": top3(analizados, "prob_combinada"),
         "fecha": str(datetime.date.today()),
     }
+@app.get("/")
+def root():
+    return {
+        "status": "ok",
+        "service": "ApuestasX5 backend",
+        "endpoints": ["/partidos", "/matches"]
