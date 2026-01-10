@@ -1,45 +1,56 @@
 {
-  "tip_15": {
-    "titulo": "Tip +1,5",
-    "pronostico": "Real Sociedad vs Sevilla - Más de 1,5 goles",
-    "explicacion": "Ambos equipos generan ocasiones y promedian más de 1,3 goles por partido.",
+  "tip_05": {
+    "titulo": "TIP +0,5 GOLES IA",
+    "pronostico": "Newcastle vs Wolves - Más de 0.5 goles",
+    "explicacion": "Análisis IA: El Newcastle ha marcado en el 92% de sus partidos en casa. Se espera un gol temprano.",
     "resultado_anterior": {
       "estado": "ACERTADO",
-      "marcador": "2-1"
+      "marcador": "2-0"
+    }
+  },
+  "tip_15": {
+    "titulo": "TIP +1,5 GOLES IA",
+    "pronostico": "RB Leipzig vs Werder Bremen - Más de 1.5 goles",
+    "explicacion": "Ambos equipos promedian más de 2.8 goles totales en sus enfrentamientos directos este año.",
+    "resultado_anterior": {
+      "estado": "ACERTADO",
+      "marcador": "3-1"
     }
   },
   "tip_1x2x": {
-    "titulo": "Tip 1X o 2X",
-    "pronostico": "Inter vs Lecce - 1X",
-    "explicacion": "Inter invicto en casa y Lecce con bajo rendimiento como visitante.",
+    "titulo": "TIP 1X O 2X IA",
+    "pronostico": "Aston Villa vs Brighton - 1X (Gana o Empata Villa)",
+    "explicacion": "El Villa Park es un fortín esta temporada. Brighton llega con bajas importantes en el centro del campo.",
     "resultado_anterior": {
       "estado": "FALLADO",
-      "marcador": "0-1"
+      "marcador": "1-2"
     }
   },
   "tip_btts": {
-    "titulo": "BTTS",
-    "pronostico": "Villarreal vs Betis - Ambos marcan",
-    "explicacion": "Ambos equipos marcan en más del 65% de sus partidos recientes.",
+    "titulo": "TIP BTTS IA (Ambos Marcan)",
+    "pronostico": "Valencia vs Sevilla - Ambos Marcan: SÍ",
+    "explicacion": "Estadística IA: El Sevilla ha encajado en sus últimas 6 salidas, pero el Valencia sufre en balones parados.",
     "resultado_anterior": {
-      "estado": "PENDIENTE"
+      "estado": "PENDIENTE",
+      "marcador": ""
     }
   },
   "tip_asiatico": {
-    "titulo": "Tip Asiático",
-    "pronostico": "PSG -1.0 vs Metz",
-    "explicacion": "Gran diferencia ofensiva y dominio estadístico del PSG.",
+    "titulo": "TIP ASIÁTICO IA",
+    "pronostico": "Bayer Leverkusen -1.0 vs Mainz",
+    "explicacion": "Dominio absoluto esperado del equipo de Xabi Alonso. Si ganan por 1, se anula; por más, es verde.",
+    "resultado_anterior": {
+      "estado": "ACERTADO",
+      "marcador": "2-0"
+    }
+  },
+  "tip_bonus": {
+    "titulo": "BONUS TIP IA (TOP CONFIDENCIA)",
+    "pronostico": "Real Madrid vs Getafe - Gana Real Madrid + Más de 1.5 goles",
+    "explicacion": "Combinada IA: La fiabilidad del Madrid en casa es del 89% ante equipos del bloque bajo.",
     "resultado_anterior": {
       "estado": "ACERTADO",
       "marcador": "3-0"
-    }
-  },
-  "tip_premium": {
-    "titulo": "Tip Premium",
-    "pronostico": "Combinada especial del día",
-    "explicacion": "Selección de mayor valor esperado según análisis IA.",
-    "resultado_anterior": {
-      "estado": "ACERTADO"
     }
   }
 }
