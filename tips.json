@@ -1,56 +1,26 @@
 {
-  "tip_05": {
-    "titulo": "TIP +0,5 GOLES IA",
-    "pronostico": "Newcastle vs Wolves - Más de 0.5 goles",
-    "explicacion": "Análisis IA: El Newcastle ha marcado en el 92% de sus partidos en casa. Se espera un gol temprano.",
-    "resultado_anterior": {
-      "estado": "ACERTADO",
-      "marcador": "2-0"
-    }
-  },
   "tip_15": {
-    "titulo": "TIP +1,5 GOLES IA",
-    "pronostico": "RB Leipzig vs Werder Bremen - Más de 1.5 goles",
-    "explicacion": "Ambos equipos promedian más de 2.8 goles totales en sus enfrentamientos directos este año.",
-    "resultado_anterior": {
-      "estado": "ACERTADO",
-      "marcador": "3-1"
-    }
+    "pronostico": "⚽ Man. City vs Chelsea (+1.5)\n⚽ Barcelona vs Valencia (+1.5)\n⚽ Milan vs Torino (+1.5)",
+    "explicacion": "Distribución de Poisson proyecta >88% de probabilidad. xG combinado de ambos equipos superior a 2.4 en los últimos 3 partidos."
   },
   "tip_1x2x": {
-    "titulo": "TIP 1X O 2X IA",
-    "pronostico": "Aston Villa vs Brighton - 1X (Gana o Empata Villa)",
-    "explicacion": "El Villa Park es un fortín esta temporada. Brighton llega con bajas importantes en el centro del campo.",
-    "resultado_anterior": {
-      "estado": "FALLADO",
-      "marcador": "1-2"
-    }
+    "pronostico": "⚽ Liverpool vs Fulham (1X)\n⚽ Juventus vs Verona (1X)\n⚽ PSG vs Lens (1X)",
+    "explicacion": "Simulación Monte Carlo (10k iteraciones) muestra valor EV+ en Doble Oportunidad. Probabilidad real estimada: 92%."
   },
   "tip_btts": {
-    "titulo": "TIP BTTS IA (Ambos Marcan)",
-    "pronostico": "Valencia vs Sevilla - Ambos Marcan: SÍ",
-    "explicacion": "Estadística IA: El Sevilla ha encajado en sus últimas 6 salidas, pero el Valencia sufre en balones parados.",
-    "resultado_anterior": {
-      "estado": "PENDIENTE",
-      "marcador": ""
-    }
+    "pronostico": "⚽ Tottenham vs Newcastle (SÍ)\n⚽ Leverkusen vs Frankfurt (SÍ)\n⚽ Lyon vs Lille (SÍ)",
+    "explicacion": "Ambos equipos marcan basado en tendencia de transiciones rápidas. xGA (Goles en contra esperados) elevado en ambos conjuntos."
+  },
+  "tip_05": {
+    "pronostico": "⚽ Ajax vs Feyenoord (+0.5)\n⚽ Inter vs Napoli (+0.5)\n⚽ River Plate vs Racing (+0.5)",
+    "explicacion": "Línea protegida de bajo riesgo. Historial de enfrentamientos directos con 0-0 en menos del 4% de la muestra estadística."
   },
   "tip_asiatico": {
-    "titulo": "TIP ASIÁTICO IA",
-    "pronostico": "Bayer Leverkusen -1.0 vs Mainz",
-    "explicacion": "Dominio absoluto esperado del equipo de Xabi Alonso. Si ganan por 1, se anula; por más, es verde.",
-    "resultado_anterior": {
-      "estado": "ACERTADO",
-      "marcador": "2-0"
-    }
+    "pronostico": "⚽ Aston Villa (+1.0 AH)\n⚽ Porto (-0.5 AH)\n⚽ Arsenal (+0.5 AH)",
+    "explicacion": "Hándicaps calculados para cubrir resultados frontera. Factor de protección activo ante posibles empates o victorias ajustadas."
   },
   "tip_bonus": {
-    "titulo": "BONUS TIP IA (TOP CONFIDENCIA)",
-    "pronostico": "Real Madrid vs Getafe - Gana Real Madrid + Más de 1.5 goles",
-    "explicacion": "Combinada IA: La fiabilidad del Madrid en casa es del 89% ante equipos del bloque bajo.",
-    "resultado_anterior": {
-      "estado": "ACERTADO",
-      "marcador": "3-0"
-    }
+    "pronostico": "[b]COMBINADA MAESTRA (Kelly 0.25):[/b]\n⚽ Man City vs Chelsea (+1.5)\n⚽ Liverpool vs Fulham (1X)\n⚽ Tottenham vs Newcastle (BTTS)",
+    "explicacion": "Cuota Total: 2.35. Probabilidad Conjunta: 64%. Stake Recomendado: 2.5/10. Máximo valor esperado según modelos predictivos de hoy."
   }
 }
