@@ -1,0 +1,45 @@
+{
+  "tip_15": {
+    "titulo": "Tip +1,5",
+    "pronostico": "Real Sociedad vs Sevilla - Más de 1,5 goles",
+    "explicacion": "Ambos equipos generan ocasiones y promedian más de 1,3 goles por partido.",
+    "resultado_anterior": {
+      "estado": "ACERTADO",
+      "marcador": "2-1"
+    }
+  },
+  "tip_1x2x": {
+    "titulo": "Tip 1X o 2X",
+    "pronostico": "Inter vs Lecce - 1X",
+    "explicacion": "Inter invicto en casa y Lecce con bajo rendimiento como visitante.",
+    "resultado_anterior": {
+      "estado": "FALLADO",
+      "marcador": "0-1"
+    }
+  },
+  "tip_btts": {
+    "titulo": "BTTS",
+    "pronostico": "Villarreal vs Betis - Ambos marcan",
+    "explicacion": "Ambos equipos marcan en más del 65% de sus partidos recientes.",
+    "resultado_anterior": {
+      "estado": "PENDIENTE"
+    }
+  },
+  "tip_asiatico": {
+    "titulo": "Tip Asiático",
+    "pronostico": "PSG -1.0 vs Metz",
+    "explicacion": "Gran diferencia ofensiva y dominio estadístico del PSG.",
+    "resultado_anterior": {
+      "estado": "ACERTADO",
+      "marcador": "3-0"
+    }
+  },
+  "tip_premium": {
+    "titulo": "Tip Premium",
+    "pronostico": "Combinada especial del día",
+    "explicacion": "Selección de mayor valor esperado según análisis IA.",
+    "resultado_anterior": {
+      "estado": "ACERTADO"
+    }
+  }
+}
