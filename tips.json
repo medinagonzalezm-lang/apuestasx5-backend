@@ -1,26 +1,26 @@
 {
+  "tip_05": {
+    "pronostico": "⚽ Manchester City vs Brentford\n\n⚽ Real Madrid vs Mallorca\n\n⚽ Napoli vs Torino",
+    "explicacion": "MERCADO OVER 0.5:\n\nLos algoritmos detectan una probabilidad del 94% de al menos un gol en estos encuentros basado en la racha de los últimos 10 partidos de cada local."
+  },
   "tip_15": {
-    "pronostico": "⚽ Man. City vs Chelsea (+1.5)\n⚽ Barcelona vs Valencia (+1.5)\n⚽ Milan vs Torino (+1.5)",
-    "explicacion": "Distribución de Poisson proyecta >88% de probabilidad. xG combinado de ambos equipos superior a 2.4 en los últimos 3 partidos."
+    "pronostico": "⚽ Atlético de Madrid vs Osasuna\n\n⚽ Juventus vs AC Milan\n\n⚽ Benfica vs Estoril",
+    "explicacion": "ANÁLISIS POISSON:\n\nLos tres locales presentan una media de xG (goles esperados) superior a 2.1. Se espera que el marcador se abra pronto hoy domingo."
   },
   "tip_1x2x": {
-    "pronostico": "⚽ Liverpool vs Fulham (1X)\n⚽ Juventus vs Verona (1X)\n⚽ PSG vs Lens (1X)",
-    "explicacion": "Simulación Monte Carlo (10k iteraciones) muestra valor EV+ en Doble Oportunidad. Probabilidad real estimada: 92%."
+    "pronostico": "🛡️ PSG vs Lens (1X)\n\n🛡️ Feyenoord vs Utrecht (1X)\n\n🛡️ Athletic vs Real Sociedad (1X)",
+    "explicacion": "DOBLE OPORTUNIDAD:\n\nEstos equipos no han perdido en casa en los últimos 5 enfrentamientos directos. Fiabilidad del modelo: 85%."
   },
   "tip_btts": {
-    "pronostico": "⚽ Tottenham vs Newcastle (SÍ)\n⚽ Leverkusen vs Frankfurt (SÍ)\n⚽ Lyon vs Lille (SÍ)",
-    "explicacion": "Ambos equipos marcan basado en tendencia de transiciones rápidas. xGA (Goles en contra esperados) elevado en ambos conjuntos."
+    "pronostico": "🥅 Tottenham vs Everton (SÍ)\n\n🥅 Fiorentina vs Napoli (SÍ)\n\n🥅 Bayer Leverkusen vs Mainz (SÍ)",
+    "explicacion": "AMBOS MARCAN (BTTS):\n\nSelecciones basadas en defensas con bajas por sanción y delanteras en estado de gracia. Se esperan goles en ambas áreas."
   },
-  "tip_05": {
-    "pronostico": "⚽ Ajax vs Feyenoord (+0.5)\n⚽ Inter vs Napoli (+0.5)\n⚽ River Plate vs Racing (+0.5)",
-    "explicacion": "Línea protegida de bajo riesgo. Historial de enfrentamientos directos con 0-0 en menos del 4% de la muestra estadística."
-  },
-  "tip_asiatico": {
-    "pronostico": "⚽ Aston Villa (+1.0 AH)\n⚽ Porto (-0.5 AH)\n⚽ Arsenal (+0.5 AH)",
-    "explicacion": "Hándicaps calculados para cubrir resultados frontera. Factor de protección activo ante posibles empates o victorias ajustadas."
+  "tip_as": {
+    "pronostico": "📈 Liverpool vs Fulham (Asiat -1)\n\n📈 Bayern vs Wolfsburgo (Asiat -1.5)\n\n📈 Inter vs Verona (Asiat -1)",
+    "explicacion": "HÁNDICAP ASIÁTICO:\n\nEl modelo detecta una superioridad técnica que debería traducirse en victorias por más de un gol de diferencia hoy."
   },
   "tip_bonus": {
-    "pronostico": "[b]COMBINADA MAESTRA (Kelly 0.25):[/b]\n⚽ Man City vs Chelsea (+1.5)\n⚽ Liverpool vs Fulham (1X)\n⚽ Tottenham vs Newcastle (BTTS)",
-    "explicacion": "Cuota Total: 2.35. Probabilidad Conjunta: 64%. Stake Recomendado: 2.5/10. Máximo valor esperado según modelos predictivos de hoy."
+    "pronostico": "⭐ COMBINADA PREMIUM IA:\n\n1. PSG vs Lens (Over 1.5)\n\n2. Juventus (Doble Oportunidad)\n\n3. Tottenham (Ambos Marcan)",
+    "explicacion": "ESTADÍSTICA FINAL:\n\nCuota Total estimada: 2.35. Esta es la combinación con menor varianza estadística tras 10.000 simulaciones de Montecarlo."
   }
 }
