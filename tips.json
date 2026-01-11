@@ -1,26 +1,26 @@
 {
   "tip_05": {
-    "pronostico": "> Man. City vs Brentford\n> Real Madrid vs Mallorca\n> Napoli vs Torino",
-    "explicacion": "MERCADO +0.5 GOLES:\n\nProbabilidad del 94% de ver al menos un gol. Equipos con alto índice de ataques peligrosos en la primera mitad."
+    "pronostico": "> Liverpool vs Barnsley\n\n> Paris Saint Germain vs Paris FC\n\n> Sevilla FC vs Celta de Vigo",
+    "explicacion": "Alta probabilidad de goles antes del minuto 70 en FA Cup por dominio ofensivo de Liverpool; PSG genera alto xG frente a una defensa débil de Paris FC; Sevilla vs Celta muestra equilibrada producción de ocasiones y espacios en transición. 1"
   },
   "tip_15": {
-    "pronostico": "> Atl. Madrid vs Osasuna\n> Juventus vs AC Milan\n> Benfica vs Estoril",
-    "explicacion": "MERCADO +1.5 GOLES:\n\nLos locales presentan una media de goles esperados superior a 2.1. Estadísticamente, el gol llega antes del minuto 60."
+    "pronostico": "> Paris Saint Germain vs Paris FC\n\n> Liverpool vs Barnsley\n\n> Juventus vs Cremonese",
+    "explicacion": "PSG mantiene alto volumen de ocasiones (xG) y posesión que favorece goles; Liverpool en FA Cup genera superioridad ofensiva; Juventus suele generar goles en casa con margen sobre la media de Serie A. 2"
   },
   "tip_1x2x": {
-    "pronostico": "[1X] PSG vs Lens\n[1X] Feyenoord vs Utrecht\n[1X] Athletic vs R. Sociedad",
-    "explicacion": "DOBLE OPORTUNIDAD:\n\nFortaleza local confirmada. El modelo IA detecta una probabilidad de empate o victoria local del 88%."
+    "pronostico": "> Liverpool vs Barnsley [1]\n\n> Paris Saint Germain vs Paris FC [1]\n\n> Juventus vs Cremonese [1X]",
+    "explicacion": "Doble o victoria clara local: Liverpool y PSG como favoritos según xG y superioridad táctica; Juventus con ventaja competitiva ante Cremonese y evitando sorpresa. 3"
   },
   "tip_btts": {
-    "pronostico": "(AM) Tottenham vs Everton\n(AM) Fiorentina vs Napoli\n(AM) B. Leverkusen vs Mainz",
-    "explicacion": "AMBOS MARCAN:\n\nAmbos equipos han anotado en el 80% de sus últimos enfrentamientos directos. Defensas con bajas importantes hoy."
+    "pronostico": "> Liverpool vs Barnsley [SÍ]\n\n> Sevilla FC vs Celta de Vigo [SÍ]\n\n> Paris Saint Germain vs Paris FC [SÍ]",
+    "explicacion": "Ambos equipos marcan en estos duelos estadísticamente por la tendencia a conceder ocasiones (Barnsley y Celta generan xG y PSG a pesar de su dominio cede posesión). 4"
   },
   "tip_as": {
-    "pronostico": "[AH-1] Liverpool vs Fulham\n[AH-1.5] Bayern vs Wolfsburgo\n[AH-1] Inter vs Verona",
-    "explicacion": "ASIÁTICO:\n\nSuperioridad técnica absoluta. Se espera que los locales ganen por una diferencia de al menos 2 goles."
+    "pronostico": "> Sevilla FC vs Celta de Vigo [AH +0]\n\n> Juventus vs Cremonese [AH -0.5]\n\n> Liverpool vs Barnsley [AH -1]",
+    "explicacion": "Hándicap Asiático: Sevilla protege ante empate posible en un duelo igualado; Juventus con ligera superioridad; Liverpool con dominio deja margen para -1. 5"
   },
   "tip_bonus": {
-    "pronostico": "COMBINADA MAESTRA:\n\n1. PSG vs Lens (+1.5 Goles)\n2. Juventus vs AC Milan (1X Doble Oportunidad)\n3. Tottenham vs Everton (Ambos Marcan)",
-    "explicacion": "CUOTA TOTAL: 2.35\n\nEsta selección es la que presenta menor varianza tras procesar las alineaciones oficiales de hoy domingo."
+    "pronostico": "COMBINADA PREMIUM:\n\n1. Liverpool vs Barnsley [1]\n\n2. Paris Saint Germain vs Paris FC [+1.5 Goles]\n\n3. Sevilla FC vs Celta de Vigo [BTTS]",
+    "explicacion": "Combinada de alta seguridad centrada en dominio local y estadísticas ofensivas. Liverpool y PSG tienen proyecciones ofensivas sólidas mientras el duelo español presenta goles de ambos. Estimación de cuota segura ajustada. 6"
   }
 }
