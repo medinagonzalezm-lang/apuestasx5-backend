@@ -1,12 +1,13 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi import Request # Añadido para mejor soporte de métodos
 import json
 import os
 
 app = FastAPI(
     title="Pronósticos Deportivos (IA)",
     description="Backend optimizado para servir predicciones diarias",
-    version="2.0"
+    version="2.1"
 )
 
 # Configuración CORS para permitir conexiones desde la App móvil
@@ -21,7 +22,6 @@ app.add_middleware(
 def cargar_tips():
     file_path = "tips.json"
     if not os.path.exists(file_path):
-        # Retornamos una estructura por defecto si el archivo no existe
         return {}
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -30,8 +30,9 @@ def cargar_tips():
         print(f"Error leyendo tips.json: {e}")
         return {}
 
-@app.get("/")
-def root():
+# RUTA RAÍZ: Ahora acepta GET y HEAD para UptimeRobot
+@app.api_route("/", methods=["GET", "HEAD"])
+async def root():
     return {
         "status": "online", 
         "app": "Pronósticos Deportivos (IA)",
@@ -51,7 +52,7 @@ def obtener_tip(tip_id: str):
     
     return tips[tip_id]
 
-# Endpoint adicional para ver todos los tips de una vez (útil para debug)
+# Endpoint adicional para ver todos los tips de una vez
 @app.get("/all_tips")
 def ver_todo():
     return cargar_tips()
