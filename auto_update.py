@@ -12,28 +12,19 @@ def obtener_datos_futbol():
         'x-rapidapi-host': 'v3.football.api-sports.io'
     }
     
-    # Intentos en orden de prioridad
+    hoy = datetime.now().strftime("%Y-%m-%d")
+    # Los endpoints que SÍ funcionan en el plan gratuito
     endpoints = [
-        "https://v3.football.api-sports.io/fixtures?next=20", # Próximos 20 globales
-        "https://v3.football.api-sports.io/fixtures?live=all", # Partidos en vivo ahora
-        "https://v3.football.api-sports.io/fixtures?league=140&season=2025&next=10" # LaLiga específica
+        f"https://v3.football.api-sports.io/fixtures?date={hoy}",
+        "https://v3.football.api-sports.io/fixtures?live=all"
     ]
 
     for url in endpoints:
         try:
-            print(f"Probando conexión con: {url}")
             response = requests.get(url, headers=headers, timeout=10)
-            
-            if response.status_code != 200:
-                print(f"Error de servidor ({response.status_code}): {response.text}")
-                continue
-
+            if response.status_code != 200: continue
             data = response.json()
-            
-            # Verificamos si hay errores de autenticación en el JSON
-            if data.get('errors'):
-                print(f"La API reporta errores de acceso: {data['errors']}")
-                continue
+            if data.get('errors'): continue
 
             partidos_reales = []
             for f in data.get('response', []):
@@ -44,14 +35,10 @@ def obtener_datos_futbol():
                 })
             
             if partidos_reales:
-                print(f"¡Conexión exitosa! {len(partidos_reales)} partidos encontrados.")
+                print(f"Éxito: {len(partidos_reales)} partidos encontrados para hoy.")
                 return partidos_reales
-                
-        except Exception as e:
-            print(f"Fallo técnico en este intento: {e}")
-            continue
+        except: continue
 
-    print("⚠️ No se pudo obtener datos reales. Revisa si FOOTBALL_API_KEY es correcta en GitHub Secrets.")
     return None
 
 def generar_pronosticos_ia(datos_partidos):
@@ -59,26 +46,27 @@ def generar_pronosticos_ia(datos_partidos):
     headers = {'Content-Type': 'application/json'}
     
     prompt_text = f"""
-    Actúa como analista PRO. Usa estos partidos REALES: {json.dumps(datos_partidos)}
-    TAREA: Genera un JSON con pronósticos de BAJO RIESGO.
-    - REGLA: Usa NOMBRES REALES de los equipos.
-    - ESTRATEGIA BONUS: Incluye al menos 1 Hándicap Asiático protector (HA 0.0 o HA +0.5).
-    - PROCESO: Aplica Poisson y Kelly (0.25).
+    Actúa como experto estadístico deportivo. Analiza estos partidos: {json.dumps(datos_partidos)}
+    
+    OBJETIVO: Generar pronósticos de MÁXIMA SEGURIDAD.
+    1. Usa NOMBRES REALES.
+    2. En 'tip_bonus', incluye Hándicaps Asiáticos (HA 0.0 o HA +0.5) para minimizar riesgo de pérdida.
+    3. Usa Poisson y Kelly Fraccional (0.25) para gestión de bankroll.
     
     FORMATO JSON:
     {{
-      "tip_05": ["⚽ Equipo A vs Equipo B | +1.5 Goles"],
-      "tip_15": ["⚽ Equipo C vs Equipo D | Doble Oportunidad"],
-      "tip_1x2x": ["⚽ Equipo E vs Equipo F | HA Protector"],
-      "tip_btts": ["⚽ Equipo G vs Equipo H | BTTS"],
-      "tip_as": ["⚽ Equipo I vs Equipo J | Pick Seguro"],
-      "tip_bonus": ["⚽ COMBINADA: Equipo K vs L (HA 0.0) + Equipo M vs N | Cuota y Stake"],
+      "tip_05": ["⚽ Local vs Visitante | +1.5 Goles"],
+      "tip_15": ["⚽ Local vs Visitante | Doble Oportunidad"],
+      "tip_1x2x": ["⚽ Local vs Visitante | HA Protector"],
+      "tip_btts": ["⚽ Local vs Visitante | BTTS"],
+      "tip_as": ["⚽ Local vs Visitante | Pick Seguro"],
+      "tip_bonus": ["⚽ COMBINADA: Local vs Visitante (HA Protector) + Partido 2 | Cuota y Stake"],
       "progression": {{
         "puntos_actuales": 100,
-        "analisis_tecnico": "Resumen de por qué estos hándicaps asiáticos hoy."
+        "analisis_tecnico": "Hoy priorizamos HA para asegurar que el empate nos devuelva el capital."
       }}
     }}
-    Responde SOLO el JSON puro.
+    Responde SOLO el JSON.
     """
     
     payload = {
@@ -94,18 +82,18 @@ def generar_pronosticos_ia(datos_partidos):
 
 def main():
     datos = obtener_datos_futbol()
-    if not datos: return
+    if not datos:
+        print("Error: No se pudieron obtener datos con el plan gratuito.")
+        return
 
     json_final = generar_pronosticos_ia(datos)
-    if not json_final: return
-
-    try:
-        json_dict = json.loads(json_final)
-        with open("tips.json", "w", encoding='utf-8') as f:
-            json.dump(json_dict, f, ensure_ascii=False, indent=2)
-        print("¡TODO LISTO! tips.json actualizado con datos verificados.")
-    except:
-        print("Error procesando JSON final.")
+    if json_final:
+        try:
+            json_dict = json.loads(json_final)
+            with open("tips.json", "w", encoding='utf-8') as f:
+                json.dump(json_dict, f, ensure_ascii=False, indent=2)
+            print("¡TODO LISTO! El sistema de Pronósticos IA está funcionando correctamente.")
+        except: print("Error en formato final.")
 
 if __name__ == "__main__":
     main()
