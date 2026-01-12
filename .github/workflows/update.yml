@@ -2,25 +2,25 @@ name: Actualizacion Diaria Pronosticos IA
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Se ejecuta a las 3 AM cada día
-  workflow_dispatch:      # Permite ejecutarlo a mano con el botón
+    - cron: '0 3 * * *'  # Se ejecuta automáticamente a las 3 AM
+  workflow_dispatch:      # Permite que tú le des al botón cuando quieras
 
 jobs:
   build:
     runs-on: ubuntu-latest
     
-    # Permisos necesarios para que el bot pueda escribir cambios en el repo
+    # Permisos de escritura necesarios para que el bot actualice el archivo tips.json
     permissions:
       contents: write
       
     steps:
       - name: Descargar codigo del repositorio
-        uses: actions/checkout@v4 # Versión más reciente
+        uses: actions/checkout@v4
 
-      - name: Configurar Python
-        uses: actions/setup-python@v5 # Versión más reciente
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
       - name: Instalar librerias necesarias
         run: |
@@ -37,13 +37,13 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Verificamos si el archivo existe antes de añadirlo
+          # Verificar si el archivo tips.json ha sido generado/modificado
           if [ -f tips.json ]; then
             git add tips.json
-            # Solo hace commit si hay cambios reales para evitar errores
-            git commit -m "IA: Actualizacion diaria $(date)" || echo "Sin cambios detectados"
+            # El commit solo se hace si hay cambios. Si no, imprime un mensaje.
+            git commit -m "IA: Actualizacion diaria $(date)" || echo "Sin cambios detectados en tips.json"
             git push origin main
           else
-            echo "Error: tips.json no fue creado por el script."
+            echo "Error: No se encontró el archivo tips.json tras ejecutar el script."
             exit 1
           fi
