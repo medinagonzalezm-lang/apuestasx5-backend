@@ -1,36 +1,29 @@
 {
   "tip_05": [
-    "⚽ Partido 1: Goles totales > 0.5 (Alta probabilidad)",
-    "⚽ Partido 2: Al menos un gol (Estadística favorable)",
-    "⚽ Partido 3: Previsión de +0.5 goles (Basado en tendencias generales)"
+    "⚽ Jong AZ vs Jong Ajax | +1.5 Goles",
+    "⚽ Wolves U21 vs Manchester United U21 | +1.5 Goles"
   ],
   "tip_15": [
-    "⚽ Partido 4: Total de goles > 1.5 (Tendencia media)",
-    "⚽ Partido 5: Se esperan al menos 2 goles (Análisis de encuentros previos)",
-    "⚽ Partido 6: Más de 1.5 goles en el partido (Valoración estándar)"
+    "⚽ Huesca vs Cordoba | Doble Oportunidad X2 (Cordoba o Empate)",
+    "⚽ Sheffield United W vs Crystal Palace W | Doble Oportunidad 1X (Sheffield United W o Empate)"
   ],
   "tip_1x2x": [
-    "⚽ Partido 7: Equipo Local o Empate (1X - Opción segura)",
-    "⚽ Partido 8: Equipo Visitante o Empate (X2 - Bajo riesgo)",
-    "⚽ Partido 9: Victoria Local o Visitante (12 - Partido abierto)"
+    "⚽ AFC Wimbledon vs West Ham United U21 | AFC Wimbledon HA 0.0",
+    "⚽ National Bank of Egypt vs Ismaily SC | Ismaily SC HA +0.5"
   ],
   "tip_btts": [
-    "⚽ Partido 10: Ambos Equipos Marcan (Sí - Alta confianza)",
-    "⚽ Partido 11: BTTS (Sí - Previsión positiva)",
-    "⚽ Partido 12: Ambos equipos anotan (Estadística común)"
+    "⚽ Botafogo SP U20 vs Vasco da Gama U20 | Ambos Equipos Anotan",
+    "⚽ Blackburn Rovers U21 vs Nottingham Forest U21 | Ambos Equipos Anotan"
   ],
   "tip_as": [
-    "⚽ Partido 13: Goles totales > 0.5 (Muy probable)",
-    "⚽ Partido 14: Doble Oportunidad 1X (Rendimiento consistente)",
-    "⚽ Partido 15: Equipo A gana con Hándicap +1.5 (Margen de seguridad)"
+    "⚽ Bahia U20 vs Atlético Piauiense U20 | Bahia U20 Gana",
+    "⚽ Grêmio U20 vs Atlético Alagoinhas U20 | Grêmio U20 Gana"
   ],
   "tip_bonus": [
-    "⚽ Partido 16: Primer gol antes del minuto 30 (Dato histórico)",
-    "⚽ Partido 17: Más de 3.5 tarjetas en el partido (Estilo de juego)",
-    "⚽ Partido 18: Corner antes del minuto 10 (Ritmo inicial)"
+    "⚽ COMBINADA: AFC Wimbledon vs West Ham United U21 (AFC Wimbledon HA 0.0) + Bahia U20 vs Atlético Piauiense U20 (+1.5 Goles) | Cuota Estimada: 2.20, Stake: 2.5%"
   ],
   "progression": {
     "puntos_actuales": 100,
-    "estado_hoy": "Análisis completado con pronósticos generados."
+    "analisis_tecnico": "El análisis de hoy se centra en la minimización de riesgos, aplicando los principios de Poisson para identificar partidos con alta probabilidad de resultados específicos (como +1.5 goles o BTTS) y el Criterio de Kelly (con un factor de 0.25) para una gestión de stake conservadora. Los Hándicaps Asiáticos protectores (HA 0.0 y HA +0.5) son fundamentales en esta estrategia, seleccionados en encuentros donde existe un ligero favorito o un underdog capaz de resistir, permitiendo recuperar la inversión en caso de empate o asegurar una ganancia con un margen de seguridad. Las ligas juveniles y las copas a menudo presentan dinámicas que favorecen estos mercados de goles y doble oportunidad, mientras que los HA se aplican en partidos más equilibrados o donde la cuota del favorito es demasiado baja para un 1X2 directo."
   }
 }
