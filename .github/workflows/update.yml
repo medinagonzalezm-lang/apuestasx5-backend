@@ -1,0 +1,37 @@
+name: Actualizacion Diaria Pronosticos IA
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Se ejecuta a las 3 AM cada dia
+  workflow_dispatch:      # Esto permite dar al boton "Ejecutar" a mano
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    # Permiso para que el bot pueda guardar el archivo
+    steps:
+      - name: Descargar codigo
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Instalar librerias
+        run: pip install google-generativeai requests
+
+      - name: Ejecutar Script IA
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+        run: python auto_update.py
+
+      - name: Guardar cambios en GitHub
+        run: |
+          git config --global user.name "IA-Bot"
+          git config --global user.email "bot@pronosticosia.com"
+          git add tips.json
+          git commit -m "Actualizacion diaria automatica" || exit 0
+          git push
