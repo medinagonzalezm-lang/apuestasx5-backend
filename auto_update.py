@@ -20,7 +20,8 @@ def obtener_datos_futbol():
         return None
 
 def generar_pronosticos_ia(datos_partidos):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
+    # CAMBIO CLAVE: Usamos /v1/ en lugar de /v1beta/ para máxima estabilidad
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
     headers = {'Content-Type': 'application/json'}
     
     prompt_text = f"""
@@ -28,36 +29,28 @@ def generar_pronosticos_ia(datos_partidos):
     Analiza estos partidos: {datos_partidos}
     Genera un JSON con las claves: tip_05, tip_15, tip_1x2x, tip_btts, tip_as, tip_bonus.
     Añade 'progression' con 'puntos_actuales' (base 100) y 'estado_hoy'.
-    Responde SOLAMENTE el JSON puro.
+    Responde SOLAMENTE el JSON puro, sin markdown.
     """
 
-    # Añadimos configuración para saltar filtros de seguridad por palabras de "apuestas"
     payload = {
-        "contents": [{"parts": [{"text": prompt_text}]}],
-        "safetySettings": [
-            {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
-            {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
-            {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
-            {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"}
-        ]
+        "contents": [{"parts": [{"text": prompt_text}]}]
     }
 
     try:
         response = requests.post(url, headers=headers, json=payload)
         res_json = response.json()
         
-        # Si hay un error de API (ej: clave inválida), nos lo dirá aquí
         if 'error' in res_json:
             print(f"Error de la API de Google: {res_json['error']['message']}")
             return None
 
-        # Si el filtro bloqueó la respuesta
-        if 'candidates' not in res_json or not res_json['candidates'][0].get('content'):
-            print("Gemini bloqueó la respuesta por seguridad o devolvió vacío.")
-            print("Respuesta completa para debug:", res_json)
+        if 'candidates' not in res_json:
+            print("Respuesta inesperada de Google:", res_json)
             return None
 
         texto = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
+        
+        # Limpiar markdown por si acaso
         if "```" in texto:
             texto = texto.split("```")[1].replace("json", "").strip()
         return texto
@@ -66,7 +59,7 @@ def generar_pronosticos_ia(datos_partidos):
         return None
 
 def main():
-    print("Iniciando actualización con bypass de filtros...")
+    print("Iniciando actualización con API v1 Estable...")
     datos = obtener_datos_futbol()
     if not datos: return
 
@@ -80,6 +73,7 @@ def main():
         print("¡ÉXITO TOTAL! tips.json actualizado.")
     except Exception as e:
         print(f"Error JSON: {e}")
+        print("Contenido recibido:", json_final)
 
 if __name__ == "__main__":
     main()
