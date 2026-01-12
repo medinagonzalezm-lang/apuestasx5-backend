@@ -7,12 +7,13 @@ import json
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 FOOTBALL_KEY = os.getenv("FOOTBALL_API_KEY")
 
-# Configurar Gemini con el modelo correcto para evitar Error 404
+# Configuración mejorada para evitar el Error 404
 genai.configure(api_key=GEMINI_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+
+# Cambiamos a 'gemini-1.5-flash-latest' o 'models/gemini-1.5-flash'
+model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 def obtener_datos_futbol():
-    """Obtiene los próximos 50 partidos reales de la API."""
     url = "https://v3.football.api-sports.io/fixtures?next=50"
     headers = {
         'x-rapidapi-key': FOOTBALL_KEY,
@@ -26,64 +27,52 @@ def obtener_datos_futbol():
         return None
 
 def generar_pronosticos_ia(datos_partidos):
-    """Envía los partidos a Gemini y formatea la respuesta en JSON."""
     prompt = f"""
-    Eres un experto en apuestas y probabilidad para la app 'Pronosticos deportivos (IA)'.
-    Analiza estos partidos reales: {datos_partidos}
-    
-    TAREA:
-    Genera un JSON con estas 6 categorías:
-    1. tip_05: 3 partidos con +1.5 goles.
-    2. tip_15: 3 partidos con +1.5 goles (diferentes a los anteriores).
-    3. tip_1x2x: 3 partidos donde el equipo local gana/empata (1X) o visitante gana/empata (2X).
-    4. tip_btts: 3 partidos donde Ambos marcan (BTTS) o No marcan.
-    5. tip_as: Combinado de 3 partidos muy fiables.
-    6. tip_bonus: Los 3 partidos con mayor probabilidad estadística de éxito hoy.
-
-    REGLA DE ORO:
-    - Incluye la clave 'progression' con:
-      - 'puntos_actuales': Realiza un seguimiento partiendo de 100 puntos iniciales (excluyendo el depósito).
-      - 'estado_hoy': Muestra los 3 partidos del 'tip_bonus' con el icono ⏳.
-    - Cada partido debe llevar el icono ⚽.
-    - Responde EXCLUSIVAMENTE con el JSON puro, sin explicaciones ni bloques de código markdown.
+    Eres un experto en apuestas. Analiza estos partidos reales: {datos_partidos}
+    Genera un JSON con estas claves: tip_05, tip_15, tip_1x2x, tip_btts, tip_as, tip_bonus.
+    Cada una con 3 partidos reales y el icono ⚽.
+    Añade 'progression' con:
+    - 'puntos_actuales': Seguimiento desde 100 puntos iniciales.
+    - 'estado_hoy': Los 3 partidos del 'tip_bonus' con el icono ⏳.
+    Responde EXCLUSIVAMENTE el JSON puro.
     """
     
     try:
+        # Forzamos la generación sin usar funciones beta que den 404
         response = model.generate_content(prompt)
         texto = response.text.strip()
         
-        # Limpieza de posibles etiquetas de markdown
-        if "```json" in texto:
-            texto = texto.split("```json")[1].split("```")[0].strip()
-        elif "```" in texto:
-            texto = texto.split("```")[1].split("```")[0].strip()
-            
-        return texto
+        # Limpieza de markdown
+        if "```" in texto:
+            texto = texto.split("```")[1]
+            if texto.startswith("json"):
+                texto = texto[4:]
+        return texto.strip()
     except Exception as e:
         print(f"Error en Gemini: {e}")
         return None
 
-# --- PROCESO PRINCIPAL ---
 def main():
     print("Iniciando actualización diaria...")
-    
     datos = obtener_datos_futbol()
     if not datos:
+        print("No se obtuvieron datos de fútbol.")
         return
 
     json_final = generar_pronosticos_ia(datos)
     if not json_final:
+        print("Gemini no devolvió resultados.")
         return
 
-    # Validar que es un JSON correcto antes de guardar
     try:
-        json.loads(json_final)
+        # Validar JSON
+        json_dict = json.loads(json_final)
         with open("tips.json", "w", encoding='utf-8') as f:
-            f.write(json_final)
-        print("¡ÉXITO! El archivo tips.json ha sido actualizado localmente.")
+            json.dump(json_dict, f, ensure_ascii=False, indent=2)
+        print("¡ÉXITO! El archivo tips.json ha sido actualizado.")
     except Exception as e:
-        print(f"Error al validar el JSON final: {e}")
-        print("Contenido recibido de la IA:", json_final)
+        print(f"Error al validar JSON: {e}")
+        print("Contenido:", json_final)
 
 if __name__ == "__main__":
     main()
