@@ -2,36 +2,50 @@ name: Actualizacion Diaria Pronosticos IA
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Se ejecuta a las 3 AM cada dia
-  workflow_dispatch:      # Esto permite dar al boton "Ejecutar" a mano
+    - cron: '0 3 * * *'  # Se ejecuta a las 3 AM cada día
+  workflow_dispatch:      # Permite ejecutarlo a mano con el botón "Run workflow"
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    # Estos permisos son CRUCIALES para que el bot pueda escribir en tu repo
     permissions:
-      contents: write    # Permiso para que el bot pueda guardar el archivo
+      contents: write
+      
     steps:
-      - name: Descargar codigo
+      - name: Descargar codigo del repositorio
         uses: actions/checkout@v3
+        with:
+          # Esto asegura que descargamos la versión más reciente para evitar conflictos
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
-      - name: Instalar librerias
-        run: pip install google-generativeai requests
+      - name: Instalar librerias necesarias
+        run: |
+          pip install google-generativeai requests
 
-      - name: Ejecutar Script IA
+      - name: Ejecutar Script de IA
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: python auto_update.py
 
-      - name: Guardar cambios en GitHub
+      - name: Guardar y Subir cambios a GitHub
         run: |
-          git config --global user.name "IA-Bot"
-          git config --global user.email "bot@pronosticosia.com"
+          # Configuramos el bot de GitHub
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Añadimos el archivo tips.json
           git add tips.json
-          git commit -m "Actualizacion diaria automatica" || exit 0
-          git push
+          
+          # Hacemos el commit. Si no hay cambios, el "|| exit 0" evita que el proceso salga como error
+          git commit -m "IA: Actualizacion diaria de pronosticos $(date)" || exit 0
+          
+          # Subimos los cambios a la rama principal
+          git push origin main
