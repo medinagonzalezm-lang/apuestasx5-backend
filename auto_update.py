@@ -20,8 +20,8 @@ def obtener_datos_futbol():
         return None
 
 def generar_pronosticos_ia(datos_partidos):
-    # Probamos con el modelo con sufijo -latest que es el alias más compatible
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={GEMINI_KEY}"
+    # Usamos gemini-1.0-pro que es el modelo con la ruta más estable para evitar el 404
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.0-pro:generateContent?key={GEMINI_KEY}"
     headers = {'Content-Type': 'application/json'}
     
     prompt_text = f"""
@@ -40,15 +40,9 @@ def generar_pronosticos_ia(datos_partidos):
         response = requests.post(url, headers=headers, json=payload)
         res_json = response.json()
         
+        # Si este falla, es que la Key tiene un problema de activación
         if 'error' in res_json:
-            # Si vuelve a fallar, intentamos con el nombre alternativo gemini-pro
-            print(f"Fallo con flash, intentando con gemini-pro...")
-            url_pro = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={GEMINI_KEY}"
-            response = requests.post(url_pro, headers=headers, json=payload)
-            res_json = response.json()
-
-        if 'candidates' not in res_json:
-            print("Error total de respuesta:", res_json)
+            print(f"Error definitivo de Google: {res_json['error']['message']}")
             return None
 
         texto = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
@@ -56,11 +50,11 @@ def generar_pronosticos_ia(datos_partidos):
             texto = texto.split("```")[1].replace("json", "").strip()
         return texto
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"Error en el proceso: {e}")
         return None
 
 def main():
-    print("Iniciando actualización con máxima compatibilidad...")
+    print("Iniciando con modelo universal gemini-1.0-pro...")
     datos = obtener_datos_futbol()
     if not datos: return
 
