@@ -1,26 +1,38 @@
 {
   "tip_05": {
-    "pronostico": "> Liverpool vs Barnsley\n\n> Paris Saint Germain vs Paris FC\n\n> Sevilla FC vs Celta de Vigo",
-    "explicacion": "Alta probabilidad de goles antes del minuto 70 en FA Cup por dominio ofensivo de Liverpool; PSG genera alto xG frente a una defensa débil de Paris FC; Sevilla vs Celta muestra equilibrada producción de ocasiones y espacios en transición. 1"
+    "pronostico": "⚽ Liverpool vs Barnsley [Gol antes min 70]\n\n⚽ Paris Saint Germain vs Paris FC [Gol antes min 70]\n\n⚽ Sevilla FC vs Celta de Vigo [Gol antes min 70]",
+    "cuota_final": 1.54,
+    "stake": 4,
+    "explicacion": "Alta frecuencia histórica de gol temprano en partidos con diferencial claro de xG y posesión."
   },
   "tip_15": {
-    "pronostico": "> Paris Saint Germain vs Paris FC\n\n> Liverpool vs Barnsley\n\n> Juventus vs Cremonese",
-    "explicacion": "PSG mantiene alto volumen de ocasiones (xG) y posesión que favorece goles; Liverpool en FA Cup genera superioridad ofensiva; Juventus suele generar goles en casa con margen sobre la media de Serie A. 2"
+    "pronostico": "⚽ Paris SG vs Paris FC [+1.5 Goles]\n\n⚽ Liverpool vs Barnsley [+1.5 Goles]\n\n⚽ Juventus vs Cremonese [+1.5 Goles]",
+    "cuota_final": 1.91,
+    "stake": 3,
+    "explicacion": "Línea conservadora respaldada por xG >2.0 en los favoritos."
   },
   "tip_1x2x": {
-    "pronostico": "> Liverpool vs Barnsley [1]\n\n> Paris Saint Germain vs Paris FC [1]\n\n> Juventus vs Cremonese [1X]",
-    "explicacion": "Doble o victoria clara local: Liverpool y PSG como favoritos según xG y superioridad táctica; Juventus con ventaja competitiva ante Cremonese y evitando sorpresa. 3"
+    "pronostico": "⚽ Liverpool vs Barnsley [1]\n\n⚽ Paris SG vs Paris FC [1]\n\n⚽ Juventus vs Cremonese [1X]",
+    "cuota_final": 1.61,
+    "stake": 4,
+    "explicacion": "Mercado direccional con protección en Juventus. Alta probabilidad implícita."
   },
   "tip_btts": {
-    "pronostico": "> Liverpool vs Barnsley [SÍ]\n\n> Sevilla FC vs Celta de Vigo [SÍ]\n\n> Paris Saint Germain vs Paris FC [SÍ]",
-    "explicacion": "Ambos equipos marcan en estos duelos estadísticamente por la tendencia a conceder ocasiones (Barnsley y Celta generan xG y PSG a pesar de su dominio cede posesión). 4"
+    "pronostico": "⚽ Sevilla vs Celta [BTTS SÍ]\n\n⚽ Liverpool vs Barnsley [BTTS SÍ]\n\n⚽ Paris SG vs Paris FC [BTTS SÍ]",
+    "cuota_final": 4.21,
+    "stake": 1,
+    "explicacion": "Mercado más volátil. Se recomienda stake bajo por dependencia de gol visitante."
   },
   "tip_as": {
-    "pronostico": "> Sevilla FC vs Celta de Vigo [AH +0]\n\n> Juventus vs Cremonese [AH -0.5]\n\n> Liverpool vs Barnsley [AH -1]",
-    "explicacion": "Hándicap Asiático: Sevilla protege ante empate posible en un duelo igualado; Juventus con ligera superioridad; Liverpool con dominio deja margen para -1. 5"
+    "pronostico": "⚽ Liverpool vs Barnsley [AH -1]\n\n⚽ Paris SG vs Paris FC [AH -1]\n\n⚽ Juventus vs Cremonese [AH -0.5]",
+    "cuota_final": 3.15,
+    "stake": 2,
+    "explicacion": "Hándicaps con ligera agresividad. Buena expectativa de valor."
   },
   "tip_bonus": {
-    "pronostico": "COMBINADA PREMIUM:\n\n1. Liverpool vs Barnsley [1]\n\n2. Paris Saint Germain vs Paris FC [+1.5 Goles]\n\n3. Sevilla FC vs Celta de Vigo [BTTS]",
-    "explicacion": "Combinada de alta seguridad centrada en dominio local y estadísticas ofensivas. Liverpool y PSG tienen proyecciones ofensivas sólidas mientras el duelo español presenta goles de ambos. Estimación de cuota segura ajustada. 6"
+    "pronostico": "⚽ Liverpool vs Barnsley [AH -0.5]\n\n⚽ Paris SG vs Paris FC [AH -0.75]\n\n⚽ Sevilla vs Celta [+1.5 Goles]",
+    "cuota_final": 2.24,
+    "stake": 5,
+    "explicacion": "Selección orientada a banca. Ideal como apuesta principal del día."
   }
 }
