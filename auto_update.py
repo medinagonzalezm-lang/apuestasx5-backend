@@ -1,6 +1,7 @@
 import os
 import requests
 import json
+from datetime import datetime
 
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 FOOTBALL_KEY = os.getenv("FOOTBALL_API_KEY")
@@ -14,32 +15,45 @@ def obtener_datos_futbol():
     except: return None
 
 def generar_pronosticos_ia(datos_partidos):
-    # Forzamos el uso del modelo que el sistema detectó: gemini-2.5-flash
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_KEY}"
     headers = {'Content-Type': 'application/json'}
+    fecha_hoy = datetime.now().strftime("%Y-%m-%d")
     
     prompt_text = f"""
-    Eres el analista de 'Pronosticos deportivos (IA)'. 
-    Analiza estos partidos reales y genera pronósticos estadísticos: {datos_partidos}
+    Actúa como mi experto analista deportivo y estadístico avanzado. Analiza estos partidos para hoy ({fecha_hoy}): {datos_partidos}.
     
-    REQUISITO: Genera un JSON con:
-    - tip_05, tip_15, tip_1x2x, tip_btts, tip_as, tip_bonus (3 partidos cada uno con ⚽).
-    - progression: 'puntos_actuales' (empieza en 100) y 'estado_hoy'.
-    
-    Responde UNICAMENTE el JSON. No digas nada más.
+    ESTRATEGIA DE PROTECCIÓN DE CAPITAL (BONUS):
+    - En la categoría 'tip_bonus', DEBES incluir al menos 1 o 2 selecciones de Hándicap Asiático (HA) con líneas de protección (ej. HA 0.0, HA +0.5, HA -1.0).
+    - El objetivo es MINIMIZAR pérdidas: prioriza mercados que ofrezcan DEVOLUCIÓN (Push) en resultados frontera.
+    - No importa que la cuota sea menor si la seguridad de no perder el capital es mayor.
+
+    REGLAS ESTADÍSTICAS:
+    1. Utiliza Distribución de Poisson y Simulación Monte Carlo para descartar partidos volátiles.
+    2. Usa Criterio de Kelly Fraccional (0.25) para el Stake sugerido.
+
+    FORMATO JSON OBLIGATORIO:
+    {{
+      "tip_05": [3 partidos de +1.5 goles con xG alto],
+      "tip_15": [3 partidos de bajo riesgo],
+      "tip_1x2x": [3 partidos con Doble Oportunidad o HA protectores],
+      "tip_btts": [3 partidos de Ambos Marcan/No Marcan],
+      "tip_as": [Los 3 eventos con mayor probabilidad conjunta],
+      "tip_bonus": [LA COMBINADA SEGURA: Incluye 1-2 Hándicaps Asiáticos protectores para minimizar pérdidas, Cuota Total y Stake],
+      "progression": {{
+        "puntos_actuales": (progreso actual sobre base 100),
+        "analisis_tecnico": "Explicación del uso de Hándicaps Asiáticos hoy para proteger el bankroll y resumen ejecutivo."
+      }}
+    }}
+    Responde UNICAMENTE el JSON puro.
     """
     
-    # Configuración de seguridad para que Gemini 2.5 no bloquee contenido de fútbol/apuestas
     payload = {
         "contents": [{"parts": [{"text": prompt_text}]}],
         "safetySettings": [
-            {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
-            {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
-            {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
             {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"}
         ],
         "generationConfig": {
-            "temperature": 0.7,
+            "temperature": 0.1,
             "responseMimeType": "application/json"
         }
     }
@@ -47,21 +61,12 @@ def generar_pronosticos_ia(datos_partidos):
     try:
         response = requests.post(url, headers=headers, json=payload)
         res_json = response.json()
-        
-        # Log para ver si Google nos manda un error de seguridad
-        if 'candidates' not in res_json:
-            print("Error de seguridad o respuesta vacía de Gemini 2.5")
-            print("Respuesta de la API:", res_json)
-            return None
-
-        texto = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
-        return texto
-    except Exception as e:
-        print(f"Error en Gemini 2.5: {e}")
+        return res_json['candidates'][0]['content']['parts'][0]['text'].strip()
+    except:
         return None
 
 def main():
-    print("Iniciando con Gemini 2.5 Flash...")
+    print(f"Generando pronósticos con protección de Hándicap Asiático...")
     datos = obtener_datos_futbol()
     if not datos: return
 
@@ -69,13 +74,12 @@ def main():
     if not json_final: return
 
     try:
-        # Limpiamos posibles caracteres raros
         json_dict = json.loads(json_final)
         with open("tips.json", "w", encoding='utf-8') as f:
             json.dump(json_dict, f, ensure_ascii=False, indent=2)
-        print("¡ÉXITO TOTAL! tips.json actualizado con Gemini 2.5.")
+        print("¡ÉXITO! tips.json actualizado con estrategia de Hándicap Asiático y bajo riesgo.")
     except Exception as e:
-        print(f"Error al procesar el JSON final: {e}")
+        print(f"Error: {e}")
 
 if __name__ == "__main__":
     main()
