@@ -1,38 +1,36 @@
 {
-  "tip_05": {
-    "pronostico": "⚽ Liverpool vs Barnsley [Gol antes min 70]\n\n⚽ Paris Saint Germain vs Paris FC [Gol antes min 70]\n\n⚽ Sevilla FC vs Celta de Vigo [Gol antes min 70]",
-    "cuota_final": 1.54,
-    "stake": 4,
-    "explicacion": "Alta frecuencia histórica de gol temprano en partidos con diferencial claro de xG y posesión."
-  },
-  "tip_15": {
-    "pronostico": "⚽ Paris SG vs Paris FC [+1.5 Goles]\n\n⚽ Liverpool vs Barnsley [+1.5 Goles]\n\n⚽ Juventus vs Cremonese [+1.5 Goles]",
-    "cuota_final": 1.91,
-    "stake": 3,
-    "explicacion": "Línea conservadora respaldada por xG >2.0 en los favoritos."
-  },
-  "tip_1x2x": {
-    "pronostico": "⚽ Liverpool vs Barnsley [1]\n\n⚽ Paris SG vs Paris FC [1]\n\n⚽ Juventus vs Cremonese [1X]",
-    "cuota_final": 1.61,
-    "stake": 4,
-    "explicacion": "Mercado direccional con protección en Juventus. Alta probabilidad implícita."
-  },
-  "tip_btts": {
-    "pronostico": "⚽ Sevilla vs Celta [BTTS SÍ]\n\n⚽ Liverpool vs Barnsley [BTTS SÍ]\n\n⚽ Paris SG vs Paris FC [BTTS SÍ]",
-    "cuota_final": 4.21,
-    "stake": 1,
-    "explicacion": "Mercado más volátil. Se recomienda stake bajo por dependencia de gol visitante."
-  },
-  "tip_as": {
-    "pronostico": "⚽ Liverpool vs Barnsley [AH -1]\n\n⚽ Paris SG vs Paris FC [AH -1]\n\n⚽ Juventus vs Cremonese [AH -0.5]",
-    "cuota_final": 3.15,
-    "stake": 2,
-    "explicacion": "Hándicaps con ligera agresividad. Buena expectativa de valor."
-  },
-  "tip_bonus": {
-    "pronostico": "⚽ Liverpool vs Barnsley [AH -0.5]\n\n⚽ Paris SG vs Paris FC [AH -0.75]\n\n⚽ Sevilla vs Celta [+1.5 Goles]",
-    "cuota_final": 2.24,
-    "stake": 5,
-    "explicacion": "Selección orientada a banca. Ideal como apuesta principal del día."
+  "tip_05": [
+    "⚽ Partido 1: Goles totales > 0.5 (Alta probabilidad)",
+    "⚽ Partido 2: Al menos un gol (Estadística favorable)",
+    "⚽ Partido 3: Previsión de +0.5 goles (Basado en tendencias generales)"
+  ],
+  "tip_15": [
+    "⚽ Partido 4: Total de goles > 1.5 (Tendencia media)",
+    "⚽ Partido 5: Se esperan al menos 2 goles (Análisis de encuentros previos)",
+    "⚽ Partido 6: Más de 1.5 goles en el partido (Valoración estándar)"
+  ],
+  "tip_1x2x": [
+    "⚽ Partido 7: Equipo Local o Empate (1X - Opción segura)",
+    "⚽ Partido 8: Equipo Visitante o Empate (X2 - Bajo riesgo)",
+    "⚽ Partido 9: Victoria Local o Visitante (12 - Partido abierto)"
+  ],
+  "tip_btts": [
+    "⚽ Partido 10: Ambos Equipos Marcan (Sí - Alta confianza)",
+    "⚽ Partido 11: BTTS (Sí - Previsión positiva)",
+    "⚽ Partido 12: Ambos equipos anotan (Estadística común)"
+  ],
+  "tip_as": [
+    "⚽ Partido 13: Goles totales > 0.5 (Muy probable)",
+    "⚽ Partido 14: Doble Oportunidad 1X (Rendimiento consistente)",
+    "⚽ Partido 15: Equipo A gana con Hándicap +1.5 (Margen de seguridad)"
+  ],
+  "tip_bonus": [
+    "⚽ Partido 16: Primer gol antes del minuto 30 (Dato histórico)",
+    "⚽ Partido 17: Más de 3.5 tarjetas en el partido (Estilo de juego)",
+    "⚽ Partido 18: Corner antes del minuto 10 (Ritmo inicial)"
+  ],
+  "progression": {
+    "puntos_actuales": 100,
+    "estado_hoy": "Análisis completado con pronósticos generados."
   }
 }
