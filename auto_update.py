@@ -20,16 +20,16 @@ def obtener_datos_futbol():
         return None
 
 def generar_pronosticos_ia(datos_partidos):
-    # CAMBIO CLAVE: Usamos /v1/ en lugar de /v1beta/ para máxima estabilidad
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
+    # Probamos con el modelo con sufijo -latest que es el alias más compatible
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={GEMINI_KEY}"
     headers = {'Content-Type': 'application/json'}
     
     prompt_text = f"""
     Eres el experto de 'Pronosticos deportivos (IA)'. 
-    Analiza estos partidos: {datos_partidos}
+    Analiza estos partidos reales: {datos_partidos}
     Genera un JSON con las claves: tip_05, tip_15, tip_1x2x, tip_btts, tip_as, tip_bonus.
     Añade 'progression' con 'puntos_actuales' (base 100) y 'estado_hoy'.
-    Responde SOLAMENTE el JSON puro, sin markdown.
+    Responde SOLAMENTE el JSON puro.
     """
 
     payload = {
@@ -41,25 +41,26 @@ def generar_pronosticos_ia(datos_partidos):
         res_json = response.json()
         
         if 'error' in res_json:
-            print(f"Error de la API de Google: {res_json['error']['message']}")
-            return None
+            # Si vuelve a fallar, intentamos con el nombre alternativo gemini-pro
+            print(f"Fallo con flash, intentando con gemini-pro...")
+            url_pro = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={GEMINI_KEY}"
+            response = requests.post(url_pro, headers=headers, json=payload)
+            res_json = response.json()
 
         if 'candidates' not in res_json:
-            print("Respuesta inesperada de Google:", res_json)
+            print("Error total de respuesta:", res_json)
             return None
 
         texto = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
-        
-        # Limpiar markdown por si acaso
         if "```" in texto:
             texto = texto.split("```")[1].replace("json", "").strip()
         return texto
     except Exception as e:
-        print(f"Error detallado: {e}")
+        print(f"Error: {e}")
         return None
 
 def main():
-    print("Iniciando actualización con API v1 Estable...")
+    print("Iniciando actualización con máxima compatibilidad...")
     datos = obtener_datos_futbol()
     if not datos: return
 
@@ -73,7 +74,6 @@ def main():
         print("¡ÉXITO TOTAL! tips.json actualizado.")
     except Exception as e:
         print(f"Error JSON: {e}")
-        print("Contenido recibido:", json_final)
 
 if __name__ == "__main__":
     main()
