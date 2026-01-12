@@ -2,29 +2,26 @@ name: Actualizacion Diaria Pronosticos IA
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Se ejecuta automáticamente a las 3 AM
-  workflow_dispatch:      # Permite que tú le des al botón cuando quieras
+    - cron: '0 3 * * *'  # Ejecución automática a las 3:00 AM
+  workflow_dispatch:      # Botón para ejecutarlo tú a mano
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    # Permisos de escritura necesarios para que el bot actualice el archivo tips.json
     permissions:
-      contents: write
+      contents: write    # Permiso para guardar el JSON en tu repo
       
     steps:
-      - name: Descargar codigo del repositorio
+      - name: Descargar codigo
         uses: actions/checkout@v4
 
-      - name: Configurar Python 3.11
+      - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Instalar librerias necesarias
-        run: |
-          pip install google-generativeai requests
+      - name: Instalar librerias
+        run: pip install requests
 
       - name: Ejecutar Script de IA
         env:
@@ -32,18 +29,12 @@ jobs:
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: python auto_update.py
 
-      - name: Guardar y Subir cambios a GitHub
+      - name: Guardar y Subir cambios
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Verificar si el archivo tips.json ha sido generado/modificado
           if [ -f tips.json ]; then
             git add tips.json
-            # El commit solo se hace si hay cambios. Si no, imprime un mensaje.
-            git commit -m "IA: Actualizacion diaria $(date)" || echo "Sin cambios detectados en tips.json"
+            git commit -m "IA: Actualizacion $(date)" || echo "Sin cambios"
             git push origin main
-          else
-            echo "Error: No se encontró el archivo tips.json tras ejecutar el script."
-            exit 1
           fi
