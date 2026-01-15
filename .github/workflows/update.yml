@@ -1,39 +1,31 @@
 name: Actualizacion Pronosticos IA
 
 on:
-  schedule:
-    - cron: '0 3 * * *'
   workflow_dispatch:
 
 jobs:
-  actualizar:
+  run:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Python Setup
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Instalar Requests
         run: pip install requests
-
-      - name: Ejecutar IA
+      - name: Ejecutar Script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: python auto_update.py
-
-      - name: Subir Cambios
+      - name: Guardar Cambios
         run: |
           git config --global user.name "IA-Bot"
-          git config --global user.email "bot@pronosticosia.com"
+          git config --global user.email "bot@pronosticos.com"
           if [ -f tips.json ]; then
             git add tips.json
-            git commit -m "IA: Update $(date)" || echo "Sin cambios"
+            git commit -m "IA Update" || exit 0
             git push
           fi
