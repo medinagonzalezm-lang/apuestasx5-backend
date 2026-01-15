@@ -12,7 +12,7 @@ def obtener_todos_los_partidos():
     hoy = datetime.now().strftime("%Y-%m-%d")
     
     try:
-        print(f"Buscando partidos para hoy ({hoy})...")
+        print(f"Buscando TODOS los partidos de hoy ({hoy})...")
         r = requests.get(f"{url}?date={hoy}", headers=headers, timeout=15)
         res = r.json()
         if res.get('response'):
@@ -25,33 +25,34 @@ def obtener_todos_los_partidos():
         return None
 
 def llamar_gemini(prompt):
-    # Intentamos la URL más limpia y directa de Google AI Studio
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
+    # Lista de modelos por orden de prioridad para evitar el Error 404
+    modelos = [
+        "gemini-1.5-flash",
+        "gemini-1.0-pro",
+        "gemini-pro"
+    ]
     
-    payload = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }]
-    }
-    
-    try:
-        r = requests.post(url, json=payload, timeout=30)
-        res = r.json()
+    for modelo in modelos:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={GEMINI_KEY}"
+        payload = {"contents": [{"parts": [{"text": prompt}]}]}
         
-        # Si da error 404, probamos con la versión v1beta automáticamente
-        if 'error' in res and res['error']['code'] == 404:
-            url_beta = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
-            r = requests.post(url_beta, json=payload, timeout=30)
+        try:
+            r = requests.post(url, json=payload, timeout=30)
             res = r.json()
-
-        if 'candidates' in res:
-            return res['candidates'][0]['content']['parts'][0]['text'].strip()
-        else:
-            print(f"Error de la IA: {res.get('error', {}).get('message', 'Sin respuesta')}")
-            return ""
-    except Exception as e:
-        print(f"Error de conexión IA: {e}")
-        return ""
+            
+            if 'candidates' in res:
+                print(f"Éxito usando el modelo: {modelo}")
+                return res['candidates'][0]['content']['parts'][0]['text'].strip()
+            
+            # Si el error no es un 404 (modelo no encontrado), imprimimos para saber qué pasa
+            if 'error' in res and res['error'].get('code') != 404:
+                print(f"Error en {modelo}: {res['error'].get('message')}")
+                
+        except Exception as e:
+            continue
+            
+    print("Ninguno de los modelos de Google respondió correctamente.")
+    return ""
 
 def main():
     print("--- INICIANDO PROCESO PRONÓSTICOS DEPORTIVOS (IA) ---")
@@ -61,30 +62,30 @@ def main():
         print("No se pudieron cargar los datos de fútbol.")
         return
 
-    # Procesar los 145 partidos en bloques para no perder información
+    # Procesamos los 145 partidos para no perder ni una oportunidad de victoria
     lotes = [todos[i:i + 50] for i in range(0, len(todos), 50)]
     acumulado = ""
 
     for i, lote in enumerate(lotes):
         print(f"Analizando bloque {i+1} de {len(lotes)}...")
-        prompt_lote = f"Selecciona los 10 mejores partidos para Over 1.5 goles de esta lista: {json.dumps(lote)}"
+        prompt_lote = f"Selecciona los 8 mejores partidos para Over 1.5 goles y 1X2 de esta lista: {json.dumps(lote)}"
         res_lote = llamar_gemini(prompt_lote)
         acumulado += f"\nLote {i+1}: {res_lote}"
 
-    print("Generando archivo tips.json definitivo...")
+    print("Generando veredicto final para tips.json...")
     prompt_final = f"""
     Eres la IA de 'Pronosticos deportivos (IA)'. 
-    Basado en estos partidos pre-seleccionados de toda la jornada: {acumulado}
+    Analiza estos candidatos: {acumulado}
     
     Genera un JSON con:
-    - 'tip_05' y 'tip_15' (3 picks de OVER 1.5 APUESTA cada uno).
+    - 'tip_05', 'tip_15' (3 picks de OVER 1.5 APUESTA cada uno).
     - 'tip_1x2x' (3 picks de 1X O 2X APUESTA).
     - 'tip_btts' (3 picks de BTTS APUESTA).
-    - 'tip_bonus' (Los 3 más fiables de toda la jornada analizada).
-    - 'puntos_actuales': BENEFICIO NETO (Total acumulado menos 100).
-    - 'analisis_tecnico': Un resumen profesional.
+    - 'tip_bonus' (Los 3 mejores de toda la jornada).
+    - 'puntos_actuales': BENEFICIO NETO (Resta 100 al total acumulado). Solo número.
+    - 'analisis_tecnico': Resumen profesional de la jornada.
 
-    IMPORTANTE: Responde SOLO el JSON puro.
+    Responde SOLO el JSON puro.
     """
     
     resultado = llamar_gemini(prompt_final)
@@ -97,7 +98,7 @@ def main():
             json_data = json.loads(resultado)
             with open("tips.json", "w", encoding="utf-8") as f:
                 json.dump(json_data, f, indent=2, ensure_ascii=False)
-            print("--- ¡ÉXITO! Se ha procesado la jornada completa de 145 partidos ---")
+            print("--- ¡ÉXITO! Jornada de 145 partidos analizada y guardada ---")
         except Exception as e:
             print(f"Error al procesar el JSON final: {e}")
 
