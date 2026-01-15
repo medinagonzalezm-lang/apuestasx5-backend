@@ -17,7 +17,7 @@ def obtener_partidos():
         r = requests.get(url, headers=headers, timeout=15)
         res = r.json()
         partidos = []
-        # Tomamos 40 partidos
+        # Tomamos 40 partidos para el análisis
         for f in res.get('response', [])[:40]:
             partidos.append({
                 "liga": f['league']['name'],
@@ -30,27 +30,23 @@ def obtener_partidos():
         return None
 
 def analizar_con_ia(datos_partidos):
-    # Usamos v1 que es la versión estable de producción
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
+    # Usamos v1beta que es la más flexible con las claves nuevas
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
     
     prompt = f"""
-    Actúa como experto analista deportivo. 
+    Eres un analista experto para 'Pronosticos deportivos (IA)'. 
     Analiza estos partidos: {json.dumps(datos_partidos)}
     
     Genera un JSON con este formato:
     - 'tip_05', 'tip_15', 'tip_1x2x', 'tip_btts', 'tip_as', 'tip_bonus' (3 picks cada uno).
-    - 'puntos_actuales': Indica el BENEFICIO (Total acumulado menos 100).
-    - 'analisis_tecnico': Un resumen breve.
+    - 'puntos_actuales': Beneficio neto (Total - 100).
+    - 'analisis_tecnico': Resumen breve.
 
     Responde SOLO el JSON puro.
     """
 
     payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "temperature": 0.2,
-            "responseMimeType": "application/json"
-        }
+        "contents": [{"parts": [{"text": prompt}]}]
     }
 
     try:
@@ -59,6 +55,9 @@ def analizar_con_ia(datos_partidos):
         
         if 'candidates' in res_json:
             texto = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
+            # Limpiar markdown si existe
+            if "```" in texto:
+                texto = texto.split("```")[1].replace("json", "").strip()
             return texto
         else:
             print(f"Error de Google: {res_json}")
@@ -68,19 +67,20 @@ def analizar_con_ia(datos_partidos):
         return None
 
 def main():
-    print("Iniciando IA con nueva clave...")
+    print("Iniciando IA con clave renovada...")
     partidos = obtener_partidos()
     if not partidos:
-        print("No se obtuvieron partidos.")
+        print("No se pudieron obtener partidos.")
         return
 
+    print(f"Analizando {len(partidos)} partidos...")
     resultado = analizar_con_ia(partidos)
     if resultado:
         try:
             json_data = json.loads(resultado)
             with open("tips.json", "w", encoding="utf-8") as f:
                 json.dump(json_data, f, indent=2, ensure_ascii=False)
-            print("¡ÉXITO! tips.json actualizado.")
+            print("¡ACTUALIZACIÓN COMPLETADA EXITOSAMENTE!")
         except Exception as e:
             print(f"Error al procesar JSON: {e}")
             print(f"Texto recibido: {resultado}")
