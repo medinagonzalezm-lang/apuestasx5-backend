@@ -37,6 +37,6 @@ jobs:
           
           if [ -f tips.json ]; then
             git add tips.json
-            git commit -m "IA: Update $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
+            git commit -m "IA: Update $(date +'%Y-%m-%d %H:%M')" || echo "Sin cambios"
             git push origin main
           fi
