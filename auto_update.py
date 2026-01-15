@@ -7,29 +7,38 @@ GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 FOOTBALL_KEY = os.getenv("FOOTBALL_API_KEY")
 
 def obtener_partidos():
+    # Formato de cabeceras estándar para API-Sports
     headers = {
-        'x-rapidapi-key': FOOTBALL_KEY,
-        'x-rapidapi-host': 'v3.football.api-sports.io'
+        'x-apisports-key': FOOTBALL_KEY,
+        'Content-Type': 'application/json'
     }
     
-    # Intentamos obtener partidos de hoy y de mañana para asegurar datos
     hoy = datetime.now().strftime("%Y-%m-%d")
     mañana = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
     
     partidos_totales = []
     
+    # Intentamos con la URL de API-Sports que es más estable
     for fecha in [hoy, mañana]:
         url = f"https://v3.football.api-sports.io/fixtures?date={fecha}"
         try:
-            r = requests.get(url, headers=headers, timeout=15)
+            print(f"Consultando fecha: {fecha}...")
+            r = requests.get(url, headers=headers, timeout=20)
             res = r.json()
             
-            # Si hay error en la API de fútbol, lo imprimimos para saber qué pasa
+            # Verificación de errores en la respuesta
             if res.get('errors'):
-                print(f"Error de API Fútbol ({fecha}): {res['errors']}")
+                print(f"Aviso de API Fútbol: {res['errors']}")
+                # Si falla el primer nombre de cabecera, intentamos con el alternativo de RapidAPI
+                headers_alt = {'x-rapidapi-key': FOOTBALL_KEY, 'x-rapidapi-host': 'v3.football.api-sports.io'}
+                r = requests.get(url, headers=headers_alt, timeout=20)
+                res = r.json()
+
+            datos = res.get('response', [])
+            if not datos:
+                print(f"No se encontraron partidos para la fecha {fecha}.")
                 continue
                 
-            datos = res.get('response', [])
             for f in datos:
                 partidos_totales.append({
                     "liga": f['league']['name'],
@@ -37,23 +46,21 @@ def obtener_partidos():
                     "visitante": f['teams']['away']['name']
                 })
         except Exception as e:
-            print(f"Error de conexión en fecha {fecha}: {e}")
+            print(f"Error de conexión: {e}")
             
-    return partidos_totales[:50] # Máximo 50 partidos para no saturar
+    return partidos_totales[:45]
 
 def analizar_con_ia(datos_partidos):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
+    # Usamos el endpoint estable v1
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
     
     prompt = f"""
-    Eres un analista experto para 'Pronosticos deportivos (IA)'. 
-    Analiza estos partidos: {json.dumps(datos_partidos)}
-    
-    Genera un JSON con este formato:
-    - 'tip_05', 'tip_15', 'tip_1x2x', 'tip_btts', 'tip_as', 'tip_bonus' (3 picks cada uno).
-    - 'puntos_actuales': Beneficio neto (Total acumulado menos 100).
-    - 'analisis_tecnico': Resumen breve de la jornada.
-
-    Responde SOLO el JSON puro, sin bloques de código.
+    Eres analista experto de 'Pronosticos deportivos (IA)'. 
+    Analiza: {json.dumps(datos_partidos)}
+    Genera un JSON: tip_05, tip_15, tip_1x2x, tip_btts, tip_as, tip_bonus (3 c/u).
+    'puntos_actuales': BENEFICIO NETO (Total acumulado - 100).
+    'analisis_tecnico': Resumen breve.
+    Responde SOLO JSON puro.
     """
 
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
@@ -66,22 +73,20 @@ def analizar_con_ia(datos_partidos):
             if "```" in texto:
                 texto = texto.split("```")[1].replace("json", "").strip()
             return texto
-        else:
-            print(f"Error de Gemini: {res_json}")
-            return None
+        return None
     except Exception as e:
         print(f"Error IA: {e}")
         return None
 
 def main():
-    print("Iniciando IA...")
+    print("Iniciando proceso...")
     partidos = obtener_partidos()
     
     if not partidos:
-        print("CRÍTICO: Sigue sin haber partidos. Revisa tu FOOTBALL_API_KEY en Secrets.")
+        print("CRÍTICO: No se recibieron datos. Verifica tu clave en Dashboard API-Football.")
         return
 
-    print(f"Analizando {len(partidos)} partidos encontrados...")
+    print(f"Procesando {len(partidos)} partidos con Gemini...")
     resultado = analizar_con_ia(partidos)
     
     if resultado:
@@ -91,7 +96,7 @@ def main():
                 json.dump(json_data, f, indent=2, ensure_ascii=False)
             print("¡ACTUALIZACIÓN COMPLETADA!")
         except:
-            print("Error al procesar el JSON final.")
+            print("Error al parsear el JSON de la IA.")
 
 if __name__ == "__main__":
     main()
