@@ -17,17 +17,17 @@ jobs:
           python-version: '3.11'
       - name: Instalar Requests
         run: pip install requests
-      - name: Ejecutar IA
+      - name: Ejecutar Analisis Masivo
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: python auto_update.py
-      - name: Guardar Cambios
+      - name: Guardar en Repositorio
         run: |
           git config --global user.name "IA-Bot"
           git config --global user.email "bot@pronosticos.com"
           if [ -f tips.json ]; then
             git add tips.json
-            git commit -m "Update $(date)" || exit 0
+            git commit -m "IA: Analisis jornada completa" || exit 0
             git push
           fi
