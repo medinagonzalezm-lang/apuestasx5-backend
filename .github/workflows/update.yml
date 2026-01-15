@@ -4,34 +4,28 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  run-task:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Python Setup
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Instalar dependencias
+      - name: Install
         run: pip install requests
-
-      - name: Ejecutar Script
+      - name: Run
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: python auto_update.py
-
-      - name: Subir Cambios
+      - name: Push
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "IA-Bot"
+          git config --global user.email "bot@pronosticos.com"
           if [ -f tips.json ]; then
             git add tips.json
-            git commit -m "IA: Update pronosticos" || exit 0
+            git commit -m "Update" || exit 0
             git push
           fi
