@@ -1,29 +1,39 @@
-name: Actualizacion IA Limpia
+name: Actualizacion Pronosticos IA
 
 on:
-  workflow_dispatch: # Esto activa el botón manual
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch: # Botón manual
 
 jobs:
-  actualizar:
+  run-update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Descargar codigo
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Instalacion
+
+      - name: Instalar Dependencias
         run: pip install requests google-genai
-      - name: Ejecucion
+
+      - name: Ejecutar IA
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: python auto_update.py
-      - name: Subir
+
+      - name: Subir Cambios
         run: |
-          git config --global user.name "IA-Bot"
-          git config --global user.email "bot@pronosticos.com"
-          git add tips.json
-          git commit -m "Update" || exit 0
-          git push
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -f tips.json ]; then
+            git add tips.json
+            git commit -m "IA: Update $(date +'%Y-%m-%d')" || echo "No hay cambios"
+            git push
+          fi
