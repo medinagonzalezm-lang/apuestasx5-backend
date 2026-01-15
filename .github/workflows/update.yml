@@ -1,7 +1,7 @@
 name: Actualizacion Pronosticos IA
 
 on:
-  workflow_dispatch: # Ejecución manual
+  workflow_dispatch:
 
 jobs:
   build:
@@ -9,10 +9,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Descargar codigo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Configurar Python
+      - name: Python Setup
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -32,6 +32,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           if [ -f tips.json ]; then
             git add tips.json
-            git commit -m "IA: Pronosticos actualizados" || exit 0
+            git commit -m "IA: Update pronosticos" || exit 0
             git push
           fi
