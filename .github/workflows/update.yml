@@ -3,24 +3,24 @@ name: Actualizacion Pronosticos IA
 on:
   schedule:
     - cron: '0 3 * * *'
-  workflow_dispatch: # Botón manual
+  workflow_dispatch:
 
 jobs:
-  run-update:
+  actualizar:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Descargar codigo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Configurar Python
+      - name: Python Setup
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Instalar Dependencias
-        run: pip install requests google-genai
+      - name: Instalar Requests
+        run: pip install requests
 
       - name: Ejecutar IA
         env:
@@ -30,10 +30,10 @@ jobs:
 
       - name: Subir Cambios
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "IA-Bot"
+          git config --global user.email "bot@pronosticosia.com"
           if [ -f tips.json ]; then
             git add tips.json
-            git commit -m "IA: Update $(date +'%Y-%m-%d')" || echo "No hay cambios"
+            git commit -m "IA: Update $(date)" || echo "Sin cambios"
             git push
           fi
