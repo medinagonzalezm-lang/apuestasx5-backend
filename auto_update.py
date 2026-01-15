@@ -8,8 +8,9 @@ from datetime import datetime
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 FOOTBALL_KEY = os.getenv("FOOTBALL_API_KEY")
 
-# Inicializar cliente forzando la versión estable v1
-client = genai.Client(api_key=GEMINI_KEY, http_options={'api_version': 'v1'})
+# Inicializar cliente sin forzar versión manualmente para evitar el 404
+# La librería google-genai ya debería gestionar la ruta correcta
+client = genai.Client(api_key=GEMINI_KEY)
 
 def obtener_partidos():
     headers = {
@@ -23,7 +24,7 @@ def obtener_partidos():
         r = requests.get(url, headers=headers, timeout=15)
         res = r.json()
         partidos = []
-        # Enviamos 40 partidos para no saturar la memoria
+        # Tomamos 40 partidos para el análisis
         for f in res.get('response', [])[:40]:
             partidos.append({
                 "liga": f['league']['name'],
@@ -37,34 +38,34 @@ def obtener_partidos():
 
 def analizar_con_ia(datos_partidos):
     try:
-        # Instrucciones claras en el prompt para evitar errores de configuración
         prompt = f"""
-        Actúa como analista deportivo experto.
-        Analiza estos partidos de hoy: {json.dumps(datos_partidos)}
+        Actúa como analista deportivo experto para 'Pronosticos deportivos (IA)'.
+        Analiza estos partidos: {json.dumps(datos_partidos)}
         
-        Genera un JSON con estas llaves exactas:
+        Genera un JSON con:
         1. 'tip_05': 3 picks de +0.5 goles.
         2. 'tip_15': 3 picks de +1.5 goles.
         3. 'tip_1x2x': 3 picks de 1X o 2X.
         4. 'tip_btts': 3 picks de Ambos Marcan.
         5. 'tip_as': 3 picks de Handicap Asiatico.
         6. 'tip_bonus': Los 3 mejores de los anteriores.
-        7. 'puntos_actuales': Indica el BENEFICIO (Total acumulado menos 100). Solo el número.
-        8. 'analisis_tecnico': Resumen breve de la jornada.
+        7. 'puntos_actuales': Indica el BENEFICIO NETO (Total acumulado menos 100). Solo el número.
+        8. 'analisis_tecnico': Resumen breve.
 
-        IMPORTANTE: Responde ÚNICAMENTE con el código JSON puro, sin explicaciones ni bloques de texto.
+        Responde SOLO el JSON puro.
         """
 
-        # Eliminamos el bloque 'config' que causaba el Error 400
+        # Usamos el nombre técnico completo: 'models/gemini-1.5-flash'
+        # Esto suele solucionar el error 404 en la mayoría de regiones
         response = client.models.generate_content(
-            model='gemini-1.5-flash',
+            model='models/gemini-1.5-flash',
             contents=prompt
         )
         
         texto = response.text.strip()
         
-        # Si la IA responde con bloques de código ```json ... ```, los limpiamos
-        if texto.startswith("```"):
+        # Limpieza de posibles etiquetas markdown
+        if "```" in texto:
             texto = texto.split("```")[1]
             if texto.startswith("json"):
                 texto = texto[4:]
@@ -76,26 +77,25 @@ def analizar_con_ia(datos_partidos):
         return None
 
 def main():
-    print("Iniciando proceso estable...")
+    print("Iniciando proceso con identificador de modelo completo...")
     lista_partidos = obtener_partidos()
     
     if not lista_partidos:
         print("No se encontraron partidos.")
         return
 
-    print(f"Analizando {len(lista_partidos)} partidos con Gemini...")
+    print(f"Analizando {len(lista_partidos)} partidos...")
     resultado_json = analizar_con_ia(lista_partidos)
     
     if resultado_json:
         try:
-            # Validamos que el JSON sea correcto antes de guardar
             datos_finales = json.loads(resultado_json)
             with open("tips.json", "w", encoding='utf-8') as f:
                 json.dump(datos_finales, f, ensure_ascii=False, indent=2)
-            print("¡ÉXITO! tips.json actualizado.")
+            print("¡ÉXITO TOTAL! tips.json guardado.")
         except Exception as e:
-            print(f"Error parseando el JSON: {e}")
-            print(f"Texto recibido: {resultado_json}")
+            print(f"Error al procesar JSON: {e}")
+            print(f"Respuesta recibida: {resultado_json}")
 
 if __name__ == "__main__":
     main()
