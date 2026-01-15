@@ -2,8 +2,8 @@ name: Actualizacion Diaria Pronosticos IA
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Ejecución diaria automática
-  workflow_dispatch:      # Botón manual en GitHub Actions
+    - cron: '0 3 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -37,9 +37,6 @@ jobs:
           
           if [ -f tips.json ]; then
             git add tips.json
-            git commit -m "IA: Actualización de pronósticos $(date +'%Y-%m-%d %H:%M')" || echo "No hay cambios"
+            git commit -m "IA: Update $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
             git push origin main
-          else
-            echo "Error: tips.json no encontrado"
-            exit 1
           fi
