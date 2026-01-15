@@ -1,38 +1,38 @@
 import os
 import requests
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 FOOTBALL_KEY = os.getenv("FOOTBALL_API_KEY")
 
 def obtener_partidos():
-    # Intentamos las dos combinaciones posibles de la API de Fútbol
-    configuraciones = [
+    # Intentamos las tres rutas posibles para evitar el error 4xSe
+    rutas = [
         {
-            "url": "https://v3.football.api-sports.io/fixtures",
-            "headers": {"x-apisports-key": FOOTBALL_KEY}
+            "url": "https://api-football-v1.p.rapidapi.com/v3/fixtures",
+            "headers": {
+                "x-rapidapi-key": FOOTBALL_KEY,
+                "x-rapidapi-host": "api-football-v1.p.rapidapi.com"
+            }
         },
         {
             "url": "https://v3.football.api-sports.io/fixtures",
-            "headers": {
-                "x-rapidapi-key": FOOTBALL_KEY,
-                "x-rapidapi-host": "v3.football.api-sports.io"
-            }
+            "headers": {"x-apisports-key": FOOTBALL_KEY}
         }
     ]
     
     hoy = datetime.now().strftime("%Y-%m-%d")
     partidos_encontrados = []
 
-    for conf in configuraciones:
+    for r_info in rutas:
         try:
-            print(f"Probando conexión con: {conf['url']}...")
-            r = requests.get(f"{conf['url']}?date={hoy}", headers=conf['headers'], timeout=15)
+            print(f"Probando endpoint: {r_info['url']}...")
+            r = requests.get(f"{r_info['url']}?date={hoy}", headers=r_info['headers'], timeout=15)
             res = r.json()
             
             if res.get('response'):
-                print("¡Conexión exitosa con la API de Fútbol!")
+                print("¡CONECTADO EXITOSAMENTE!")
                 for f in res['response']:
                     partidos_encontrados.append({
                         "liga": f['league']['name'],
@@ -41,22 +41,20 @@ def obtener_partidos():
                     })
                 if partidos_encontrados: break
             else:
-                print(f"Intento fallido: {res.get('errors') or res.get('message')}")
+                print(f"Respuesta sin datos: {res.get('errors') or res.get('message')}")
         except Exception as e:
-            print(f"Error de red: {e}")
+            print(f"Error en este intento: {e}")
 
     return partidos_encontrados[:40]
 
 def analizar_con_ia(partidos):
-    # Usamos la URL de Gemini v1 estable
     url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
     
     prompt = f"""
-    Analiza estos partidos para la app 'Pronosticos deportivos (IA)': {json.dumps(partidos)}
-    Devuelve un JSON con: tip_05, tip_15, tip_1x2x, tip_btts, tip_as, tip_bonus.
-    En 'puntos_actuales', pon solo el BENEFICIO (Total - 100).
-    En 'analisis_tecnico', un resumen breve.
-    Responde SOLO el JSON.
+    Eres analista para 'Pronosticos deportivos (IA)'. Analiza: {json.dumps(partidos)}
+    Genera JSON con: tip_05, tip_15, tip_1x2x, tip_btts, tip_as, tip_bonus.
+    En 'puntos_actuales', pon solo el BENEFICIO (Total acumulado - 100).
+    Responde SOLO JSON puro.
     """
 
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
@@ -73,14 +71,14 @@ def analizar_con_ia(partidos):
         return None
 
 def main():
-    print("--- INICIANDO PROCESO ---")
+    print("--- INICIANDO PROCESO DE ACTUALIZACIÓN ---")
     datos = obtener_partidos()
     
     if not datos:
-        print("No se pudieron obtener partidos. Revisa tu FOOTBALL_API_KEY.")
+        print("ERROR: No se pudo validar la FOOTBALL_API_KEY. Asegúrate de copiarla de RapidAPI o API-Sports Dashboard.")
         return
 
-    print(f"Enviando {len(datos)} partidos a Gemini...")
+    print(f"Analizando {len(datos)} partidos...")
     resultado = analizar_con_ia(datos)
     
     if resultado:
@@ -88,9 +86,9 @@ def main():
             final_json = json.loads(resultado)
             with open("tips.json", "w", encoding="utf-8") as f:
                 json.dump(final_json, f, indent=2, ensure_ascii=False)
-            print("--- ¡ÉXITO! tips.json actualizado ---")
+            print("--- PROCESO FINALIZADO CON ÉXITO ---")
         except:
-            print("Error al procesar el JSON final.")
+            print("Error al procesar el resultado de la IA.")
 
 if __name__ == "__main__":
     main()
