@@ -10,31 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
-      - name: Descargar Codigo
-        uses: actions/checkout@v4
-
-      - name: Configurar Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Instalar Librerias Necesarias
-        run: pip install requests google-generativeai
-
-      - name: Ejecutar Analisis Masivo
+      - name: Instalar Librerias
+        run: pip install requests google-genai
+      - name: Ejecutar Script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: python auto_update.py
-
       - name: Guardar Cambios
         run: |
           git config --global user.name "IA-Bot"
           git config --global user.email "bot@pronosticos.com"
           if [ -f tips.json ]; then
             git add tips.json
-            git commit -m "IA: Analisis jornada completa $(date +'%Y-%m-%d')" || exit 0
+            git commit -m "IA: Analisis jornada completa" || exit 0
             git push
           fi
