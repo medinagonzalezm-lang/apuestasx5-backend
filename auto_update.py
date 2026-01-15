@@ -27,43 +27,52 @@ def obtener_partidos():
         return None
 
 def analizar_con_ia(datos_partidos):
-    # Usamos la URL directa de la API v1 (la más estable)
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
+    # Intentaremos con dos variantes de URL que Google acepta en 2026
+    modelos_a_probar = [
+        "gemini-2.0-flash", 
+        "gemini-1.5-flash"
+    ]
     
     prompt = f"""
-    Eres un experto en apuestas. Analiza estos partidos: {json.dumps(datos_partidos)}
-    Genera un JSON con: tip_05, tip_15, tip_1x2x, tip_btts, tip_as, tip_bonus (3 picks cada uno).
+    Eres un experto en apuestas para la app 'Pronosticos deportivos (IA)'. 
+    Analiza estos partidos: {json.dumps(datos_partidos)}
+    Genera un JSON con: tip_05, tip_15, tip_1x2x, tip_btts, tip_as, tip_bonus (3 cada uno).
     En 'puntos_actuales', pon el BENEFICIO NETO (Resta 100 del total acumulado).
     En 'analisis_tecnico', un resumen breve.
-    Responde SOLO el JSON puro, sin bloques de código.
+    Responde SOLO el JSON puro.
     """
 
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}]
-    }
-
-    try:
-        response = requests.post(url, json=payload, timeout=30)
-        res_json = response.json()
+    for modelo in modelos_a_probar:
+        print(f"Probando con modelo: {modelo}...")
+        # Usamos v1beta que es la que suele tener activos los modelos Flash nuevos en Actions
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={GEMINI_KEY}"
         
-        if 'candidates' in res_json:
-            texto = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
-            # Limpiar si la IA devuelve ```json ... ```
-            if "```" in texto:
-                texto = texto.split("```")[1].replace("json", "").strip()
-            return texto
-        else:
-            print(f"Error de API: {res_json}")
-            return None
-    except Exception as e:
-        print(f"Error de conexión: {e}")
-        return None
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 0.2}
+        }
+
+        try:
+            response = requests.post(url, json=payload, timeout=30)
+            res_json = response.json()
+            
+            if 'candidates' in res_json:
+                texto = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
+                if "```" in texto:
+                    texto = texto.split("```")[1].replace("json", "").strip()
+                return texto
+            else:
+                print(f"Modelo {modelo} falló: {res_json.get('error', {}).get('message', 'Error desconocido')}")
+        except Exception as e:
+            print(f"Error de red con {modelo}: {e}")
+            
+    return None
 
 def main():
-    print("Iniciando IA (Conexión Directa v1)...")
+    print("Iniciando IA con Auto-Recuperación...")
     partidos = obtener_partidos()
     if not partidos:
-        print("No se obtuvieron partidos.")
+        print("No se pudieron obtener datos de fútbol.")
         return
 
     resultado = analizar_con_ia(partidos)
@@ -72,9 +81,12 @@ def main():
             json_data = json.loads(resultado)
             with open("tips.json", "w", encoding="utf-8") as f:
                 json.dump(json_data, f, indent=2, ensure_ascii=False)
-            print("¡EXITO! tips.json actualizado.")
-        except:
-            print("Error al procesar el JSON de la IA.")
+            print("¡EXITO TOTAL! tips.json generado.")
+        except Exception as e:
+            print(f"Error parseando JSON: {e}")
+            print(f"Texto: {resultado}")
+    else:
+        print("Todos los modelos de IA fallaron.")
 
 if __name__ == "__main__":
     main()
