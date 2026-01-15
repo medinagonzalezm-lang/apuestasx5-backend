@@ -2,14 +2,14 @@ name: Actualizacion Diaria Pronosticos IA
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Se ejecuta automáticamente a las 3:00 AM
-  workflow_dispatch:      # Permite ejecutarlo manualmente con el botón "Run workflow"
+    - cron: '0 3 * * *'  # Ejecución diaria automática
+  workflow_dispatch:      # Botón manual en GitHub Actions
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write    # Necesario para que el bot pueda guardar el tips.json en tu repo
+      contents: write
 
     steps:
       - name: Descargar codigo
@@ -22,7 +22,7 @@ jobs:
 
       - name: Instalar librerias
         run: |
-          pip install requests google-generativeai
+          pip install requests google-genai
 
       - name: Ejecutar Script de IA
         env:
@@ -35,12 +35,11 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Comprobamos si el archivo existe antes de intentar subirlo
           if [ -f tips.json ]; then
             git add tips.json
-            git commit -m "IA: Actualizacion automatica $(date +'%Y-%m-%d %H:%M')" || echo "Sin cambios para subir"
+            git commit -m "IA: Actualización de pronósticos $(date +'%Y-%m-%d %H:%M')" || echo "No hay cambios"
             git push origin main
           else
-            echo "Error: El archivo tips.json no fue generado por el script."
+            echo "Error: tips.json no encontrado"
             exit 1
           fi
