@@ -1,29 +1,40 @@
 {
-  "tip_05": [
-    "Analizando...",
-    "Analizando...",
-    "Analizando..."
-  ],
-  "tip_15": [
-    "En progreso...",
-    "En progreso...",
-    "En progreso..."
-  ],
-  "tip_1x2x": [
-    "Consultando...",
-    "Consultando...",
-    "Consultando..."
-  ],
-  "tip_btts": [
-    "Cargando...",
-    "Cargando...",
-    "Cargando..."
-  ],
-  "tip_bonus": [
-    "Próximamente",
-    "Próximamente",
-    "Próximamente"
-  ],
-  "puntos_actuales": "0 (IA en espera)",
-  "analisis_tecnico": "La IA está procesando el volumen masivo de datos. Vuelve en unos minutos."
+    "bankroll_total": "100.00",
+    "tip_05": [
+        "Jong AZ vs Den Bosch",
+        "Jong Utrecht vs Cambuur"
+    ],
+    "tip_15": [
+        "Pau FC vs Lorient",
+        "SC Cambuur vs Jong Utrecht"
+    ],
+    "tip_1x2x": [
+        "FC Porto vs Santa Clara (1X)",
+        "Sporting Braga vs Vizela (1)"
+    ],
+    "tip_btts": [
+        "Jong AZ vs Den Bosch (SÍ)"
+    ],
+    "tip_asiatico": [
+        "Lorient AH +0.0",
+        "Braga AH -1.0"
+    ],
+    "tip_bonus": {
+        "partidos": [
+            "FC Porto (1X)",
+            "Braga AH -0.5"
+        ],
+        "cuota_total": "1.78",
+        "stake": "10/10",
+        "puntos_a_jugar": "10 Puntos",
+        "analisis": "Estrategia de seguridad máxima: Combinada de favoritos locales en Portugal con cobertura asiática para minimizar cualquier riesgo de varianza."
+    },
+    "bonus_ayer": {
+        "fecha": "15/01/2026",
+        "partidos": [
+            "Sin actividad previa"
+        ],
+        "resultado": "INICIO DE SISTEMA",
+        "puntos_sumados": "0.00 Puntos"
+    }
 }
