@@ -1,40 +1,46 @@
 {
-    "bankroll_total": "100.00",
-    "tip_05": [
-        "Jong AZ vs Den Bosch",
-        "Jong Utrecht vs Cambuur"
-    ],
-    "tip_15": [
-        "Pau FC vs Lorient",
-        "SC Cambuur vs Jong Utrecht"
-    ],
-    "tip_1x2x": [
-        "FC Porto vs Santa Clara (1X)",
-        "Sporting Braga vs Vizela (1)"
-    ],
-    "tip_btts": [
-        "Jong AZ vs Den Bosch (SÍ)"
-    ],
-    "tip_asiatico": [
-        "Lorient AH +0.0",
-        "Braga AH -1.0"
-    ],
-    "tip_bonus": {
-        "partidos": [
-            "FC Porto (1X)",
-            "Braga AH -0.5"
-        ],
-        "cuota_total": "1.78",
-        "stake": "10/10",
-        "puntos_a_jugar": "10 Puntos",
-        "analisis": "Estrategia de seguridad máxima: Combinada de favoritos locales en Portugal con cobertura asiática para minimizar cualquier riesgo de varianza."
+    "status": "activo",
+    "tip_05": {
+        "partidos": ["Jong AZ vs Den Bosch", "Jong Utrecht vs Cambuur", "Almere City vs Excelsior"],
+        "cuota_total": "1.45",
+        "stake": "9/10",
+        "analisis": "Ligas holandesas con alta probabilidad de gol en la primera mitad (Poisson: 86%)."
     },
-    "bonus_ayer": {
-        "fecha": "15/01/2026",
-        "partidos": [
-            "Sin actividad previa"
-        ],
-        "resultado": "INICIO DE SISTEMA",
-        "puntos_sumados": "0.00 Puntos"
+    "tip_15": {
+        "partidos": ["Pau FC vs Lorient", "SC Cambuur vs Jong Utrecht", "Dordrecht vs FC Eindhoven"],
+        "cuota_total": "1.68",
+        "stake": "8/10",
+        "analisis": "Mercado de fluidez ofensiva con promedio de 2.5 goles por encuentro."
+    },
+    "tip_1x2x": {
+        "partidos": ["FC Porto vs Santa Clara (1X)", "Sporting Braga vs Vizela (1)", "Benfica vs Rio Ave (1)"],
+        "cuota_total": "1.55",
+        "stake": "10/10",
+        "analisis": "Favoritos locales sólidos. Seguridad extrema para bankroll conservador."
+    },
+    "tip_btts": {
+        "partidos": ["Jong AZ vs Den Bosch (SÍ)", "St. Truiden vs Genk (SÍ)", "Excelsior vs Almere (SÍ)"],
+        "cuota_total": "1.95",
+        "stake": "7/10",
+        "analisis": "Equipos con tendencia a marcar y recibir en el 75% de sus enfrentamientos."
+    },
+    "tip_asiatico": {
+        "partidos": ["Lorient AH +0.0", "Braga AH -1.0", "Porto AH -1.5"],
+        "cuota_total": "2.10",
+        "stake": "8/10",
+        "analisis": "Protección de stake mediante hándicaps que minimizan la varianza del empate."
+    },
+    "tip_bonus": {
+        "partidos": ["FC Porto (Gana)", "Braga AH -0.5", "Lorient AH +0.0"],
+        "cuota_total": "2.12",
+        "stake": "10/10",
+        "analisis": "Selección maestra: Máxima probabilidad de retorno con triple cobertura estadística."
+    },
+    "control_panel": {
+        "bankroll_actual": "100.00",
+        "unidades_ayer": "0.00",
+        "balance_ayer": "INICIO",
+        "partidos_ayer": ["Sin actividad previa", "Carga de sistema", "Día 1"],
+        "mensaje": "Bankroll inicial de 100 puntos cargado con éxito."
     }
 }
