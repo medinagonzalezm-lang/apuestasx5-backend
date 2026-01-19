@@ -1,37 +1,61 @@
 {
     "status": "activo",
     "tip_05": {
-        "partidos": ["Valencia vs Real Sociedad", "Brighton vs Wolves", "Lazio vs Milan"],
+        "partidos": [
+            "Valencia vs Real Sociedad",
+            "Brighton vs Wolves",
+            "Lazio vs Milan"
+        ],
         "cuota_total": "1.42",
         "stake": "10/10",
         "analisis": "IA detecta alta intensidad en bandas. Probabilidad de gol en la primera mitad superior al 88% en los tres encuentros."
     },
     "tip_15": {
-        "partidos": ["Villarreal vs Mallorca", "Bournemouth vs Fulham", "Lens vs Nice"],
+        "partidos": [
+            "Villarreal vs Mallorca",
+            "Bournemouth vs Fulham",
+            "Lens vs Nice"
+        ],
         "cuota_total": "1.75",
         "stake": "8/10",
         "analisis": "Equipos con transiciones rápidas y defensas adelantadas. El modelo xG proyecta un mínimo de 2.2 goles totales por partido."
     },
     "tip_1x2x": {
-        "partidos": ["Atalanta vs Empoli (1)", "Leicester vs Everton (1X)", "Sporting CP vs Casa Pia (1)"],
+        "partidos": [
+            "Atalanta vs Empoli (1)",
+            "Leicester vs Everton (1X)",
+            "Sporting CP vs Casa Pia (1)"
+        ],
         "cuota_total": "1.55",
         "stake": "9/10",
         "analisis": "Fortaleza local contrastada. La IA otorga un 90% de probabilidad de éxito basándose en el rendimiento de los últimos 5 partidos."
     },
     "tip_btts": {
-        "partidos": ["Celta vs Alaves (SÍ)", "West Ham vs Aston Villa (SÍ)", "Lyon vs Lille (SÍ)"],
+        "partidos": [
+            "Celta vs Alaves (SÍ)",
+            "West Ham vs Aston Villa (SÍ)",
+            "Lyon vs Lille (SÍ)"
+        ],
         "cuota_total": "2.05",
         "stake": "7/10",
         "analisis": "Duelos directos con historial de goles en ambas porterías. Las bajas en defensa de los locales favorecen el intercambio de golpes."
     },
     "tip_asiatico": {
-        "partidos": ["Napoli AH -0.75", "Chelsea AH +0.0", "Benfica AH -1.0"],
+        "partidos": [
+            "Napoli AH -0.75",
+            "Chelsea AH +0.0",
+            "Benfica AH -1.0"
+        ],
         "cuota_total": "2.12",
         "stake": "8/10",
         "analisis": "Mercado de valor para proteger el capital en caso de empate. Superioridad técnica clara en el mediocampo de los favoritos."
     },
     "tip_bonus": {
-        "partidos": ["Real Madrid (Gana)", "Arsenal (Gana)", "PSG (Gana)"],
+        "partidos": [
+            "Real Madrid (Gana)",
+            "Arsenal (Gana)",
+            "PSG (Gana)"
+        ],
         "cuota_total": "1.68",
         "stake": "10/10",
         "analisis": "Apuesta Maestra: Los tres grandes necesitan la victoria para asegurar liderato. El algoritmo IA marca un índice de confianza del 94%."
@@ -40,7 +64,11 @@
         "bankroll_actual": "109.70",
         "unidades_ayer": "+4.50",
         "balance_ayer": "GANADA (VERDE)",
-        "partidos_ayer": ["Man. City (V)", "Bayern Munich (V)", "Benfica (V)"],
+        "partidos_ayer": [
+            "Man. City (V)",
+            "Bayern Munich (V)",
+            "Benfica (V)"
+        ],
         "mensaje": "¡Pleno total el domingo! Bankroll actualizado. Hoy lunes buscamos seguir la racha con la combinada Maestra (Madrid, Arsenal y PSG)."
     }
 }
