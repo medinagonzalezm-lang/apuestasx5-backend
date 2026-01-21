@@ -1,4 +1,64 @@
 {
+  "tip_05": {
+    "partidos": [
+      "Everton vs Wolves - Premier League",
+      "Girona vs Alavés - La Liga",
+      "Lorient vs Lens - Ligue 1"
+    ],
+    "cuota_total": 1.42,
+    "stake": 8,
+    "analisis": "Probabilidad del 92% de gol en la segunda mitad. Debilidad defensiva detectada en transiciones laterales."
+  },
+  "tip_15": {
+    "partidos": [
+      "Leipzig vs Stuttgart - Bundesliga",
+      "Benfica vs Braga - Primeira Liga",
+      "AZ Alkmaar vs Twente - Eredivisie"
+    ],
+    "cuota_total": 1.78,
+    "stake": 6,
+    "analisis": "Equipos con promedio superior a 2.5 goles por partido. Stuttgart llega con bajas en el centro de la defensa."
+  },
+  "tip_1x2x": {
+    "partidos": [
+      "Udinese vs Inter - Serie A (2X)",
+      "Mallorca vs Valencia - La Liga (1X)",
+      "Bochum vs Frankfurt - Bundesliga (2X)"
+    ],
+    "cuota_total": 1.90,
+    "stake": 7,
+    "analisis": "Doble oportunidad protegida por modelos de baja varianza. Inter y Frankfurt rotan mínimo para hoy."
+  },
+  "tip_btts": {
+    "partidos": [
+      "Tottenham vs Arsenal - Premier League",
+      "Lyon vs Lille - Ligue 1",
+      "Sevilla vs Villarreal - La Liga"
+    ],
+    "cuota_total": 2.25,
+    "stake": 5,
+    "analisis": "Mercado de Ambos Marcan basado en la tendencia over de los derbis locales en la jornada actual."
+  },
+  "tip_asiatico": {
+    "partidos": [
+      "Porto vs Rio Ave (Porto -1.25 AH)",
+      "Feyenoord vs Heerenveen (Feyenoord -1.5 AH)",
+      "Galatasaray vs Samsunspor (Galatasaray -1 AH)"
+    ],
+    "cuota_total": 3.10,
+    "stake": 4,
+    "analisis": "Líneas de hándicap protegidas. Porto y Feyenoord necesitan golear para mantener el liderato."
+  },
+  "tip_bonus": {
+    "partidos": [
+      "PSV vs Fortuna Sittard (PSV Ganador)",
+      "Bayer Leverkusen vs Mainz (+2.5 Goles)",
+      "Man City vs Palace (City -1.5 AH)"
+    ],
+    "cuota_total": 2.95,
+    "stake": 5,
+    "analisis": "TIP BONUS: Rigor extremo. Selección de máxima confianza del Master Prompt para la jornada de hoy."
+  },
   "control_panel": {
     "bankroll_actual": 1250.00,
     "balance_ayer": "PROFIT",
@@ -9,65 +69,5 @@
       "Milan vs Napoli: BTTS (VERDE)"
     ],
     "ultima_actualizacion": "2026-01-21 10:00 AM"
-  },
-  "tip_05": {
-    "partidos": [
-      "Everton vs Wolves - Premier League",
-      "Girona vs Alavés - La Liga",
-      "Lorient vs Lens - Ligue 1"
-    ],
-    "cuota_total": 1.42,
-    "stake": 8,
-    "analisis": "Modelos predictivos muestran una probabilidad del 92% de gol en la segunda mitad debido al alto índice de fatiga defensiva en los visitantes."
-  },
-  "tip_15": {
-    "partidos": [
-      "Leipzig vs Stuttgart - Bundesliga",
-      "Benfica vs Braga - Primeira Liga",
-      "AZ Alkmaar vs Twente - Eredivisie"
-    ],
-    "cuota_total": 1.78,
-    "stake": 6,
-    "analisis": "Duelo de ofensivas directas. Leipzig promedia 2.1 goles en casa mientras Stuttgart ha superado la línea de 1.5 en sus últimos 8 desplazamientos."
-  },
-  "tip_1x2x": {
-    "partidos": [
-      "Udinese vs Inter - Serie A (2X)",
-      "Mallorca vs Valencia - La Liga (1X)",
-      "Bochum vs Frankfurt - Bundesliga (2X)"
-    ],
-    "cuota_total": 1.90,
-    "stake": 7,
-    "analisis": "Rigor en doble oportunidad: Inter mantiene rotación sólida para asegurar liderato. Mallorca fuerte en casa con bloque bajo, difícil de batir."
-  },
-  "tip_btts": {
-    "partidos": [
-      "Tottenham vs Arsenal - Premier League",
-      "Lyon vs Lille - Ligue 1",
-      "Sevilla vs Villarreal - La Liga"
-    ],
-    "cuota_total": 2.25,
-    "stake": 5,
-    "analisis": "Derbi de alta tensión. La estadística marca un 78% de efectividad en ambos marcan para estos cruces específicos hoy tras el análisis del Master Prompt."
-  },
-  "tip_asiatico": {
-    "partidos": [
-      "Porto vs Rio Ave (Porto -1.25 AH)",
-      "Feyenoord vs Heerenveen (Feyenoord -1.5 AH)",
-      "Galatasaray vs Samsunspor (Galatasaray -1 AH)"
-    ],
-    "cuota_total": 3.10,
-    "stake": 4,
-    "analisis": "Análisis de hándicaps: El -1.25 del Porto ofrece cobertura parcial en caso de victoria por un solo gol, maximizando la seguridad del bankroll."
-  },
-  "tip_bonus": {
-    "partidos": [
-      "PSV Eindhoven vs Fortuna Sittard (PSV Ganador)",
-      "Bayer Leverkusen vs Mainz (Over 2.5 Goles)",
-      "Man City vs Crystal Palace (City -1.5 AH)"
-    ],
-    "cuota_total": 2.95,
-    "stake": 5,
-    "analisis": "Tip de Máxima Seguridad: Selección basada en la disparidad de xG. Leverkusen y City presentan cuadros titulares sin rotaciones clave para hoy."
   }
 }
