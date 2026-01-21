@@ -48,14 +48,13 @@
     ],
     "cuota_total": 2.25,
     "stake": 5,
-    "analisis": "Derbi de alta tensión y Sevilla-Villarreal con defensas mermadas por bajas. La estadística marca un 78% de efectividad en ambos marcan para estos cruces hoy."
+    "analisis": "Derbi de alta tensión. La estadística marca un 78% de efectividad en ambos marcan para estos cruces específicos hoy tras el análisis del Master Prompt."
   },
   "tip_asiatico": {
     "partidos": [
       "Porto vs Rio Ave (Porto -1.25 AH)",
       "Feyenoord vs Heerenveen (Feyenoord -1.5 AH)",
       "Galatasaray vs Samsunspor (Galatasaray -1 AH)"
-)
     ],
     "cuota_total": 3.10,
     "stake": 4,
@@ -69,6 +68,6 @@
     ],
     "cuota_total": 2.95,
     "stake": 5,
-    "analisis": "Tip de Máxima Seguridad: Selección basada en la disparidad de xG (goles esperados). Leverkusen y City presentan cuadros titulares sin rotaciones clave para hoy."
+    "analisis": "Tip de Máxima Seguridad: Selección basada en la disparidad de xG. Leverkusen y City presentan cuadros titulares sin rotaciones clave para hoy."
   }
 }
