@@ -1,73 +1,69 @@
 {
   "tip_05": {
     "partidos": [
-      "Everton vs Wolves - Premier League",
-      "Girona vs Alavés - La Liga",
-      "Lorient vs Lens - Ligue 1"
+      "Feyenoord vs Sturm Graz - UEFA Europa League",
+      "Bologna vs Celtic - UEFA Europa League",
+      "PAOK vs Real Betis - UEFA Europa League"
     ],
-    "cuota_total": 1.42,
+    "cuota_total": 1.38,
     "stake": 8,
-    "analisis": "Probabilidad del 92% de gol en la segunda mitad. Debilidad defensiva detectada en transiciones laterales."
+    "analisis": "Selección de partidos donde el control del juego y la generación ofensiva tardía es alta según modelos xG, especialmente tras el descanso. Favoritos con defensa rival vulnerable en transiciones posteriores al minuto 60. Kelly sugiere valor positivo con baja varianza."
   },
   "tip_15": {
     "partidos": [
-      "Leipzig vs Stuttgart - Bundesliga",
-      "Benfica vs Braga - Primeira Liga",
-      "AZ Alkmaar vs Twente - Eredivisie"
+      "Freiburg vs Maccabi Tel Aviv - UEFA Europa League",
+      "Viktoria Plzen vs Porto - UEFA Europa League",
+      "Young Boys vs Lyon - UEFA Europa League"
     ],
-    "cuota_total": 1.78,
+    "cuota_total": 1.84,
     "stake": 6,
-    "analisis": "Equipos con promedio superior a 2.5 goles por partido. Stuttgart llega con bajas en el centro de la defensa."
+    "analisis": "Partidos con promedios ofensivos combinados elevados y riesgo moderado. Los modelos xG/xGA muestran mayor probabilidad de que el total supere 1.5 goles por partido. Equipos con necesidad competitiva clara y juego abierto."
   },
   "tip_1x2x": {
     "partidos": [
-      "Udinese vs Inter - Serie A (2X)",
-      "Mallorca vs Valencia - La Liga (1X)",
-      "Bochum vs Frankfurt - Bundesliga (2X)"
+      "Dinamo Zagreb vs FCSB - UEFA Europa League (1X)",
+      "Rangers vs Ludogorets - UEFA Europa League (1X)",
+      "Utrecht vs Genk - UEFA Europa League (1X)"
     ],
-    "cuota_total": 1.90,
+    "cuota_total": 1.89,
     "stake": 7,
-    "analisis": "Doble oportunidad protegida por modelos de baja varianza. Inter y Frankfurt rotan mínimo para hoy."
+    "analisis": "Doble oportunidad elegida para proteger frente a empates probables. Analíticas ELO confirman favoritismos consistentes, pero con escenarios de control conservador evitando sorpresas. Ideal para estabilidad del bankroll."
   },
   "tip_btts": {
     "partidos": [
-      "Tottenham vs Arsenal - Premier League",
-      "Lyon vs Lille - Ligue 1",
-      "Sevilla vs Villarreal - La Liga"
+      "Celta de Vigo vs Lille - UEFA Europa League",
+      "SC Braga vs Nottingham Forest - UEFA Europa League",
+      "Nice vs Go Ahead Eagles - UEFA Europa League"
     ],
-    "cuota_total": 2.25,
+    "cuota_total": 2.22,
     "stake": 5,
-    "analisis": "Mercado de Ambos Marcan basado en la tendencia over de los derbis locales en la jornada actual."
+    "analisis": "BTTS seleccionado tras correlación de generación ofensiva en ambos bandos: los tres partidos muestran xG de ataque mutuo por encima del umbral medio, así como defensas con xGA elevado últimamente. Mercados líquidos y tendencia estable."
   },
   "tip_asiatico": {
     "partidos": [
-      "Porto vs Rio Ave (Porto -1.25 AH)",
-      "Feyenoord vs Heerenveen (Feyenoord -1.5 AH)",
-      "Galatasaray vs Samsunspor (Galatasaray -1 AH)"
+      "Fenerbahce vs Aston Villa (Aston Villa +0.25 AH) - UEFA Europa League",
+      "Brann vs Midtjylland (Brann -0.5 AH) - UEFA Europa League",
+      "Roma vs Stuttgart (Roma -0.75 AH) - UEFA Europa League"
     ],
-    "cuota_total": 3.10,
+    "cuota_total": 3.12,
     "stake": 4,
-    "analisis": "Líneas de hándicap protegidas. Porto y Feyenoord necesitan golear para mantener el liderato."
+    "analisis": "Hándicaps asiáticos aplicados para aprovechar ventaja de nivel y cobertura del riesgo. Los diferenciales ELO y momentum reciente favorecen líneas positivas ligeras para Villa y fuertes para Brann y Roma, con Kelly positivo tras ajustes de mercado."
   },
   "tip_bonus": {
     "partidos": [
-      "PSV vs Fortuna Sittard (PSV Ganador)",
-      "Bayer Leverkusen vs Mainz (+2.5 Goles)",
-      "Man City vs Palace (City -1.5 AH)"
+      "Feyenoord vs Sturm Graz (Feyenoord Ganador) - UEFA Europa League",
+      "Celta de Vigo vs Lille (+1.5 Goles) - UEFA Europa League",
+      "Roma vs Stuttgart (Roma -1 AH) - UEFA Europa League"
     ],
-    "cuota_total": 2.95,
-    "stake": 5,
-    "analisis": "TIP BONUS: Rigor extremo. Selección de máxima confianza del Master Prompt para la jornada de hoy."
+    "cuota_total": 2.67,
+    "stake": 6,
+    "analisis": "TIP BONUS IA combinado – Elección de mercados variados para maximizar probabilidad de acierto: victoria simple clara en partidos dominados por favoritos, over conservador en duelo equilibrado ofensivo y hándicap para cubrir posibles escenarios de victoria ajustada. Todos los picks superan los filtros de Kelly, xG, ELO y momentum."
   },
   "control_panel": {
-    "bankroll_actual": 1250.00,
-    "balance_ayer": "PROFIT",
-    "unidades_ayer": "+3.85",
-    "partidos_ayer": [
-      "Liverpool vs Chelsea: +1.5 Goles (VERDE)",
-      "Real Madrid vs Betis: 1X (VERDE)",
-      "Milan vs Napoli: BTTS (VERDE)"
-    ],
-    "ultima_actualizacion": "2026-01-21 10:00 AM"
+    "bankroll_actual": 103.85,
+    "balance_ayer": "START",
+    "unidades_ayer": "0.00",
+    "partidos_ayer": [],
+    "ultima_actualizacion": "2026-01-22 09:30 AM"
   }
 }
