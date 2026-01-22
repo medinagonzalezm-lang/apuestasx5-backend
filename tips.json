@@ -1,63 +1,63 @@
 {
   "tip_05": {
     "partidos": [
-      "Feyenoord vs Sturm Graz - UEFA Europa League",
-      "Bologna vs Celtic - UEFA Europa League",
-      "PAOK vs Real Betis - UEFA Europa League"
+      "Necaxa W vs Pumas UNAM W (Over 0.5 goles) - Liga MX Femenil",
+      "Central vs Defence Force (Over 0.5 goles) - Pro League Trinidad y Tobago",
+      "San Carlos vs Puntarenas FC (Over 0.5 goles) - Primera División Costa Rica"
     ],
-    "cuota_total": 1.38,
+    "cuota_total": 1.45,
     "stake": 8,
-    "analisis": "Selección de partidos donde el control del juego y la generación ofensiva tardía es alta según modelos xG, especialmente tras el descanso. Favoritos con defensa rival vulnerable en transiciones posteriores al minuto 60. Kelly sugiere valor positivo con baja varianza."
+    "analisis": "Partidos con alta probabilidad de que al menos un gol se produzca en cualquier momento. Equipos con ofensivas activas y defensas vulnerables según modelos xG."
   },
   "tip_15": {
     "partidos": [
-      "Freiburg vs Maccabi Tel Aviv - UEFA Europa League",
-      "Viktoria Plzen vs Porto - UEFA Europa League",
-      "Young Boys vs Lyon - UEFA Europa League"
+      "Toluca W vs Tigres UANL W (Over 1.5 goles) - Liga MX Femenil",
+      "Rondoniense vs Genus (Over 1.5 goles) - Rondoniense Brasil",
+      "Floresta vs Iguatu (Over 1.5 goles) - Cearense 1 Brasil"
     ],
-    "cuota_total": 1.84,
+    "cuota_total": 1.82,
     "stake": 6,
-    "analisis": "Partidos con promedios ofensivos combinados elevados y riesgo moderado. Los modelos xG/xGA muestran mayor probabilidad de que el total supere 1.5 goles por partido. Equipos con necesidad competitiva clara y juego abierto."
+    "analisis": "Partidos con tendencia a marcar múltiples goles. Proyección ofensiva alta, equipos necesitados de puntos y defensas permeables."
   },
   "tip_1x2x": {
     "partidos": [
-      "Dinamo Zagreb vs FCSB - UEFA Europa League (1X)",
-      "Rangers vs Ludogorets - UEFA Europa League (1X)",
-      "Utrecht vs Genk - UEFA Europa League (1X)"
+      "Rancho Santana vs Diriangén (1X) - Primera División Nicaragua",
+      "Argentinos JRS vs Midland (1X) - Copa Argentina",
+      "Ponte Preta vs São Bernardo (2X) - Paulista A1 Brasil"
     ],
-    "cuota_total": 1.89,
+    "cuota_total": 1.88,
     "stake": 7,
-    "analisis": "Doble oportunidad elegida para proteger frente a empates probables. Analíticas ELO confirman favoritismos consistentes, pero con escenarios de control conservador evitando sorpresas. Ideal para estabilidad del bankroll."
+    "analisis": "Doble oportunidad para cubrir escenarios de empate o ligera ventaja del favorito. ELO y análisis de forma recientes respaldan esta cobertura conservadora."
   },
   "tip_btts": {
     "partidos": [
-      "Celta de Vigo vs Lille - UEFA Europa League",
-      "SC Braga vs Nottingham Forest - UEFA Europa League",
-      "Nice vs Go Ahead Eagles - UEFA Europa League"
+      "América Mineiro vs Atlético-MG (BTTS Sí) - Mineiro 1 Brasil",
+      "Flamengo vs Vasco DA Gama (BTTS Sí) - Carioca 1 Brasil",
+      "Santa Fe vs Junior (BTTS Sí) - Superliga Colombia"
     ],
-    "cuota_total": 2.22,
+    "cuota_total": 2.25,
     "stake": 5,
-    "analisis": "BTTS seleccionado tras correlación de generación ofensiva en ambos bandos: los tres partidos muestran xG de ataque mutuo por encima del umbral medio, así como defensas con xGA elevado últimamente. Mercados líquidos y tendencia estable."
+    "analisis": "Ambos equipos muestran capacidad ofensiva sostenida y vulnerabilidad defensiva según xG/xGA. Alta probabilidad de goles en ambos lados."
   },
   "tip_asiatico": {
     "partidos": [
-      "Fenerbahce vs Aston Villa (Aston Villa +0.25 AH) - UEFA Europa League",
-      "Brann vs Midtjylland (Brann -0.5 AH) - UEFA Europa League",
-      "Roma vs Stuttgart (Roma -0.75 AH) - UEFA Europa League"
+      "Tractor Sazi vs Mes Rafsanjan (Tractor Sazi +0.5 AH) - Persian Gulf Pro League Irán",
+      "Al-Raed vs Al-Adalah (Al-Raed -0.5 AH) - Division 1 Arabia Saudita",
+      "Wadi Degla vs Ghazl El Mehalla (Wadi Degla +0.5 AH) - Premier League Egipto"
     ],
-    "cuota_total": 3.12,
+    "cuota_total": 3.10,
     "stake": 4,
-    "analisis": "Hándicaps asiáticos aplicados para aprovechar ventaja de nivel y cobertura del riesgo. Los diferenciales ELO y momentum reciente favorecen líneas positivas ligeras para Villa y fuertes para Brann y Roma, con Kelly positivo tras ajustes de mercado."
+    "analisis": "Hándicaps asiáticos para cubrir riesgo y aprovechar favoritismo. Diferenciales de nivel y momentum reciente favorecen estas líneas."
   },
   "tip_bonus": {
     "partidos": [
-      "Feyenoord vs Sturm Graz (Feyenoord Ganador) - UEFA Europa League",
-      "Celta de Vigo vs Lille (+1.5 Goles) - UEFA Europa League",
-      "Roma vs Stuttgart (Roma -1 AH) - UEFA Europa League"
+      "Guadalajara W vs Querétaro W (Over 0.5 goles) - Liga MX Femenil",
+      "Chapelton vs Waterhouse (1X) - Premier League Jamaica",
+      "Malmo FF vs FK Crvena Zvezda (BTTS Sí) - UEFA Europa League"
     ],
-    "cuota_total": 2.67,
+    "cuota_total": 2.65,
     "stake": 6,
-    "analisis": "TIP BONUS IA combinado – Elección de mercados variados para maximizar probabilidad de acierto: victoria simple clara en partidos dominados por favoritos, over conservador en duelo equilibrado ofensivo y hándicap para cubrir posibles escenarios de victoria ajustada. Todos los picks superan los filtros de Kelly, xG, ELO y momentum."
+    "analisis": "TIP BONUS IA: combinaciones conservadoras y equilibradas entre over, BTTS y doble oportunidad para maximizar acierto con riesgo moderado."
   },
   "control_panel": {
     "bankroll_actual": 103.85,
