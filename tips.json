@@ -1,46 +1,46 @@
 {
   "tip_05": {
     "partidos": [
-      "Scarborough Athletic vs Kidderminster Harriers (15:00)",
-      "Southport vs Merthyr Town (15:00)",
-      "Worksop Town vs Macclesfield (15:00)"
+      "Scarborough Athletic vs Kidderminster Harriers (16:00)",
+      "Southport vs Merthyr Town (16:00)",
+      "Worksop Town vs Macclesfield (16:00)"
     ],
     "cuota_total": "1.55",
     "stake": "7/10",
-    "analisis": "ESTRATEGIA DE GOL EN DIRECTO\n\nFiltro aplicado sobre la National League North. Equipos con alta tendencia a goles en la segunda mitad y ritmos de juego elevados."
+    "analisis": "ESTRATEGIA DE GOL EN DIRECTO\n\nFiltro aplicado sobre ligas regionales inglesas. Alta probabilidad de gol basada en el ritmo de transiciones tras el descanso."
   },
 
   "tip_15": {
     "partidos": [
       "Girona vs Espanyol (18:30)",
       "Stoke City vs Oxford United (16:00)",
-      "Gala Fairydean Rovers vs Albion Rovers (15:00)"
+      "Gala Fairydean Rovers vs Albion Rovers (16:00)"
     ],
     "cuota_total": "1.75",
     "stake": "6/10",
-    "analisis": "OVER 1.5 - VENTANA TARDE\n\nEl modelo detecta una probabilidad del 85% para el over 1.5 en el derbi catalán, complementado con ligas británicas de alta verticalidad."
+    "analisis": "OVER 1.5 - VENTANA TARDE\n\nEl derbi catalán y la verticalidad de la Championship inglesa aseguran volumen de ocasiones en las áreas."
   },
 
   "tip_1x2x": {
     "partidos": [
-      "Olympique Lyonnais II vs Seyssinet-Pariset (1X) (17:00)",
+      "Olympique Lyonnais II vs Seyssinet (1X) (17:00)",
       "Olympique Marseille II vs Stade Beaucairois (1X) (17:00)",
       "Rayo Vallecano II vs Fuenlabrada (1X) (17:00)"
     ],
     "cuota_total": "1.68",
     "stake": "8/10",
-    "analisis": "FORTALEZA LOCAL EUROPEA\n\nTriple selección de filiales en Francia y España. Los locales mantienen un registro de imbatibilidad superior al 80% en sus estadios."
+    "analisis": "FORTALEZA LOCAL EUROPEA\n\nTriple selección de filiales. Los locales presentan un 85% de imbatibilidad según el modelo de Poisson ajustado."
   },
 
   "tip_btts": {
     "partidos": [
-      "Hanwell Town vs Gosport Borough (BTTS Sí) (15:00)",
-      "Basingstoke Town vs Weymouth (BTTS Sí) (15:00)",
-      "Gloucester City vs Tiverton Town (BTTS Sí) (15:00)"
+      "Hanwell Town vs Gosport Borough (BTTS Sí) (16:00)",
+      "Basingstoke Town vs Weymouth (BTTS Sí) (16:00)",
+      "Gloucester City vs Tiverton Town (BTTS Sí) (16:00)"
     ],
     "cuota_total": "1.88",
     "stake": "6/10",
-    "analisis": "AMBOS MARCAN\n\nLigas regionales inglesas con defensas permisivas. Los datos históricos de esta jornada muestran una alta correlación de goles en ambas porterías."
+    "analisis": "AMBOS MARCAN\n\nCruces con defensas permisivas en la Non-League. Las cuotas muestran valor por la tendencia ofensiva de los visitantes."
   },
 
   "tip_asiatico": {
@@ -50,7 +50,7 @@
     ],
     "cuota_total": "1.82",
     "stake": "7/10",
-    "analisis": "HANDICAP ASIÁTICO IA\n\nAjuste de líneas conservador. El hándicap del Rennes ofrece protección parcial ante una victoria ajustada, manteniendo un valor esperado positivo."
+    "analisis": "HANDICAP ASIÁTICO IA\n\nAjuste de líneas conservador para maximizar EV positivo y reducir la varianza en ligas de alta competitividad."
   },
 
   "tip_bonus": {
@@ -60,15 +60,15 @@
     ],
     "cuota_total": "2.15",
     "stake": "7/10",
-    "analisis": "TIP BONUS IA DEL DÍA\n\nSelección de máxima fiabilidad. El hándicap asiático 0 en el clásico de Paraguay y la doble oportunidad en Marruecos garantizan un riesgo controlado. Casi infalible."
+    "analisis": "TIP BONUS IA DEL DÍA\n\nSelección de máxima confianza. El hándicap 0 en Paraguay blinda el capital ante empate. Gestión responsable post-fallo."
   },
 
   "control_panel": {
     "bankroll_actual": "88.85",
     "balance_ayer": "98.85",
     "unidades_ayer": "-10.00",
-    "partidos_ayer": "❌ Fallo Tip Bonus previo"
+    "partidos_ayer": "❌ TIP BONUS (Fallo Stake 10)"
   },
 
-  "ultima_actualizacion": "2026-01-24 14:30"
+  "ultima_actualizacion": "2026-01-24 13:15"
 }
