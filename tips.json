@@ -1,70 +1,76 @@
 {
   "tip_05": {
     "partidos": [
-      "Zitacuaro vs Gavilanes FC Matamoros",
-      "Cañoneros Marina vs Héroes de Zaci",
-      "Tepatitlán vs Tapatío"
+      "Zitacuaro vs Gavilanes FC Matamoros (01:00)",
+      "Cañoneros Marina vs Héroes de Zaci (01:00)",
+      "Tepatitlán vs Tapatío (01:00)"
     ],
-    "cuota": "1.82",
+    "cuota_total": "1.82",
     "stake": "6/10",
-    "analisis": "Análisis Tip + 0.5 IA: Rigor en ligas mexicanas[cite: 1]. Probabilidad del 88% de gol. Stake moderado para proteger el bankroll."
+    "analisis": "ESTRATEGIA DE GOL EN DIRECTO\n\nFiltro aplicado sobre ligas mexicanas (Premier y Expansión) con alta tendencia a goles tempranos. Probabilidad estadística de gol superior al 88%."
   },
+
   "tip_15": {
     "partidos": [
-      "Trinidad and Tobago U20 vs Grenada U20",
-      "Stoke City vs Oxford United",
-      "Girona vs Espanyol"
+      "Trinidad and Tobago U20 vs Grenada U20 (00:00)",
+      "Stoke City vs Oxford United (16:00)",
+      "Girona vs Espanyol (18:30)"
     ],
-    "cuota": "1.95",
+    "cuota_total": "1.95",
     "stake": "6/10",
-    "analisis": "Análisis Tip + 1.5 IA: Basado en tendencia vertical. Girona en casa es garantía de goles[cite: 1, 4]."
+    "analisis": "OVER 1.5 - VENTANA JORNADA\n\nEl estilo vertical del Girona y la fragilidad defensiva del fútbol juvenil Sub-20 aseguran un escenario propicio para el mercado de goles."
   },
+
   "tip_1x2x": {
     "partidos": [
       "Princesa Solimões vs JC (1X)",
       "Inter vs Cacahuatique (1X)",
       "Transvaal vs Robin Hood (X2)"
     ],
-    "cuota": "2.15",
+    "cuota_total": "2.15",
     "stake": "5/10",
-    "analisis": "Análisis Tip 1X o 2X IA: Doble oportunidad en mercados regionales[cite: 1]. Se prioriza la imbatibilidad local."
+    "analisis": "FORTALEZA LOCAL E INTERNACIONAL\n\nSelección basada en la imbatibilidad local en el Amazonas y El Salvador. Doble oportunidad para blindar la combinada ante empates tácticos."
   },
+
   "tip_btts": {
     "partidos": [
-      "Brisbane Roar vs Adelaide United",
-      "West Ham vs Sunderland",
-      "Valencia vs Espanyol"
+      "Brisbane Roar vs Adelaide United (BTTS Sí)",
+      "West Ham vs Sunderland (BTTS Sí)",
+      "Valencia vs Espanyol (BTTS Sí)"
     ],
-    "cuota": "4.10",
+    "cuota_total": "4.10",
     "stake": "4/10",
-    "analisis": "Análisis Tip BTTS IA: Alta cuota para buscar valor. Australia y Premier League lideran este mercado[cite: 1, 34]."
+    "analisis": "AMBOS MARCAN\n\nLa A-League australiana lidera este mercado. Cruces con alta correlación ofensiva y defensas que conceden espacios en transiciones rápidas."
   },
+
   "tip_asiatico": {
     "partidos": [
       "Moreirense vs Santa Clara (AH 0)",
       "Rennes vs Lorient (AH -0.75)",
       "Middlesbrough vs Preston (AH -0.25)"
     ],
-    "cuota": "3.90",
+    "cuota_total": "3.90",
     "stake": "6/10",
-    "analisis": "Análisis Tip Asiático IA: Hándicaps para minimizar volatilidad. El AH 0 en Portugal es nuestra red de seguridad[cite: 34]."
+    "analisis": "HANDICAP ASIÁTICO IA\n\nUso de hándicaps para minimizar la varianza. El AH 0 en Portugal nos devuelve la inversión íntegra en caso de empate, maximizando el EV positivo."
   },
+
   "tip_bonus": {
     "partidos": [
-      "Cerro Porteno vs Libertad (AH 0)",
+      "Cerro Porteno vs Libertad Asuncion (AH 0)",
       "Bali United vs Semen Padang (1)",
-      "Juticalpa vs Atl. Choloma (1X)"
+      "Juticalpa vs Atlético Choloma (1X)"
     ],
-    "cuota": "2.85",
+    "cuota_total": "2.85",
     "stake": "7/10",
-    "analisis": "Análisis Tip Bonus IA: Gestión responsable post-fallo. Usamos AH 0 en Paraguay [cite: 1, 193] y victoria de Bali United en Indonesia por rigor defensivo[cite: 193]. Casi infalible."
+    "analisis": "TIP BONUS IA DEL DÍA\n\nGestión responsable post-fallo. Selecciones con superioridad táctica clara. Usamos el AH 0 en el clásico paraguayo para blindar el acierto. Casi infalible."
   },
+
   "control_panel": {
-    "partidos_ayer": [
-      "✅ Al-Nassr 2-1 Al-Fateh",
-      "✅ Lyon 3-0 Montpellier",
-      "❌ TIP BONUS IA (Fallo -10 pts)"
-    ],
-    "total_acumulado": "88.85"
-  }
+    "bankroll_actual": "88.85",
+    "balance_ayer": "98.85",
+    "unidades_ayer": "-10.00",
+    "partidos_ayer": "❌ TIP BONUS IA (Fallo Stake 10)"
+  },
+
+  "ultima_actualizacion": "2026-01-24 10:00"
 }
