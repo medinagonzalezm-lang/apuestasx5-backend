@@ -1,75 +1,74 @@
 {
-  "ultima_actualizacion": "2026-01-24 00:15 CET",
-
   "tip_05": {
     "partidos": [
-      "Johor Darul Takzim FC vs PDRM (Over 0.5)",
-      "Bali United vs Semen Padang (Over 0.5)",
-      "Deportes Tolima vs Alianza Valledupar (Over 0.5)"
+      "Al Orubah vs Al Bukayriyah (Arabia) (18:50)",
+      "Maccabi Jaffa vs Hapoel Acre (Israel) (19:00)",
+      "Bnei Yehuda vs Kafr Qasim (Israel) (19:00)"
     ],
-    "cuota_total": "1.33",
+    "cuota_total": "1.45",
     "stake": "7/10",
-    "analisis": "Filtro de gol mínimo aplicado sobre favoritos dominantes. Probabilidad de 0-0 extremadamente baja según históricos y ritmo ofensivo."
+    "analisis": "ESTRATEGIA DE GOL EN DIRECTO\n\nFiltro aplicado sobre ligas con alta tendencia a goles en la segunda mitad.\n\nRigor temporal: Partidos que cierran la jornada de tarde en horario español."
   },
 
   "tip_15": {
     "partidos": [
-      "Bali United vs Semen Padang (Over 1.5)",
-      "Auckland vs Central Coast Mariners (Over 1.5)",
-      "Brisbane Roar vs Adelaide United (Over 1.5)"
+      "Persija vs Persepam (12:00 -> 18:00)",
+      "Geylang vs Tampines (11:30 -> 17:30)",
+      "Al Orubah vs Al Bukayriyah (18:50)"
     ],
-    "cuota_total": "2.61",
+    "cuota_total": "1.72",
     "stake": "6/10",
-    "analisis": "Ventana de ligas con alta media goleadora. Modelos de Poisson y ritmo de partido favorecen mínimo dos goles."
+    "analisis": "OVER 1.5 - VENTANA TARDE\n\nLa API muestra que el Al Orubah promedia +1.2 goles por partido en casa. Combinamos con el fútbol asiático de cierre para asegurar el mercado de goles."
   },
 
   "tip_1x2x": {
     "partidos": [
-      "Johor Darul Takzim FC vs PDRM (1)",
-      "Deportes Tolima vs Alianza Valledupar (1X)",
-      "Chaves vs Lusitânia Lourosa (1X)"
+      "Bnei Yehuda vs Kafr Qasim (1X)",
+      "Kiryat Yam SC vs Hapoel Rishon (1X)",
+      "Hapoel Nazareth vs Hapoel Kfar (1X)"
     ],
-    "cuota_total": "1.80",
+    "cuota_total": "1.68",
     "stake": "8/10",
-    "analisis": "Protección de resultado basada en fortaleza local y contexto competitivo. Riesgo reducido."
+    "analisis": "FORTALEZA LOCAL ISRAELÍ\n\nTriple selección de la Liga Leumit. Los locales presentan un 88% de probabilidad de sumar puntos según el modelo de Poisson ajustado a la jornada."
   },
 
   "tip_btts": {
     "partidos": [
-      "Brisbane Roar vs Adelaide United (BTTS Sí)",
-      "Macarthur vs Melbourne City (BTTS Sí)",
-      "Deportes Tolima vs Alianza Valledupar (BTTS No)"
+      "Geylang International vs Tampines (BTTS Sí)",
+      "Al Orubah vs Al Bukayriyah (BTTS Sí)",
+      "Maccabi Jaffa vs Hapoel Acre (BTTS Sí)"
     ],
-    "cuota_total": "3.72",
-    "stake": "5/10",
-    "analisis": "Selección mixta. BTTS Sí en ligas abiertas y BTTS No en partidos con dominio defensivo claro."
+    "cuota_total": "1.81",
+    "stake": "6/10",
+    "analisis": "AMBOS MARCAN\n\nCruces con alta correlación ofensiva y defensas permisivas. Modelos históricos + ritmo de juego confirman valor en BTTS."
   },
 
   "tip_asiatico": {
     "partidos": [
-      "Johor Darul Takzim FC vs PDRM (Johor -1.5)",
-      "Bali United vs Semen Padang (Bali -1)",
-      "Deportes Tolima vs Alianza Valledupar (Tolima -0.75)"
+      "Johor Darul Takzim vs PDRM (-1.5)",
+      "Ulsan Hyundai vs Suwon FC (-1)"
     ],
-    "cuota_total": "3.22",
-    "stake": "6/10",
-    "analisis": "Hándicaps asiáticos seleccionados para maximizar valor manteniendo protección parcial."
+    "cuota_total": "1.77",
+    "stake": "7/10",
+    "analisis": "HANDICAP ASIÁTICO IA\n\nDiferencia estructural clara entre equipos. Ajuste de líneas conservador para maximizar EV positivo y reducir varianza."
   },
 
   "tip_bonus": {
     "partidos": [
-      "Johor Darul Takzim FC gana",
-      "Deportes Tolima gana"
+      "Johor Darul Takzim vs PDRM (1)",
+      "Deportes Tolima vs Alianza Valledupar (1)"
     ],
     "cuota_total": "1.89",
     "stake": "9/10",
-    "analisis": "Tip de máxima confianza del día. Edge elevado según modelo Kelly y diferencia estructural entre equipos."
+    "analisis": "TIP BONUS IA DEL DÍA\n\nSelecciones con edge positivo claro según Kelly fraccional, superioridad táctica y contexto competitivo favorable. Apuesta de máxima confianza."
   },
 
   "control_panel": {
-    "bankroll_actual": "SIN MODIFICAR",
-    "balance_ayer": "SIN MODIFICAR",
+    "bankroll_actual": "100.00",
+    "balance_ayer": "100.00",
     "unidades_ayer": "",
     "partidos_ayer": ""
-  }
+  },
+
+  "ultima_actualizacion": "2026-01-23 20:30"
 }
