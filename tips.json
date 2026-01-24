@@ -7,7 +7,7 @@
     ],
     "cuota": "1.82",
     "stake": "6/10",
-    "analisis": "Análisis Tip + 0.5 IA: Rigor en ligas mexicanas. Probabilidad del 88% de gol. Stake moderado para proteger el bankroll tras volatilidad reciente."
+    "analisis": "Análisis Tip + 0.5 IA: Rigor en ligas mexicanas[cite: 1]. Probabilidad del 88% de gol. Stake moderado para proteger el bankroll."
   },
   "tip_15": {
     "partidos": [
@@ -17,7 +17,7 @@
     ],
     "cuota": "1.95",
     "stake": "6/10",
-    "analisis": "Análisis Tip + 1.5 IA: Estructura basada en tendencia vertical. Girona en casa es garantía de goles, apoyado por la volatilidad del fútbol juvenil."
+    "analisis": "Análisis Tip + 1.5 IA: Basado en tendencia vertical. Girona en casa es garantía de goles[cite: 1, 4]."
   },
   "tip_1x2x": {
     "partidos": [
@@ -27,7 +27,7 @@
     ],
     "cuota": "2.15",
     "stake": "5/10",
-    "analisis": "Análisis Tip 1X o 2X IA: Doble oportunidad en mercados regionales. Se prioriza la imbatibilidad local para reducir la varianza."
+    "analisis": "Análisis Tip 1X o 2X IA: Doble oportunidad en mercados regionales[cite: 1]. Se prioriza la imbatibilidad local."
   },
   "tip_btts": {
     "partidos": [
@@ -37,7 +37,7 @@
     ],
     "cuota": "4.10",
     "stake": "4/10",
-    "analisis": "Análisis Tip BTTS IA: Alta cuota para buscar valor. Stake bajo debido a la naturaleza incierta de los mercados de ambos anotan."
+    "analisis": "Análisis Tip BTTS IA: Alta cuota para buscar valor. Australia y Premier League lideran este mercado[cite: 1, 34]."
   },
   "tip_asiatico": {
     "partidos": [
@@ -47,7 +47,7 @@
     ],
     "cuota": "3.90",
     "stake": "6/10",
-    "analisis": "Análisis Tip Asiático IA: Selección técnica para minimizar pérdidas. El AH 0 en Portugal es nuestra red de seguridad principal."
+    "analisis": "Análisis Tip Asiático IA: Hándicaps para minimizar volatilidad. El AH 0 en Portugal es nuestra red de seguridad[cite: 34]."
   },
   "tip_bonus": {
     "partidos": [
@@ -57,7 +57,7 @@
     ],
     "cuota": "2.85",
     "stake": "7/10",
-    "analisis": "Análisis Tip Bonus IA: Gestión responsable post-fallo. Bajamos a Stake 7/10 para estabilizar la banca. Usamos AH 0 en el clásico paraguayo por rigor defensivo. Casi infalible."
+    "analisis": "Análisis Tip Bonus IA: Gestión responsable post-fallo. Usamos AH 0 en Paraguay [cite: 1, 193] y victoria de Bali United en Indonesia por rigor defensivo[cite: 193]. Casi infalible."
   },
   "control_panel": {
     "partidos_ayer": [
@@ -66,3 +66,5 @@
       "❌ TIP BONUS IA (Fallo -10 pts)"
     ],
     "total_acumulado": "88.85"
+  }
+}
