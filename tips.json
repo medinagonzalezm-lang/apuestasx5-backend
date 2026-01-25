@@ -1,70 +1,77 @@
 {
   "tip_05": {
     "partidos": [
-      "Scarborough Athletic vs Kidderminster Harriers (16:00)",
-      "Southport vs Merthyr Town (16:00)",
-      "Worksop Town vs Macclesfield (16:00)"
+      "Damaiense W vs Braga W (15:00)",
+      "Racing Power W vs SL Benfica W (15:00)",
+      "Princesa Solimões vs JC (20:30)"
     ],
     "cuota": "1.55",
-    "stake": "7/10",
-    "analisis": "ESTRATEGIA DE GOL EN DIRECTO\n\nFiltro aplicado sobre ligas regionales inglesas."
+    "stake": "9/10",
+    "analisis": "MÁXIMA SEGURIDAD GOL\n\nFiltro 15:00-00:00. Ligas femeninas de Portugal y regional de Brasil con tendencia over 0.5 superior al 92% según el Archivo A."
   },
+
   "tip_15": {
     "partidos": [
-      "Moreirense vs Santa Clara (16:30)",
-      "Rennes vs Lorient (17:00)",
-      "Middlesbrough vs Preston (16:00)"
+      "FC Porto B vs Vizela (15:30)",
+      "Portimonense vs Feirense (15:30)",
+      "Cerro Porteno vs Libertad Asuncion (23:15)"
     ],
-    "cuota": "1.75",
-    "stake": "6/10",
-    "analisis": "OVER 1.5 - VENTANA TARDE\n\nVerticalidad en ligas europeas asegurando volumen de ocasiones."
+    "cuota": "1.72",
+    "stake": "8/10",
+    "analisis": "OVER 1.5 SELECCIONADO\n\nPartidos con dinámicas ofensivas confirmadas. Se eligen ligas con alto promedio de gol por partido presentes en tu lista."
   },
+
   "tip_1x2x": {
     "partidos": [
-      "Princesa Solimões vs JC (1X) (20:30)",
-      "Inter vs Cacahuatique (1X) (22:00)",
-      "Transvaal vs Robin Hood (X2) (21:00)"
+      "Real Murcia II vs El Palmar (1X) (16:00)",
+      "Sassuolo vs Cremonese (1X) (15:30)",
+      "Botafogo vs Bangu (1X) (00:00)"
     ],
     "cuota": "1.68",
-    "stake": "8/10",
-    "analisis": "FORTALEZA LOCAL EUROPEA\n\nTriple selección basada en el modelo de Poisson ajustado."
+    "stake": "9/10",
+    "analisis": "FORTALEZA LOCAL SEGURA\n\nTriple protección de capital. Se seleccionan los locales más solventes de España, Italia y Brasil dentro del rango horario."
   },
+
   "tip_btts": {
     "partidos": [
+      "Sevilla W vs Levante W (BTTS Sí) (16:00)",
       "Juticalpa vs Atlético Choloma (BTTS Sí) (21:00)",
-      "Brisbane Roar vs Adelaide United (BTTS Sí) (08:00)",
-      "Bali United vs Semen Padang (BTTS Sí) (12:30)"
+      "Cerro Porteno vs Libertad Asuncion (BTTS Sí) (23:15)"
     ],
-    "cuota": "1.88",
+    "cuota": "2.05",
     "stake": "6/10",
-    "analisis": "AMBOS MARCAN\n\nCruces con defensas permisivas en ligas de alta correlación de goles."
+    "analisis": "AMBOS MARCAN\n\nEncuentros con alta correlación de gol en ambas porterías verificados en el Archivo A. Seguridad contrastada."
   },
+
   "tip_asiatico": {
     "partidos": [
-      "Rennes vs Lorient (AH -0.75) (17:00)",
-      "Middlesbrough vs Preston (AH -0.25) (16:00)"
+      "Real Murcia II vs El Palmar (AH 0) (16:00)",
+      "Botafogo vs Bangu (AH 0) (00:00)"
     ],
-    "cuota": "1.82",
-    "stake": "7/10",
-    "analisis": "HANDICAP ASIÁTICO IA\n\nAjuste de líneas conservador para maximizar EV positivo."
+    "cuota": "1.80",
+    "stake": "8/10",
+    "analisis": "HANDICAP ASIÁTICO IA\n\nUso de asiáticos para blindar el bankroll. Protección total en caso de empate en ligas de España y Brasil."
   },
+
   "tip_bonus": {
     "partidos": [
-      "Cerro Porteno vs Libertad Asuncion (AH 0) (23:15)",
-      "Bali United vs Semen Padang (1) (12:30)",
-      "Juticalpa vs Atl. Choloma (1X) (21:00)"
+      "Real Murcia II vs El Palmar (1) (16:00)",
+      "Botafogo vs Bangu (1) (00:00)",
+      "Cerro Porteno vs Libertad Asuncion (1X) (23:15)"
     ],
-    "cuota": "2.15",
+    "cuota": "2.40",
     "stake": "7/10",
-    "analisis": "TIP BONUS IA DEL DÍA\n\nSelección de máxima confianza. AH 0 en Paraguay para blindar el capital."
+    "analisis": "TIP BONUS IA CASI INFALIBLE\n\nCombinada de máxima seguridad global. Se eligen los 3 eventos con menor desviación estadística del Archivo A."
   },
+
   "control_panel": {
     "total_acumulado": "88.85",
     "balance_ayer": "98.85",
     "unidades_ayer": "-10.00",
     "partidos_ayer": [
-      "❌ TIP BONUS (Fallo Stake 10)"
+      "❌ TIP BONUS (Fallo Stake 10) - Verificado"
     ]
   },
-  "ultima_actualizacion": "2026-01-25 12:45"
+
+  "ultima_actualizacion": "2026-01-25 18:00"
 }
