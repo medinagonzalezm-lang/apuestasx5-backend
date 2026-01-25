@@ -5,70 +5,66 @@
       "Southport vs Merthyr Town (16:00)",
       "Worksop Town vs Macclesfield (16:00)"
     ],
-    "cuota_total": "1.55",
+    "cuota": "1.55",
     "stake": "7/10",
-    "analisis": "ESTRATEGIA DE GOL EN DIRECTO\n\nFiltro aplicado sobre ligas regionales inglesas. Alta probabilidad de gol basada en el ritmo de transiciones tras el descanso."
+    "analisis": "ESTRATEGIA DE GOL EN DIRECTO\n\nFiltro aplicado sobre ligas regionales inglesas."
   },
-
   "tip_15": {
     "partidos": [
-      "Girona vs Espanyol (18:30)",
-      "Stoke City vs Oxford United (16:00)",
-      "Gala Fairydean Rovers vs Albion Rovers (16:00)"
+      "Moreirense vs Santa Clara (16:30)",
+      "Rennes vs Lorient (17:00)",
+      "Middlesbrough vs Preston (16:00)"
     ],
-    "cuota_total": "1.75",
+    "cuota": "1.75",
     "stake": "6/10",
-    "analisis": "OVER 1.5 - VENTANA TARDE\n\nEl derbi catalán y la verticalidad de la Championship inglesa aseguran volumen de ocasiones en las áreas."
+    "analisis": "OVER 1.5 - VENTANA TARDE\n\nVerticalidad en ligas europeas asegurando volumen de ocasiones."
   },
-
   "tip_1x2x": {
     "partidos": [
-      "Olympique Lyonnais II vs Seyssinet (1X) (17:00)",
-      "Olympique Marseille II vs Stade Beaucairois (1X) (17:00)",
-      "Rayo Vallecano II vs Fuenlabrada (1X) (17:00)"
+      "Princesa Solimões vs JC (1X) (20:30)",
+      "Inter vs Cacahuatique (1X) (22:00)",
+      "Transvaal vs Robin Hood (X2) (21:00)"
     ],
-    "cuota_total": "1.68",
+    "cuota": "1.68",
     "stake": "8/10",
-    "analisis": "FORTALEZA LOCAL EUROPEA\n\nTriple selección de filiales. Los locales presentan un 85% de imbatibilidad según el modelo de Poisson ajustado."
+    "analisis": "FORTALEZA LOCAL EUROPEA\n\nTriple selección basada en el modelo de Poisson ajustado."
   },
-
   "tip_btts": {
     "partidos": [
-      "Hanwell Town vs Gosport Borough (BTTS Sí) (16:00)",
-      "Basingstoke Town vs Weymouth (BTTS Sí) (16:00)",
-      "Gloucester City vs Tiverton Town (BTTS Sí) (16:00)"
+      "Juticalpa vs Atlético Choloma (BTTS Sí) (21:00)",
+      "Brisbane Roar vs Adelaide United (BTTS Sí) (08:00)",
+      "Bali United vs Semen Padang (BTTS Sí) (12:30)"
     ],
-    "cuota_total": "1.88",
+    "cuota": "1.88",
     "stake": "6/10",
-    "analisis": "AMBOS MARCAN\n\nCruces con defensas permisivas en la Non-League. Las cuotas muestran valor por la tendencia ofensiva de los visitantes."
+    "analisis": "AMBOS MARCAN\n\nCruces con defensas permisivas en ligas de alta correlación de goles."
   },
-
   "tip_asiatico": {
     "partidos": [
       "Rennes vs Lorient (AH -0.75) (17:00)",
       "Middlesbrough vs Preston (AH -0.25) (16:00)"
     ],
-    "cuota_total": "1.82",
+    "cuota": "1.82",
     "stake": "7/10",
-    "analisis": "HANDICAP ASIÁTICO IA\n\nAjuste de líneas conservador para maximizar EV positivo y reducir la varianza en ligas de alta competitividad."
+    "analisis": "HANDICAP ASIÁTICO IA\n\nAjuste de líneas conservador para maximizar EV positivo."
   },
-
   "tip_bonus": {
     "partidos": [
       "Cerro Porteno vs Libertad Asuncion (AH 0) (23:15)",
-      "Maghreb Fès vs Raja Casablanca (X2) (17:00)"
+      "Bali United vs Semen Padang (1) (12:30)",
+      "Juticalpa vs Atl. Choloma (1X) (21:00)"
     ],
-    "cuota_total": "2.15",
+    "cuota": "2.15",
     "stake": "7/10",
-    "analisis": "TIP BONUS IA DEL DÍA\n\nSelección de máxima confianza. El hándicap 0 en Paraguay blinda el capital ante empate. Gestión responsable post-fallo."
+    "analisis": "TIP BONUS IA DEL DÍA\n\nSelección de máxima confianza. AH 0 en Paraguay para blindar el capital."
   },
-
   "control_panel": {
-    "bankroll_actual": "88.85",
+    "total_acumulado": "88.85",
     "balance_ayer": "98.85",
     "unidades_ayer": "-10.00",
-    "partidos_ayer": "❌ TIP BONUS (Fallo Stake 10)"
+    "partidos_ayer": [
+      "❌ TIP BONUS (Fallo Stake 10)"
+    ]
   },
-
-  "ultima_actualizacion": "2026-01-24 13:15"
+  "ultima_actualizacion": "2026-01-25 12:45"
 }
