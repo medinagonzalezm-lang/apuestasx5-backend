@@ -7,7 +7,7 @@
     ],
     "cuota_total": "1.45",
     "stake": "5/10",
-    "analisis": "Mercado de alta probabilidad. Probabilidad estadística de gol en primera mitad superior al 85% según datos del Archivo A."
+    "analisis": "ESTABILIDAD EUROPEA\n\nBuscamos liquidez en ligas mayores.\nProbabilidad de gol superior al 85%."
   },
   "tip_15": {
     "partidos": [
@@ -17,7 +17,7 @@
     ],
     "cuota_total": "1.82",
     "stake": "4/10",
-    "analisis": "Ligas de filiales con alta eficiencia ofensiva. El modelo detecta valor en la línea de 1.5 goles por partido."
+    "analisis": "DINÁMICA OFENSIVA\n\nLigas de filiales con alta eficacia.\nFiltro de ataques por minuto verificado."
   },
   "tip_1x2x": {
     "partidos": [
@@ -27,7 +27,7 @@
     ],
     "cuota_total": "1.95",
     "stake": "6/10",
-    "analisis": "Doble oportunidad técnica. Fortaleza y Al-Nassr presentan localías con un índice de victorias superior al 70%."
+    "analisis": "FORTALEZA LOCAL\n\nProteccion de capital tras jornada previa.\nLocales con exito superior al 70%."
   },
   "tip_btts": {
     "partidos": [
@@ -37,7 +37,7 @@
     ],
     "cuota_total": "4.20",
     "stake": "3/10",
-    "analisis": "Ambos marcan. Equipos con debilidades defensivas en transiciones rápidas. Se asigna stake prudente."
+    "analisis": "AMBOS MARCAN\n\nTransiciones rapidas detectadas.\nBuscamos recuperacion con cuota de valor."
   },
   "tip_asiatico": {
     "partidos": [
@@ -47,24 +47,24 @@
     ],
     "cuota_total": "3.15",
     "stake": "4/10",
-    "analisis": "Optimización mediante hándicaps asiáticos. Beşiktaş y Zenit ofrecen coberturas de seguridad ante empates."
+    "analisis": "COBERTURA ASIATICA\n\nBlindaje ante empates tecnicos.\nOptimizacion de cuota en mercados liquidos."
   },
   "tip_bonus": {
     "partidos": [
-      "Deportivo Saprissa vs CS Cartagines (Victoria) (00:00)",
-      "CD Olimpia vs Génesis (Victoria) (01:30)",
-      "Al-Hazm vs Damac (X2 Doble Oportunidad) (15:20)"
+      "Deportivo Saprissa vs CS Cartagines (1) (00:00)",
+      "CD Olimpia vs Genesis (1) (01:30)",
+      "Al-Hazm vs Damac (X2) (15:20)"
     ],
     "cuota_total": "3.35",
     "stake": "10/10",
-    "analisis": "MÁXIMA SEGURIDAD (STAKE 10). Filtro de infalibilidad IA. Combinamos los dos fortines locales con la solvencia táctica de Damac."
+    "analisis": "PLAN DE RECUPERACION IA (10/10)\n\nProtocolo de infalibilidad activado.\nLocalias tiranicas en Centroamerica."
   },
   "control_panel": {
     "titulo": "GESTIÓN DE BANKROLL IA",
     "liquidacion_bonus_ayer": {
-      "resumen_partidos": "TIP BONUS (25/01): Murcia II (HA -1) ✅, Botafogo (1X) ✅, Cerro Porteño (1) ✅. STAKE: 10/10 | GANANCIA: +3.50",
-      "puntos": "3.50",
-      "resultado": "ganado"
+      "resumen_partidos": "AYER: Murcia II (ACIERTO), Botafogo (ACIERTO), Cerro Porteno (FALLO).\nStake 7 perdido. Balance: 93.00 PTS",
+      "puntos": "-7.00",
+      "resultado": "perdido"
     }
   }
 }
