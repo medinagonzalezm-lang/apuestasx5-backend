@@ -1,70 +1,70 @@
 {
+  "control_panel": {
+    "fecha_actualizacion": "2026-01-27",
+    "liquidacion_bonus_ayer": {
+      "resumen_partidos": "Jornada 26/01: ¡Victoria del Bonus! (+16.50 pts)",
+      "resultado": "ganado",
+      "puntos": "16.50"
+    }
+  },
   "tip_05": {
     "partidos": [
-      "Everton vs Leeds (20:00)",
-      "FC Porto vs GIL Vicente (20:15)",
-      "Girona vs Getafe (20:00)"
+      "15:00 - Al Ahly vs Wadi Degla - +0.5 Goles",
+      "14:00 - Cardiff City U21 vs Brentford U21 - +0.5 Goles",
+      "14:00 - Nizhny Novgorod vs Fakel - +0.5 Goles"
     ],
-    "cuota_total": "1.45",
-    "stake": "5/10",
-    "analisis": "ESTABILIDAD EUROPEA\n\nBuscamos liquidez en ligas mayores.\nProbabilidad de gol superior al 85%."
+    "cuota_total": "1.38",
+    "stake": "8/10",
+    "analisis": "Mercado de gol en primera mitad. Al Ahly tiene una frecuencia del 85% de goles antes del descanso."
   },
   "tip_15": {
     "partidos": [
-      "Young Lions vs Tanjong Pagar (11:30)",
-      "ADO Den Haag vs Vitesse (19:00)",
-      "Jong PSV U21 vs Helmond Sport (19:00)"
+      "11:00 - Portimonense U23 vs Gil Vicente U23 - +1.5 Goles",
+      "19:45 - Cardiff vs Barnsley - +1.5 Goles",
+      "19:30 - FC St. Pauli vs RB Leipzig - +1.5 Goles"
     ],
-    "cuota_total": "1.82",
-    "stake": "4/10",
-    "analisis": "DINÁMICA OFENSIVA\n\nLigas de filiales con alta eficacia.\nFiltro de ataques por minuto verificado."
+    "cuota_total": "1.74",
+    "stake": "7/10",
+    "analisis": "Selección basada en el promedio goleador de la Bundesliga y la dinámica ofensiva de la League One."
   },
   "tip_1x2x": {
     "partidos": [
-      "Al-Nassr vs Al Taawon (1X) (17:30)",
-      "Maccabi Tel Aviv vs Hapoel Tel Aviv (1X) (18:30)",
-      "Fortaleza EC vs Floresta (1) (23:30)"
+      "19:45 - Lincoln vs Bradford - Doble Oportunidad 1X",
+      "11:00 - Benfica U23 vs Santa Clara U23 - Doble Oportunidad 1X",
+      "19:00 - Emmen vs Cambuur - Doble Oportunidad X2"
     ],
-    "cuota_total": "1.95",
+    "cuota_total": "1.92",
     "stake": "6/10",
-    "analisis": "FORTALEZA LOCAL\n\nProteccion de capital tras jornada previa.\nLocales con exito superior al 70%."
+    "analisis": "Protección de resultados en campos difíciles. Benfica U23 mantiene una racha sólida como local."
   },
   "tip_btts": {
     "partidos": [
-      "Melbourne Victory vs Sydney (06:40)",
-      "Waalwijk vs Jong Utrecht (19:00)",
-      "Verona vs Udinese (19:45)"
+      "19:30 - Werder Bremen vs 1899 Hoffenheim - Ambos Marcan SI",
+      "19:45 - Notts County vs Swindon Town - Ambos Marcan SI",
+      "19:45 - Bolton vs Burton Albion - Ambos Marcan SI"
     ],
-    "cuota_total": "4.20",
-    "stake": "3/10",
-    "analisis": "AMBOS MARCAN\n\nTransiciones rapidas detectadas.\nBuscamos recuperacion con cuota de valor."
+    "cuota_total": "2.25",
+    "stake": "5/10",
+    "analisis": "Encuentros con tendencias defensivas débiles y ataques con alta efectividad este mes."
   },
   "tip_asiatico": {
     "partidos": [
-      "Al-Ittihad FC vs Al Okhdood (HA -1) (17:30)",
-      "Zenit vs SHANGHAI SIPG (HA 0) (08:00)",
-      "Eyüpspor vs Beşiktaş (HA +0.5) (17:00)"
+      "13:15 - Al-Ittihad Kalba vs Al Ain - Hándicap Asiático Al Ain -0.5",
+      "17:30 - Sekhukhune vs Mamelodi Sundowns - H.A. Mamelodi 0.0",
+      "19:45 - Huddersfield vs Luton - Hándicap Asiático +0.5 Luton"
     ],
-    "cuota_total": "3.15",
-    "stake": "4/10",
-    "analisis": "COBERTURA ASIATICA\n\nBlindaje ante empates tecnicos.\nOptimizacion de cuota en mercados liquidos."
+    "cuota_total": "2.10",
+    "stake": "6/10",
+    "analisis": "Valor en el favoritismo de Al Ain y la solidez defensiva de Mamelodi en Sudáfrica."
   },
   "tip_bonus": {
     "partidos": [
-      "Deportivo Saprissa vs CS Cartagines (1) (00:00)",
-      "CD Olimpia vs Genesis (1) (01:30)",
-      "Al-Hazm vs Damac (X2) (15:20)"
+      "11:00 - Portimonense U23 vs Gil Vicente U23 - +1.5 Goles",
+      "15:00 - Al Ahly vs Wadi Degla - Victoria Local",
+      "19:45 - Cardiff vs Barnsley - +1.5 Goles"
     ],
-    "cuota_total": "3.35",
+    "cuota_total": "2.85",
     "stake": "10/10",
-    "analisis": "PLAN DE RECUPERACION IA (10/10)\n\nProtocolo de infalibilidad activado.\nLocalias tiranicas en Centroamerica."
-  },
-  "control_panel": {
-    "titulo": "Tip Bonus 25/01/2026 100pts",
-    "liquidacion_bonus_ayer": {
-      "resumen_partidos": "Resultado: Murcia II (OK), Botafogo (OK), Cerro Porteno (FALLO).\nPérdida de Stake 7. Balance: 93.00 PTS",
-      "puntos": "-7.00",
-      "resultado": "perdido"
-    }
+    "analisis": "Combinada premium del día. Buscamos mantener la racha ganadora con los eventos más probables del Archivo A."
   }
 }
