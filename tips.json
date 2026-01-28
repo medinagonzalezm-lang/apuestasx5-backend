@@ -1,71 +1,76 @@
 {
   "control_panel": {
-    "fecha_actualizacion": "2026-01-27",
-    "liquidacion_bonus_ayer": {
-      "resumen_partidos": "Jornada 26/01: ¡Victoria del Bonus! (+16.50 pts)",
-      "resultado": "ganado",
-      "puntos": "16.50"
+    "fecha_actualizacion": "2026-01-28T13:45:00+00:00",
+    "contabilidad_bancaria": {
+      "bankroll_ayer": "116.50 PTS",
+      "ganancia_neta_ayer": "+18.50 PTS",
+      "bankroll_total_hoy": "135.00 PTS"
     },
-    "peritaje_jornada_anterior": "[b]PERITAJE JORNADA 26/01[/b]\n\n[color=#00FF00][b]TIP BONUS IA (STAKE 10/10): ACERTADO[/b][/color]\n• Saprissa vs Cartaginés (1) ✅\n• Olimpia vs Genesis (1) ✅\n• Al-Hazm vs Damac (X2) ✅\n[i]Beneficio Neto: +16.50 PTS[/i]\n\n[b]RESTO DE MERCADOS:[/b]\n• Tip +0.5: Everton/Porto/Girona ✅\n• Tip +1.5: Filiales/Eerste Divisie ✅\n• Tip 1X2X: Al-Nassr/Maccabi/Fortaleza ✅\n• Tip BTTS: Melbourne/Waalwijk/Verona ❌\n• Tip Asiático: Al-Ittihad/Zenit/Eyüpspor ✅\n\n[b]BANKROLL ACTUAL:[/b] 116.50 PTS"
+    "estado_sistema": "Operativo - Análisis de Alta Rigurosidad",
+    "peritaje_jornada_anterior": "LIQUIDACIÓN 27/01: [1] Tip 0.5: Al Ahly(V), Cardiff U21(V), Nizhny(V) = GANADO. [2] Tip 1.5: Portimonense(V), Cardiff(V), St. Pauli(V) = GANADO. [3] Tip 1X2X: Lincoln(V), Benfica U23(V), Cambuur(R) = PERDIDO. [4] Tip BTTS: Bremen(V), Notts Co(V), Bolton(V) = GANADO. [5] Tip Asiático: Al Ain(V), Mamelodi(V), Luton(V) = GANADO. [6] Tip Bonus: Portimonense(V), Al Ahly(V), Cardiff(V) = GANADO (Stake 10). BALANCE TOTAL: +18.50 PTS.",
+    "liquidacion_bonus_ayer": {
+      "estado": "WIN",
+      "puntos": "18.50"
+    }
   },
   "tip_05": {
     "partidos": [
-      "15:00 - Al Ahly vs Wadi Degla - +0.5 Goles",
-      "14:00 - Cardiff City U21 vs Brentford U21 - +0.5 Goles",
-      "14:00 - Nizhny Novgorod vs Fakel - +0.5 Goles"
+      "Zamalek SC vs Petrojet (Egipto)",
+      "Pogoń Mogilno vs Sokół Kleczew (Amistoso)",
+      "Marítimo U23 vs Rio Ave U23 (Portugal)"
     ],
-    "cuota_total": "1.38",
+    "cuota_total": "1.45",
     "stake": "8/10",
-    "analisis": "Mercado de gol en primera mitad. Al Ahly tiene una frecuencia del 85% de goles antes del descanso."
+    "analisis": "Zamalek promedia 1.2 goles en la primera parte. En Portugal, la liga U23 presenta un 88% de frecuencia en el mercado over 0.5."
   },
   "tip_15": {
     "partidos": [
-      "11:00 - Portimonense U23 vs Gil Vicente U23 - +1.5 Goles",
-      "19:45 - Cardiff vs Barnsley - +1.5 Goles",
-      "19:30 - FC St. Pauli vs RB Leipzig - +1.5 Goles"
-    ],
-    "cuota_total": "1.74",
-    "stake": "7/10",
-    "analisis": "Selección basada en el promedio goleador de la Bundesliga y la dinámica ofensiva de la League One."
-  },
-  "tip_1x2x": {
-    "partidos": [
-      "19:45 - Lincoln vs Bradford - Doble Oportunidad 1X",
-      "11:00 - Benfica U23 vs Santa Clara U23 - Doble Oportunidad 1X",
-      "19:00 - Emmen vs Cambuur - Doble Oportunidad X2"
+      "Tenerife II vs Rayo Vallecano II (España)",
+      "Al-Ahli Jeddah vs Al-Ettifaq (Arabia)",
+      "Paksi SE II vs Bölcskei (Amistoso)"
     ],
     "cuota_total": "1.92",
     "stake": "6/10",
-    "analisis": "Protección de resultados en campos difíciles. Benfica U23 mantiene una racha sólida como local."
+    "analisis": "Tendencia ofensiva en filiales españoles. Al-Ahli registra una media de 1.8 goles por encuentro en condición de local."
+  },
+  "tip_1x2x": {
+    "partidos": [
+      "AS Marsa vs AS Gabes (1X)",
+      "Potenza vs Ternana (X2)",
+      "Sitra vs Al Riffa (X2)"
+    ],
+    "cuota_total": "2.10",
+    "stake": "5/10",
+    "analisis": "Modelado de doble oportunidad. Ternana mantiene solidez defensiva en eliminatorias. Al Riffa es el equipo con mejor rendimiento actual en Bahrein."
   },
   "tip_btts": {
     "partidos": [
-      "19:30 - Werder Bremen vs 1899 Hoffenheim - Ambos Marcan SI",
-      "19:45 - Notts County vs Swindon Town - Ambos Marcan SI",
-      "19:45 - Bolton vs Burton Albion - Ambos Marcan SI"
+      "Kano Pillars vs Katsina United (Nigeria)",
+      "Zesco United vs Mutondo Stars (Zambia)",
+      "Roma W vs Lazio W (Italia)"
     ],
-    "cuota_total": "2.25",
-    "stake": "5/10",
-    "analisis": "Encuentros con tendencias defensivas débiles y ataques con alta efectividad este mes."
+    "cuota_total": "3.85",
+    "stake": "4/10",
+    "analisis": "Probabilidad estadística basada en enfrentamientos directos previos y vulnerabilidad defensiva de los locales frente a transiciones rápidas."
   },
   "tip_asiatico": {
     "partidos": [
-      "13:15 - Al-Ittihad Kalba vs Al Ain - Hándicap Asiático Al Ain -0.5",
-      "17:30 - Sekhukhune vs Mamelodi Sundowns - H.A. Mamelodi 0.0",
-      "19:45 - Huddersfield vs Luton - Hándicap Asiático +0.5 Luton"
+      "Al Najma vs Al Riyadh (H.A. 0.0 Al Riyadh)",
+      "Ajman vs Shabab Al Ahli (H.A. -0.5 Shabab)",
+      "Inter Milano W vs Ternana W (H.A. -1.0 Inter)"
     ],
-    "cuota_total": "2.10",
-    "stake": "6/10",
-    "analisis": "Valor en el favoritismo de Al Ain y la solidez defensiva de Mamelodi en Sudáfrica."
+    "cuota_total": "2.65",
+    "stake": "7/10",
+    "analisis": "Aplicación de hándicaps para optimizar el valor. Selección basada en la superioridad técnica de las plantillas visitantes."
   },
   "tip_bonus": {
     "partidos": [
-      "11:00 - Portimonense U23 vs Gil Vicente U23 - +1.5 Goles",
-      "15:00 - Al Ahly vs Wadi Degla - Victoria Local",
-      "19:45 - Cardiff vs Barnsley - +1.5 Goles"
+      "Zamalek SC vs Petrojet (Victoria Local)",
+      "Tenerife II vs Rayo Vallecano II (+1.5 goles)",
+      "Al-Ahli Jeddah vs Al-Ettifaq (+1.5 goles)"
     ],
-    "cuota_total": "2.85",
+    "cuota_total": "3.15",
     "stake": "10/10",
-    "analisis": "Combinada premium del día. Buscamos mantener la racha ganadora con los eventos más probables del Archivo A."
+    "analisis": "Selección de máxima confianza tras verificar el desequilibrio técnico en la liga de Egipto y las proyecciones de goles en los otros dos cruces."
   }
 }
