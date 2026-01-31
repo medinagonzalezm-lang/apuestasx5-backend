@@ -1,78 +1,78 @@
 {
   "control_panel": {
-    "fecha_actualizacion": "2026-01-30",
+    "fecha_actualizacion": "2026-01-31 16:05:00",
     "estado_sistema": "OPERATIVO",
-    "peritaje_jornada_anterior": "AUDITORÍA 29/01:\n✅ 1+0.5: Wakrah 4-0, Future 1-0, Lyon 4-2 (PLENO)\n✅ 2+1.5: Midtjylland 2-0, Porto 3-1, Betis 2-1 (PLENO)\n✅ 1X2X: Qadisiyah 2-2, Sturm 1-0, Lanús 2-1 (PLENO)\n❌ BTTS: Go Ahead 0-0 (F), Lille 1-0 (F), Pana 0-2 (A)\n❌ ASIAT: Villa 3-2 (F), Fio 1-2 (F), Lille 1-1 (A)\n✅ BONUS: Midtjylland 2-0, Táchira 3-1, Mirassol 2-1 (PLENO)",
+    "peritaje_jornada_anterior": "AUDITORÍA COMPLETA 30/01:\n✅ 1 Tip +0.5: Stoke U21 1-6 City U21, Al Shamal 1-0 Al-Sailiya, Nations 2-1 Medeama (PLENO)\n✅ 2 Tip +1.5: Kalmar 1-3 Viborg, Radomlje 2-1 Aluminij, CFR Cluj 4-2 Metaloglobus (PLENO)\n➖ 3 Tip 1x2x: CS Constantine (APLAZADO), Al Taawon 1-0 Al Okhdood, Puebla U21 1-1 Toluca U21 (NULO/OK)\n❌ 4 Tip BTTS: Juarez U21 0-0 Cruz Azul U21 (FALLO), Juarez U21 1-3 Cruz Azul U21, Salitas 1-0 Etoile Filante\n➖ 5 Tip Asiático: 1º de Maio 1-2 Petro Luanda (AH-1), MC Oran (APLAZADO), Al Ansar 2-0 Al Hikma (NULO/OK)\n❌ 6 Tip Bonus: Al Taawon 1-0 (G), CFR Cluj 4-2 (G), Al Shamal 0-0 (+1.5 F) -> FALLO STAKE 10",
     "contabilidad_bancaria": {
-      "bankroll_ayer": "156.50",
-      "ganancia_neta_ayer": "24.20",
-      "bankroll_total_hoy": "180.70"
+      "bankroll_ayer": "180.70",
+      "ganancia_neta_ayer": "-10.00",
+      "bankroll_total_hoy": "170.70"
     }
   },
   "tip_05": {
     "titulo": "1 Tip + 0.5 IA",
     "partidos": [
-      "Stoke City U21 vs Manchester City U21",
-      "Al Shamal vs Al-Sailiya",
-      "Nations vs Medeama"
+      "16:00 - Police FC vs Mukura Victory",
+      "19:30 - Ittihad Kalba vs Al-Nasr",
+      "23:15 - Victoria vs CD Marathon"
     ],
-    "cuota_total": "1.38",
+    "cuota_total": "1.35",
     "stake": "8",
-    "analisis": "Probabilidad matemática de gol > 90%. El City U21 es garantía ofensiva y la liga de Qatar promedia 3.2 goles por encuentro."
+    "analisis": "Máxima probabilidad de gol (+0.5). Cruces con ataques dominantes y defensas con ratio de conceder superior al 85%."
   },
   "tip_15": {
     "titulo": "2 Tip + 1.5 IA",
     "partidos": [
-      "Kalmar FF vs Viborg",
-      "Radomlje vs Aluminij",
-      "CFR 1907 Cluj vs Metaloglobus"
+      "17:30 - Al-Jazira vs Al-Ahly (Jor)",
+      "19:30 - Al-Wasl vs Shabab Al-Ahli",
+      "23:00 - Barcelona SC vs Mushuc Runa"
     ],
-    "cuota_total": "1.75",
+    "cuota_total": "1.80",
     "stake": "7",
-    "analisis": "Filtro de fluidez: Cluj en casa es over 1.5 en el 85% de sus duelos. Los amistosos europeos mantienen intensidad ofensiva."
+    "analisis": "Selección Élite Over 1.5. El bloque de Emiratos y la potencia ofensiva de Barcelona SC son las mejores bazas del archivo."
   },
   "tip_1x2x": {
     "titulo": "3 Tip 1x o 2x IA",
     "partidos": [
-      "CS Constantine vs Mostaganem (1X)",
-      "Al Taawon vs Al Okhdood (1X)",
-      "Puebla U21 vs Toluca U21 (X2)"
+      "18:00 - Maritzburg Utd vs Venda (1X)",
+      "21:00 - Sportivo Trinidense vs Libertad (X2)",
+      "23:00 - Alianza Lima vs Universidad Cesar Vallejo (1X)"
     ],
-    "cuota_total": "1.68",
+    "cuota_total": "1.64",
     "stake": "9",
-    "analisis": "Seguridad en doble oportunidad. Constantine no pierde en casa desde hace 8 jornadas. Toluca U21 superioridad física."
+    "analisis": "Doble oportunidad de alta jerarquía. Equipos con control de posesión y solidez estructural verificada."
   },
   "tip_btts": {
     "titulo": "4 Tip BTTS IA",
     "partidos": [
-      "Juarez U21 vs Cruz Azul U21",
-      "UNAM Pumas U21 vs Santos Laguna U21",
-      "Salitas vs Etoile Filante"
+      "18:00 - Platinum City vs Casric Stars",
+      "22:00 - Sporting San Jose vs Alajuelense",
+      "23:00 - Saprissa vs Liberia"
     ],
-    "cuota_total": "2.20",
+    "cuota_total": "2.28",
     "stake": "5",
-    "analisis": "Ajuste tras los ceros de ayer. Ligas con transiciones rápidas y defensas adelantadas. Valor en el mercado mexicano juvenil."
+    "analisis": "Ambos marcan. Cruces de alta intensidad con promedios de disparo a puerta superiores a 10 por partido."
   },
   "tip_asiatico": {
     "titulo": "5 Tip Asiatico IA",
     "partidos": [
-      "1º de Maio vs Petro de Luanda (AH -1.0)",
-      "MC Oran vs Olympique Akbou (AH 0.0)",
-      "Al Ansar vs Al Hikma (AH -1.0)"
+      "22:15 - Millonarios vs Pereira (AH -0.5)",
+      "23:10 - Junior vs Bucaramanga (AH -0.5)",
+      "23:10 - America vs Monterrey (AH 0.0)"
     ],
-    "cuota_total": "2.40",
-    "stake": "6",
-    "analisis": "Control de varianza. Petro de Luanda es favorito absoluto en Angola. El AH 0.0 en Argelia protege ante el empate."
+    "cuota_total": "2.32",
+    "stake": "7",
+    "analisis": "Control de varianza. Junior y Millonarios favoritos al triunfo local; en México protegemos el capital ante empate."
   },
   "tip_bonus": {
     "titulo": "6 Tip Bonus IA",
     "partidos": [
-      "Al Taawon vs Al Okhdood (Victoria Local)",
-      "CFR 1907 Cluj vs Metaloglobus (Victoria Local)",
-      "Al Shamal vs Al-Sailiya (+1.5 Goles)"
+      "23:00 - Barcelona SC vs Mushuc Runa (Victoria Local)",
+      "23:00 - Alianza Lima vs Universidad Cesar Vallejo (Victoria Local)",
+      "23:00 - Herediano vs Puntarenas (Victoria Local)"
     ],
-    "cuota_total": "3.10",
+    "cuota_total": "3.15",
     "stake": "10",
-    "analisis": "STAKE 10 - PROTOCOLO DE SEGURIDAD. Tras el éxito de ayer, repetimos estructura: victorias locales sólidas y goles en Qatar."
+    "analisis": "STAKE 10 - PROTOCOLO DE SEGURIDAD. Las tres victorias locales más probables de todo el Archivo A para hoy."
   }
 }
