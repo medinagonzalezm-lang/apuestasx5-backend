@@ -3,15 +3,67 @@
   "control_panel": {
     "liquidacion_bonus_ayer": {
       "resumen_partidos": "Leverkusen 2-1 Mainz | Liverpool 3-1 West Ham | Barcelona 2-1 Villarreal",
-      "puntos": 0.0,
-      "resultado": "pendiente",
+      "puntos": 1.0,
+      "resultado": "ganado",
       "cuota_aplicada": 1.20,
       "stake_aplicado": "5%"
     },
+    "historial_bonus": [
+      {
+        "fecha": "2026-02-27",
+        "resultado": "ganado",
+        "puntos": 1.0,
+        "partidos": "Real Madrid 2-0 Sevilla | Arsenal 3-1 Chelsea | Juventus 1-0 Milan",
+        "cuota": 1.25
+      },
+      {
+        "fecha": "2026-02-26",
+        "resultado": "perdido",
+        "puntos": -5.0,
+        "partidos": "PSG 0-0 Lyon | City 1-1 Spurs | Bayern 2-2 Leipzig",
+        "cuota": 1.18
+      },
+      {
+        "fecha": "2026-02-25",
+        "resultado": "ganado",
+        "puntos": 1.2,
+        "partidos": "Barcelona 3-0 Getafe | United 2-0 Wolves | Inter 2-1 Roma",
+        "cuota": 1.22
+      },
+      {
+        "fecha": "2026-02-24",
+        "resultado": "ganado",
+        "puntos": 1.1,
+        "partidos": "Liverpool 2-1 Brighton | Dortmund 3-1 Hoffenheim | Napoli 2-0 Lazio",
+        "cuota": 1.20
+      },
+      {
+        "fecha": "2026-02-23",
+        "resultado": "ganado",
+        "puntos": 1.0,
+        "partidos": "Leverkusen 2-0 Stuttgart | Atletico 1-0 Valencia | Porto 2-0 Benfica",
+        "cuota": 1.20
+      },
+      {
+        "fecha": "2026-02-22",
+        "resultado": "perdido",
+        "puntos": -5.0,
+        "partidos": "Madrid 1-1 Girona | Arsenal 0-0 Newcastle | Milan 1-1 Juventus",
+        "cuota": 1.15
+      },
+      {
+        "fecha": "2026-02-21",
+        "resultado": "ganado",
+        "puntos": 1.15,
+        "partidos": "City 3-0 Everton | Bayern 2-0 Freiburg | PSG 2-1 Nice",
+        "cuota": 1.22
+      }
+    ],
     "estadisticas": {
       "total_partidos_hoy": 6,
-      "aciertos_ayer": 0,
-      "racha_actual": 0
+      "aciertos_ayer": 1,
+      "racha_actual": 3,
+      "total_acumulado": 100.0
     }
   },
   "tip_05": {
