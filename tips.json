@@ -1,143 +1,219 @@
 {
   "fecha": "2026-02-28",
+  "fecha_en": "2026-02-28",
   "control_panel": {
     "liquidacion_bonus_ayer": {
       "resumen_partidos": "Leverkusen 2-1 Mainz | Liverpool 3-1 West Ham | Barcelona 2-1 Villarreal",
+      "resumen_partidos_en": "Leverkusen 2-1 Mainz | Liverpool 3-1 West Ham | Barcelona 2-1 Villarreal",
       "puntos": 1.0,
       "resultado": "ganado",
+      "resultado_en": "won",
       "cuota_aplicada": 1.20,
       "stake_aplicado": "5%"
     },
     "historial_bonus": [
       {
         "fecha": "2026-02-27",
+        "fecha_en": "2026-02-27",
         "resultado": "ganado",
+        "resultado_en": "won",
         "puntos": 1.0,
         "partidos": "Real Madrid 2-0 Sevilla | Arsenal 3-1 Chelsea | Juventus 1-0 Milan",
+        "partidos_en": "Real Madrid 2-0 Sevilla | Arsenal 3-1 Chelsea | Juventus 1-0 Milan",
         "cuota": 1.25
       },
       {
         "fecha": "2026-02-26",
+        "fecha_en": "2026-02-26",
         "resultado": "perdido",
+        "resultado_en": "lost",
         "puntos": -5.0,
         "partidos": "PSG 0-0 Lyon | City 1-1 Spurs | Bayern 2-2 Leipzig",
+        "partidos_en": "PSG 0-0 Lyon | City 1-1 Spurs | Bayern 2-2 Leipzig",
         "cuota": 1.18
       },
       {
         "fecha": "2026-02-25",
+        "fecha_en": "2026-02-25",
         "resultado": "ganado",
+        "resultado_en": "won",
         "puntos": 1.2,
         "partidos": "Barcelona 3-0 Getafe | United 2-0 Wolves | Inter 2-1 Roma",
+        "partidos_en": "Barcelona 3-0 Getafe | United 2-0 Wolves | Inter 2-1 Roma",
         "cuota": 1.22
       },
       {
         "fecha": "2026-02-24",
+        "fecha_en": "2026-02-24",
         "resultado": "ganado",
+        "resultado_en": "won",
         "puntos": 1.1,
         "partidos": "Liverpool 2-1 Brighton | Dortmund 3-1 Hoffenheim | Napoli 2-0 Lazio",
+        "partidos_en": "Liverpool 2-1 Brighton | Dortmund 3-1 Hoffenheim | Napoli 2-0 Lazio",
         "cuota": 1.20
       },
       {
         "fecha": "2026-02-23",
+        "fecha_en": "2026-02-23",
         "resultado": "ganado",
+        "resultado_en": "won",
         "puntos": 1.0,
         "partidos": "Leverkusen 2-0 Stuttgart | Atletico 1-0 Valencia | Porto 2-0 Benfica",
+        "partidos_en": "Leverkusen 2-0 Stuttgart | Atletico 1-0 Valencia | Porto 2-0 Benfica",
         "cuota": 1.20
       },
       {
         "fecha": "2026-02-22",
+        "fecha_en": "2026-02-22",
         "resultado": "perdido",
+        "resultado_en": "lost",
         "puntos": -5.0,
         "partidos": "Madrid 1-1 Girona | Arsenal 0-0 Newcastle | Milan 1-1 Juventus",
+        "partidos_en": "Madrid 1-1 Girona | Arsenal 0-0 Newcastle | Milan 1-1 Juventus",
         "cuota": 1.15
       },
       {
         "fecha": "2026-02-21",
+        "fecha_en": "2026-02-21",
         "resultado": "ganado",
+        "resultado_en": "won",
         "puntos": 1.15,
         "partidos": "City 3-0 Everton | Bayern 2-0 Freiburg | PSG 2-1 Nice",
+        "partidos_en": "City 3-0 Everton | Bayern 2-0 Freiburg | PSG 2-1 Nice",
         "cuota": 1.22
       }
     ],
     "estadisticas": {
       "total_partidos_hoy": 6,
+      "total_partidos_hoy_en": 6,
       "aciertos_ayer": 1,
+      "aciertos_ayer_en": 1,
       "racha_actual": 3,
-      "total_acumulado": 100.0
+      "racha_actual_en": 3,
+      "total_acumulado": 100.0,
+      "total_acumulado_en": 100.0
     }
   },
   "tip_05": {
     "nombre": "Over 0.5 Goles",
+    "nombre_en": "Over 0.5 Goals",
     "partidos": [
+      "Bayer Leverkusen vs FSV Mainz 05 - Bundesliga 14:30",
+      "Liverpool vs West Ham - Premier League 15:00",
+      "Barcelona vs Villarreal - La Liga 15:15"
+    ],
+    "partidos_en": [
       "Bayer Leverkusen vs FSV Mainz 05 - Bundesliga 14:30",
       "Liverpool vs West Ham - Premier League 15:00",
       "Barcelona vs Villarreal - La Liga 15:15"
     ],
     "cuota_total": 1.22,
     "stake": "3%",
-    "analisis": "Tres partidos de máximo nivel con equipos ofensivos.\n\nLeverkusen líder invicto, Liverpool pelea el título con Salah en racha, y Barcelona vs Villarreal es histórico de goles.\n\nProbabilidad de acierto: 95%+"
+    "analisis": "Tres partidos de máximo nivel con equipos ofensivos.\n\nLeverkusen líder invicto, Liverpool pelea el título con Salah en racha, y Barcelona vs Villarreal es histórico de goles.\n\nProbabilidad de acierto: 95%+",
+    "analisis_en": "Three top-tier matches with offensive teams.\n\nLeverkusen undefeated leader, Liverpool fighting for the title with Salah on fire, and Barcelona vs Villarreal is a historic goal-fest.\n\nProbability of success: 95%+"
   },
   "tip_15": {
     "nombre": "Over 1.5 Goles",
+    "nombre_en": "Over 1.5 Goals",
     "partidos": [
       "Borussia Dortmund vs Bayern München - Bundesliga 17:30",
       "Inter vs Genoa - Serie A 19:45",
       "Mallorca vs Real Sociedad - La Liga 17:30"
     ],
+    "partidos_en": [
+      "Borussia Dortmund vs Bayern Munich - Bundesliga 17:30",
+      "Inter vs Genoa - Serie A 19:45",
+      "Mallorca vs Real Sociedad - La Liga 17:30"
+    ],
     "cuota_total": 2.35,
     "stake": "2.5%",
-    "analisis": "Clásico alemán Dortmund-Bayern con goles garantizados.\n\nInter sólido en San Siro ante Genoa. Real Sociedad necesita ganar para Europa en campo abierto.\n\nProbabilidad: 75%"
+    "analisis": "Clásico alemán Dortmund-Bayern con goles garantizados.\n\nInter sólido en San Siro ante Genoa. Real Sociedad necesita ganar para Europa en campo abierto.\n\nProbabilidad: 75%",
+    "analisis_en": "German classic Dortmund-Bayern with guaranteed goals.\n\nInter solid at San Siro against Genoa. Real Sociedad needs to win for Europe in an open match.\n\nProbability: 75%"
   },
   "tip_1x2x": {
     "nombre": "1X o 2X Doble Oportunidad",
+    "nombre_en": "1X or 2X Double Chance",
     "partidos": [
+      "Newcastle vs Everton - Premier League 15:00 (1X)",
+      "1899 Hoffenheim vs FC St. Pauli - Bundesliga 14:30 (1X)",
+      "Rayo Vallecano vs Athletic Club - La Liga 13:00 (X2)"
+    ],
+    "partidos_en": [
       "Newcastle vs Everton - Premier League 15:00 (1X)",
       "1899 Hoffenheim vs FC St. Pauli - Bundesliga 14:30 (1X)",
       "Rayo Vallecano vs Athletic Club - La Liga 13:00 (X2)"
     ],
     "cuota_total": 2.02,
     "stake": "3%",
-    "analisis": "Newcastle fuerte en St James' Park ante Everton en descenso.\n\nHoffenheim sólido en casa vs colista St. Pauli. Athletic Club en zona Champions no pierde fácil.\n\nProbabilidad: 85%"
+    "analisis": "Newcastle fuerte en St James' Park ante Everton en descenso.\n\nHoffenheim sólido en casa vs colista St. Pauli. Athletic Club en zona Champions no pierde fácil.\n\nProbabilidad: 85%",
+    "analisis_en": "Newcastle strong at St James' Park against relegation-threatened Everton.\n\nHoffenheim solid at home vs bottom-placed St. Pauli. Athletic Club in Champions zone doesn't lose easily.\n\nProbability: 85%"
   },
   "tip_btts": {
     "nombre": "BTTS Ambos Marcan",
+    "nombre_en": "BTTS Both Teams Score",
     "partidos": [
+      "Werder Bremen vs 1. FC Heidenheim - Bundesliga 14:30",
+      "Burnley vs Brentford - Premier League 15:00",
+      "Heracles vs PSV Eindhoven - Eredivisie 17:45"
+    ],
+    "partidos_en": [
       "Werder Bremen vs 1. FC Heidenheim - Bundesliga 14:30",
       "Burnley vs Brentford - Premier League 15:00",
       "Heracles vs PSV Eindhoven - Eredivisie 17:45"
     ],
     "cuota_total": 5.20,
     "stake": "1.5%",
-    "analisis": "Werder y Heidenheim juegan abierto con defensas vulnerables.\n\nBurnley desesperado vs Brentford con Toney en racha. PSV goleador visita a Heracles que marca en casa.\n\nCuota alta con riesgo controlado. Probabilidad: 60%"
+    "analisis": "Werder y Heidenheim juegan abierto con defensas vulnerables.\n\nBurnley desesperado vs Brentford con Toney en racha. PSV goleador visita a Heracles que marca en casa.\n\nCuota alta con riesgo controlado. Probabilidad: 60%",
+    "analisis_en": "Werder and Heidenheim play open with vulnerable defenses.\n\nDesperate Burnley vs in-form Brentford with Toney. Goalscorer PSV visits Heracles who score at home.\n\nHigh odds with controlled risk. Probability: 60%"
   },
   "tip_asiatico": {
     "nombre": "Handicap Asiático",
+    "nombre_en": "Asian Handicap",
     "partidos": [
+      "Bayer Leverkusen -1.5 vs FSV Mainz 05 - Bundesliga 14:30",
+      "Liverpool -1.5 vs West Ham - Premier League 15:00",
+      "Galatasaray -1.5 vs Alanyaspor - Süper Lig 17:00"
+    ],
+    "partidos_en": [
       "Bayer Leverkusen -1.5 vs FSV Mainz 05 - Bundesliga 14:30",
       "Liverpool -1.5 vs West Ham - Premier League 15:00",
       "Galatasaray -1.5 vs Alanyaspor - Süper Lig 17:00"
     ],
     "cuota_total": 6.32,
     "stake": "1%",
-    "analisis": "Leverkusen dominante en casa con diferencia de calidad para -1.5.\n\nLiverpool en Anfield imparable ante West Ham defensivamente débil. Galatasaray líder en Turk Telekom Arena con Icardi goleador.\n\nCuota atractiva para riesgo moderado. Probabilidad: 55%"
+    "analisis": "Leverkusen dominante en casa con diferencia de calidad para -1.5.\n\nLiverpool en Anfield imparable ante West Ham defensivamente débil. Galatasaray líder en Turk Telekom Arena con Icardi goleador.\n\nCuota atractiva para riesgo moderado. Probabilidad: 55%",
+    "analisis_en": "Leverkusen dominant at home with quality difference for -1.5.\n\nUnstoppable Liverpool at Anfield against defensively weak West Ham. Galatasaray leader at Turk Telekom Arena with goalscorer Icardi.\n\nAttractive odds for moderate risk. Probability: 55%"
   },
   "tip_bonus": {
     "nombre": "BONUS Máxima Seguridad",
+    "nombre_en": "BONUS Maximum Safety",
     "partidos": [
+      "Bayer Leverkusen vs FSV Mainz 05 - Over 0.5 - Bundesliga 14:30",
+      "Liverpool vs West Ham - Over 0.5 - Premier League 15:00",
+      "Barcelona vs Villarreal - Over 0.5 - La Liga 15:15"
+    ],
+    "partidos_en": [
       "Bayer Leverkusen vs FSV Mainz 05 - Over 0.5 - Bundesliga 14:30",
       "Liverpool vs West Ham - Over 0.5 - Premier League 15:00",
       "Barcelona vs Villarreal - Over 0.5 - La Liga 15:15"
     ],
     "cuota_total": 1.20,
     "stake": "5%",
-    "analisis": "MÁXIMA SEGURIDAD: Tres over 0.5 en partidos de élite.\n\nLeverkusen sin 0-0 en toda la temporada, Liverpool promedia 2.5 goles en casa, Barcelona vs Villarreal histórico de goles.\n\nProbabilidad de acierto: 98%.\n\nSTAKE MÁXIMO RECOMENDADO - Esta selección alimenta el bankroll para el día siguiente."
+    "analisis": "MÁXIMA SEGURIDAD: Tres over 0.5 en partidos de élite.\n\nLeverkusen sin 0-0 en toda la temporada, Liverpool promedia 2.5 goles en casa, Barcelona vs Villarreal histórico de goles.\n\nProbabilidad de acierto: 98%.\n\nSTAKE MÁXIMO RECOMENDADO - Esta selección alimenta el bankroll para el día siguiente.",
+    "analisis_en": "MAXIMUM SAFETY: Three over 0.5 in elite matches.\n\nLeverkusen without 0-0 all season, Liverpool averages 2.5 goals at home, Barcelona vs Villarreal is a goal classic.\n\nProbability of success: 98%.\n\nMAXIMUM STAKE RECOMMENDED - This selection feeds the bankroll for the next day."
   },
   "metadata": {
     "version": "1.0",
+    "version_en": "1.0",
     "actualizado": "2026-02-28T12:00:00Z",
+    "actualizado_en": "2026-02-28T12:00:00Z",
     "fuente": "Análisis IA - Data Bet IA",
+    "fuente_en": "AI Analysis - Data Bet IA",
     "total_partidos": 6,
+    "total_partidos_en": 6,
     "mejor_cuota": 6.32,
-    "cuota_segura": 1.20
+    "mejor_cuota_en": 6.32,
+    "cuota_segura": 1.20,
+    "cuota_segura_en": 1.20
   }
 }
