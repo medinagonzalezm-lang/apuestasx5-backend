@@ -112,67 +112,17 @@
     "liquidacion_bonus_ayer": {
       "fecha": "2026-03-04",
       "fecha_en": "2026-03-04",
-      "resultado": "ganado",
-      "resultado_en": "won",
-      "partidos": "Al Ahly -0.5 AH + Tottenham -0.5 AH + Ajax -1.0 AH",
-      "partidos_en": "Al Ahly -0.5 AH + Tottenham -0.5 AH + Ajax -1.0 AH",
-      "cuota_aplicada": 2.85,
-      "stake_aplicado": "5%",
-      "puntos": 9.25,
-      "puntos_en": 9.25
+      "resultado": "pendiente",
+      "resultado_en": "pending",
+      "partidos": "Sin resultados - Primer día",
+      "partidos_en": "No results - First day",
+      "cuota_aplicada": 0.0,
+      "stake_aplicado": "0%",
+      "puntos": 0.0,
+      "puntos_en": 0.0
     },
-    "historial_bonus": [
-      {
-        "fecha": "2026-03-04",
-        "fecha_en": "2026-03-04",
-        "resultado": "ganado",
-        "resultado_en": "won",
-        "puntos": 9.25
-      },
-      {
-        "fecha": "2026-03-03",
-        "fecha_en": "2026-03-03",
-        "resultado": "perdido",
-        "resultado_en": "lost",
-        "puntos": -5.00
-      },
-      {
-        "fecha": "2026-03-02",
-        "fecha_en": "2026-03-02",
-        "resultado": "ganado",
-        "resultado_en": "won",
-        "puntos": 7.50
-      },
-      {
-        "fecha": "2026-03-01",
-        "fecha_en": "2026-03-01",
-        "resultado": "ganado",
-        "resultado_en": "won",
-        "puntos": 6.00
-      },
-      {
-        "fecha": "2026-02-28",
-        "fecha_en": "2026-02-28",
-        "resultado": "perdido",
-        "resultado_en": "lost",
-        "puntos": -5.00
-      },
-      {
-        "fecha": "2026-02-27",
-        "fecha_en": "2026-02-27",
-        "resultado": "ganado",
-        "resultado_en": "won",
-        "puntos": 8.75
-      },
-      {
-        "fecha": "2026-02-26",
-        "fecha_en": "2026-02-26",
-        "resultado": "ganado",
-        "resultado_en": "won",
-        "puntos": 5.50
-      }
-    ],
-    "bankroll_total": 131.0,
-    "bankroll_total_en": 131.0
+    "historial_bonus": [],
+    "bankroll_total": 100.0,
+    "bankroll_total_en": 100.0
   }
 }
