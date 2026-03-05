@@ -4,19 +4,19 @@
     "nombre": "Tip + 0.5 IA",
     "nombre_en": "Tip + 0.5 AI",
     "partidos": [
-      "El Mokawloon vs Al Ahly - Al Ahly +0.5 AH",
-      "Molde vs Bodo/Glimt - Molde +0.5 AH",
-      "Lyon vs Lens - Lyon +0.5 AH"
+      "El Mokawloon vs Al Ahly - Al Ahly +0.5",
+      "Molde vs Bodo/Glimt - Molde +0.5",
+      "Lyon vs Lens - Lyon +0.5"
     ],
     "partidos_en": [
-      "El Mokawloon vs Al Ahly - Al Ahly +0.5 AH",
-      "Molde vs Bodo/Glimt - Molde +0.5 AH",
-      "Lyon vs Lens - Lyon +0.5 AH"
+      "El Mokawloon vs Al Ahly - Al Ahly +0.5",
+      "Molde vs Bodo/Glimt - Molde +0.5",
+      "Lyon vs Lens - Lyon +0.5"
     ],
     "cuota_total": "2.10",
     "stake": "3%",
-    "analisis": "AL AHLY +0.5 AH: Visitante ELO 1850 vs 1650, xG diff +0.8. MOLDE +0.5 AH: Local copa Noruega, H2H favorable 60%. LYON +0.5 AH: Copa Francia motivación alta. Kelly: 0.09. Riesgo: Rotaciones copas nacionales.",
-    "analisis_en": "AL AHLY +0.5 AH: Away ELO 1850 vs 1650, xG diff +0.8. MOLDE +0.5 AH: Home Norwegian cup, 60% favorable H2H. LYON +0.5 AH: French Cup high motivation. Kelly: 0.09. Risk: National cup rotations."
+    "analisis": "AL AHLY +0.5: Visitante ELO 1850 vs 1650, xG diff +0.8. Victoria o empate cubierto. MOLDE +0.5: Local copa Noruega, H2H favorable 60%. LYON +0.5: Copa Francia motivación alta. Kelly: 0.09. Riesgo: Rotaciones copas nacionales.",
+    "analisis_en": "AL AHLY +0.5: Away ELO 1850 vs 1650, xG diff +0.8. Win or draw covered. MOLDE +0.5: Home Norwegian cup, 60% favorable H2H. LYON +0.5: French Cup high motivation. Kelly: 0.09. Risk: National cup rotations."
   },
   "tip_15": {
     "nombre": "Tip + 1.5 IA",
@@ -40,14 +40,14 @@
     "nombre": "Tip 1X o 2X IA",
     "nombre_en": "Tip 1X or 2X AI",
     "partidos": [
-      "Boca Juniors vs Lanus - Boca 1X (local + empate)",
-      "Atletico Nacional vs Millonarios - Millonarios X2 (empate + visita)",
-      "O'Higgins vs Deportes Tolima - O'Higgins 1X (local + empate)"
+      "Boca Juniors vs Lanus - Boca 1X",
+      "Atletico Nacional vs Millonarios - Millonarios X2",
+      "O'Higgins vs Deportes Tolima - O'Higgins 1X"
     ],
     "partidos_en": [
-      "Boca Juniors vs Lanus - Boca 1X (home + draw)",
-      "Atletico Nacional vs Millonarios - Millonarios X2 (draw + away)",
-      "O'Higgins vs Deportes Tolima - O'Higgins 1X (home + draw)"
+      "Boca Juniors vs Lanus - Boca 1X",
+      "Atletico Nacional vs Millonarios - Millonarios X2",
+      "O'Higgins vs Deportes Tolima - O'Higgins 1X"
     ],
     "cuota_total": "1.95",
     "stake": "3.5%",
@@ -96,12 +96,12 @@
     "partidos": [
       "Al Ahly vs El Mokawloon - Al Ahly -0.75 AH",
       "Ludogorets vs Levski Sofia - Ludogorets -0.5 AH",
-      "Molde vs Bodo/Glimt - Molde 1X (local + empate)"
+      "Molde vs Bodo/Glimt - Molde 1X"
     ],
     "partidos_en": [
       "Al Ahly vs El Mokawloon - Al Ahly -0.75 AH",
       "Ludogorets vs Levski Sofia - Ludogorets -0.5 AH",
-      "Molde vs Bodo/Glimt - Molde 1X (home + draw)"
+      "Molde vs Bodo/Glimt - Molde 1X"
     ],
     "cuota_total": "3.15",
     "stake": "5%",
