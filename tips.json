@@ -4,109 +4,109 @@
     "nombre": "Tip + 0.5 IA",
     "nombre_en": "Tip + 0.5 AI",
     "partidos": [
-      "Al Ahly vs Ceramica Cleopatra - Premier League Egipto",
+      "El Mokawloon vs Al Ahly - Premier League Egipto",
       "Molde vs Bodo/Glimt - NM Cupen Noruega",
       "Lyon vs Lens - Coupe de France"
     ],
     "partidos_en": [
-      "Al Ahly vs Ceramica Cleopatra - Egypt Premier League",
+      "El Mokawloon vs Al Ahly - Egypt Premier League",
       "Molde vs Bodo/Glimt - Norway NM Cupen",
       "Lyon vs Lens - France Coupe de France"
     ],
-    "cuota_total": "2.15",
+    "cuota_total": "2.10",
     "stake": "3%",
-    "analisis": "Combinación de favoritos sólidos: Al Ahly (ELO 1850, xG 2.1) dominante en liga egipcia, Molde local en copa noruega con ventaja histórica, y Lyon en competición francesa. Mercado +0.5 asiático cubre empates. Kelly: 0.08. Riesgo: Rotaciones en copas nacionales.",
-    "analisis_en": "Solid favorites combination: Al Ahly (ELO 1850, xG 2.1) dominant in Egyptian league, Molde home in Norwegian cup with historical advantage, and Lyon in French competition. Asian +0.5 market covers draws. Kelly: 0.08. Risk: Cup rotations."
+    "analisis": "Al Ahly visitante +0.5 asiático (ELO 1850 vs 1650 El Mokawloon, xG diff +0.8). Molde local copa Noruega vs Bodo/Glimt (H2H favorable 60%). Lyon Copa Francia motivación alta. Kelly: 0.09. Riesgo: Rotaciones copas nacionales.",
+    "analisis_en": "Al Ahly away +0.5 Asian (ELO 1850 vs 1650 El Mokawloon, xG diff +0.8). Molde home Norwegian cup vs Bodo/Glimt (60% favorable H2H). Lyon French Cup high motivation. Kelly: 0.09. Risk: National cup rotations."
   },
   "tip_15": {
     "nombre": "Tip + 1.5 IA",
     "nombre_en": "Tip + 1.5 AI",
     "partidos": [
       "Tigres UANL vs Puebla - Liga MX",
-      "Cruz Azul implicito - Liga MX",
-      "Alianza implicito - Sudamericana"
+      "Atlas vs Club Tijuana - Liga MX",
+      "Monterrey vs Club Queretaro - Liga MX"
     ],
     "partidos_en": [
       "Tigres UANL vs Puebla - Liga MX",
-      "Cruz Azul implicit - Liga MX",
-      "Alianza implicit - Sudamericana"
+      "Atlas vs Club Tijuana - Liga MX",
+      "Monterrey vs Club Queretaro - Liga MX"
     ],
-    "cuota_total": "1.75",
+    "cuota_total": "1.72",
     "stake": "4%",
-    "analisis": "Liga MX y Sudamericana con equipos de alto xG. Tigres (xG 1.8) vs Puebla defensivo débil. Margen de 1.5 goles cubre 78% histórico. Kelly: 0.12. Riesgo: Altitud en México afecta rendimiento visitante.",
-    "analisis_en": "Liga MX and Sudamericana with high xG teams. Tigres (xG 1.8) vs weak Puebla defense. 1.5 goal margin covers 78% historically. Kelly: 0.12. Risk: Altitude in Mexico affects visitor performance."
+    "analisis": "Triple Liga MX: Tigres (xG 1.8) vs Puebla defensa débil, Atlas-Tijuana clásico ofensivo (BTTS 75% histórico), Monterrey superioridad vs Querétaro. Margen +1.5 cubre 82% en estas combinaciones. Kelly: 0.13. Riesgo: Jornada entre semana rotaciones.",
+    "analisis_en": "Triple Liga MX: Tigres (xG 1.8) vs weak Puebla defense, Atlas-Tijuana offensive derby (75% BTTS history), Monterrey superiority vs Querétaro. +1.5 margin covers 82% in these combinations. Kelly: 0.13. Risk: Midweek fixture rotations."
   },
   "tip_1x2x": {
     "nombre": "Tip 1X o 2X IA",
     "nombre_en": "Tip 1X or 2X AI",
     "partidos": [
       "Boca Juniors vs Lanus - Liga Profesional Argentina",
-      "Sporting Cristal implicito - Libertadores",
-      "Olimpia implicito - Sudamericana"
+      "Atletico Nacional vs Millonarios - Sudamericana",
+      "O'Higgins vs Deportes Tolima - Libertadores"
     ],
     "partidos_en": [
       "Boca Juniors vs Lanus - Argentine Professional League",
-      "Sporting Cristal implicit - Libertadores",
-      "Olimpia implicit - Sudamericana"
+      "Atletico Nacional vs Millonarios - Sudamericana",
+      "O'Higgins vs Deportes Tolima - Libertadores"
     ],
-    "cuota_total": "1.90",
+    "cuota_total": "1.95",
     "stake": "3.5%",
-    "analisis": "Doble oportunidad en partidos equilibrados. Boca (ELO 1820) vs Lanus (ELO 1780) diferencia mínima. Historial H2H 40% empates. 1X cubre local+empate, 2X visita+empate según valor. Kelly: 0.09. Riesgo: Clásico argentino impredecible.",
-    "analisis_en": "Double chance in balanced matches. Boca (ELO 1820) vs Lanus (ELO 1780) minimal difference. H2H history 40% draws. 1X covers home+draw, 2X away+draw based on value. Kelly: 0.09. Risk: Argentine derby unpredictable."
+    "analisis": "Doble oportunidad partidos equilibrados: Boca (ELO 1820) vs Lanus (ELO 1780) diferencia mínima, Nacional-Millonarios derbi bogotano impredecible (50% empates H2H), O'Higgins local vs Tolima altitud factor. 1X/2X según valor por partido. Kelly: 0.10. Riesgo: Clásicos impredecibles.",
+    "analisis_en": "Double chance balanced matches: Boca (ELO 1820) vs Lanus (ELO 1780) minimal gap, Nacional-Millonarios Bogotá derby unpredictable (50% H2H draws), O'Higgins home vs Tolima altitude factor. 1X/2X based on value per match. Kelly: 0.10. Risk: Unpredictable derbies."
   },
   "tip_btts": {
     "nombre": "Tip BTTS IA",
     "nombre_en": "Tip BTTS AI",
     "partidos": [
       "Millonarios vs Atletico Nacional - Sudamericana",
-      "Deportes Tolima vs O'Higgins - Libertadores",
-      "Palestino vs Universidad de Chile - Sudamericana"
+      "Atlas vs Club Tijuana - Liga MX",
+      "Universidad de Chile vs Palestino - Sudamericana"
     ],
     "partidos_en": [
       "Millonarios vs Atletico Nacional - Sudamericana",
-      "Deportes Tolima vs O'Higgins - Libertadores",
-      "Palestino vs Universidad de Chile - Sudamericana"
+      "Atlas vs Club Tijuana - Liga MX",
+      "Universidad de Chile vs Palestino - Sudamericana"
     ],
-    "cuota_total": "2.40",
+    "cuota_total": "2.35",
     "stake": "2.5%",
-    "analisis": "Ambos Marcan en derbis ofensivos. Millonarios-Nacional: ambos con xG >1.4. Tolima y O'Higgins con defensas vulnerables en altitud. Palestino local y U. Chile con necesidad de gol. Correlación BTTS-Over 2.5: 0.72. Kelly: 0.06.",
-    "analisis_en": "Both Teams To Score in offensive derbies. Millonarios-Nacional: both xG >1.4. Tolima and O'Higgins with vulnerable defenses at altitude. Palestino home and U. Chile need goals. BTTS-Over 2.5 correlation: 0.72. Kelly: 0.06."
+    "analisis": "Ambos Marcan selecciones ofensivas: Millonarios-Nacional ambos necesitan gol en Sudamericana (xG combinado 2.8), Atlas-Tijuana clásico mexicano con goles garantizados (Over 2.5 70%), U.Chile-Palestino necesidad resultados. Correlación BTTS-Over 2.5: 0.75. Kelly: 0.07.",
+    "analisis_en": "Both Teams To Score offensive selections: Millonarios-Nacional both need goals in Sudamericana (combined xG 2.8), Atlas-Tijuana Mexican derby with guaranteed goals (70% Over 2.5), U.Chile-Palestino result necessity. BTTS-Over 2.5 correlation: 0.75. Kelly: 0.07."
   },
   "tip_asiatico": {
     "nombre": "Tip Asian Hándicap IA",
     "nombre_en": "Tip Asian Handicap AI",
     "partidos": [
       "Tottenham vs Crystal Palace - Premier League",
-      "Aluminij vs Celje - 1. SNL Eslovenia",
-      "Vardar vs Shkendija - Macedonia Primera"
+      "Al Ahly vs El Mokawloon - Premier League Egipto",
+      "Ludogorets vs Levski Sofia - Bulgaria Primera"
     ],
     "partidos_en": [
       "Tottenham vs Crystal Palace - Premier League",
-      "Aluminij vs Celje - 1. SNL Slovenia",
-      "Vardar vs Shkendija - Macedonia First League"
+      "Al Ahly vs El Mokawloon - Egypt Premier League",
+      "Ludogorets vs Levski Sofia - Bulgaria First League"
     ],
-    "cuota_total": "2.05",
+    "cuota_total": "2.00",
     "stake": "3%",
-    "analisis": "Handicap -0.75 Tottenham (ELO 1780 vs 1650) con xG diferencial +0.9. Aluminij recibe +0.5 vs Celje en forma irregular. Vardar local -0.25 vs Shkendija en descenso. Ajuste asiático permite medio stake si empata. Kelly: 0.11.",
-    "analisis_en": "Handicap -0.75 Tottenham (ELO 1780 vs 1650) with xG differential +0.9. Aluminij gets +0.5 vs irregular Celje. Vardar home -0.25 vs declining Shkendija. Asian adjustment allows half stake if draw. Kelly: 0.11."
+    "analisis": "Handicap -1.0 Tottenham (ELO 1780 vs 1650, xG diff +0.9). Al Ahly -0.75 vs El Mokawloon (ELO gap 200 puntos, xG 2.1 vs 1.3). Ludogorets -0.5 vs Levski (líder Bulgaria, 12 puntos arriba). Kelly: 0.12. Riesgo: Tottenham inconsistente últimos partidos.",
+    "analisis_en": "Handicap -1.0 Tottenham (ELO 1780 vs 1650, xG diff +0.9). Al Ahly -0.75 vs El Mokawloon (200 ELO points gap, xG 2.1 vs 1.3). Ludogorets -0.5 vs Levski (Bulgaria leader, 12 points ahead). Kelly: 0.12. Risk: Tottenham inconsistent recent matches."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus IA",
     "nombre_en": "Tip Bonus AI",
     "partidos": [
-      "Dynamo vs Spartak Moscow - Copa Rusia",
+      "Al Ahly vs El Mokawloon - Premier League Egipto",
       "Ludogorets vs Levski Sofia - Bulgaria Primera",
-      "Bodo/Glimt vs Molde - NM Cupen"
+      "Molde vs Bodo/Glimt - NM Cupen"
     ],
     "partidos_en": [
-      "Dynamo vs Spartak Moscow - Russian Cup",
+      "Al Ahly vs El Mokawloon - Egypt Premier League",
       "Ludogorets vs Levski Sofia - Bulgaria First League",
-      "Bodo/Glimt vs Molde - Norway NM Cupen"
+      "Molde vs Bodo/Glimt - Norway NM Cupen"
     ],
-    "cuota_total": "3.20",
+    "cuota_total": "3.15",
     "stake": "5%",
-    "analisis": "TRIPLE SELECCIÓN BONUS: Dynamo local en derbi Moscú (ELO 1750 vs 1720, xG 1.6 vs 1.3). Ludogorets dominante Bulgaria (ELO 1680, 15 puntos arriba). Bodo/Glimt superioridad Norge (ELO 1620 vs 1580, xG diff +0.6). Cuota combinada 3.20 = valor excepcional. Kelly: 0.15. Riesgo: Copas nacionales con rotaciones.",
-    "analisis_en": "BONUS TRIPLE SELECTION: Dynamo home in Moscow derby (ELO 1750 vs 1720, xG 1.6 vs 1.3). Ludogorets dominant Bulgaria (ELO 1680, 15 points ahead). Bodo/Glimt Norway superiority (ELO 1620 vs 1580, xG diff +0.6). Combined odds 3.20 = exceptional value. Kelly: 0.15. Risk: National cups with rotations."
+    "analisis": "TRIPLE SELECCIÓN BONUS: Al Ahly dominante Egipto (ELO 1850 vs 1650, xG 2.1 vs 1.3, 85% victorias liga). Ludogorets imparable Bulgaria (ELO 1680, +12 pts líder, 70% victorias). Molde factor cancha copa Noruega (H2H 60% local vs Bodo/Glimt). Cuota 3.15 = valor excepcional. Kelly: 0.16. Riesgo: Únicamente rotaciones copa Noruega.",
+    "analisis_en": "BONUS TRIPLE SELECTION: Al Ahly dominant Egypt (ELO 1850 vs 1650, xG 2.1 vs 1.3, 85% league wins). Ludogorets unstoppable Bulgaria (ELO 1680, +12 pts leader, 70% wins). Molde home factor Norwegian cup (60% H2H home vs Bodo/Glimt). Odds 3.15 = exceptional value. Kelly: 0.16. Risk: Only Norwegian cup rotations."
   },
   "control_panel": {
     "liquidacion_bonus_ayer": {
