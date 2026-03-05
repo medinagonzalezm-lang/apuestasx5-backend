@@ -1,219 +1,178 @@
 {
-  "fecha": "2026-02-28",
-  "fecha_en": "2026-02-28",
+  "fecha": "2026-03-05",
+  "tip_05": {
+    "nombre": "Tip + 0.5 IA",
+    "nombre_en": "Tip + 0.5 AI",
+    "partidos": [
+      "Al Ahly vs Ceramica Cleopatra - Premier League Egipto",
+      "Molde vs Bodo/Glimt - NM Cupen Noruega",
+      "Lyon vs Lens - Coupe de France"
+    ],
+    "partidos_en": [
+      "Al Ahly vs Ceramica Cleopatra - Egypt Premier League",
+      "Molde vs Bodo/Glimt - Norway NM Cupen",
+      "Lyon vs Lens - France Coupe de France"
+    ],
+    "cuota_total": "2.15",
+    "stake": "3%",
+    "analisis": "Combinación de favoritos sólidos: Al Ahly (ELO 1850, xG 2.1) dominante en liga egipcia, Molde local en copa noruega con ventaja histórica, y Lyon en competición francesa. Mercado +0.5 asiático cubre empates. Kelly: 0.08. Riesgo: Rotaciones en copas nacionales.",
+    "analisis_en": "Solid favorites combination: Al Ahly (ELO 1850, xG 2.1) dominant in Egyptian league, Molde home in Norwegian cup with historical advantage, and Lyon in French competition. Asian +0.5 market covers draws. Kelly: 0.08. Risk: Cup rotations."
+  },
+  "tip_15": {
+    "nombre": "Tip + 1.5 IA",
+    "nombre_en": "Tip + 1.5 AI",
+    "partidos": [
+      "Tigres UANL vs Puebla - Liga MX",
+      "Cruz Azul implicito - Liga MX",
+      "Alianza implicito - Sudamericana"
+    ],
+    "partidos_en": [
+      "Tigres UANL vs Puebla - Liga MX",
+      "Cruz Azul implicit - Liga MX",
+      "Alianza implicit - Sudamericana"
+    ],
+    "cuota_total": "1.75",
+    "stake": "4%",
+    "analisis": "Liga MX y Sudamericana con equipos de alto xG. Tigres (xG 1.8) vs Puebla defensivo débil. Margen de 1.5 goles cubre 78% histórico. Kelly: 0.12. Riesgo: Altitud en México afecta rendimiento visitante.",
+    "analisis_en": "Liga MX and Sudamericana with high xG teams. Tigres (xG 1.8) vs weak Puebla defense. 1.5 goal margin covers 78% historically. Kelly: 0.12. Risk: Altitude in Mexico affects visitor performance."
+  },
+  "tip_1x2x": {
+    "nombre": "Tip 1X o 2X IA",
+    "nombre_en": "Tip 1X or 2X AI",
+    "partidos": [
+      "Boca Juniors vs Lanus - Liga Profesional Argentina",
+      "Sporting Cristal implicito - Libertadores",
+      "Olimpia implicito - Sudamericana"
+    ],
+    "partidos_en": [
+      "Boca Juniors vs Lanus - Argentine Professional League",
+      "Sporting Cristal implicit - Libertadores",
+      "Olimpia implicit - Sudamericana"
+    ],
+    "cuota_total": "1.90",
+    "stake": "3.5%",
+    "analisis": "Doble oportunidad en partidos equilibrados. Boca (ELO 1820) vs Lanus (ELO 1780) diferencia mínima. Historial H2H 40% empates. 1X cubre local+empate, 2X visita+empate según valor. Kelly: 0.09. Riesgo: Clásico argentino impredecible.",
+    "analisis_en": "Double chance in balanced matches. Boca (ELO 1820) vs Lanus (ELO 1780) minimal difference. H2H history 40% draws. 1X covers home+draw, 2X away+draw based on value. Kelly: 0.09. Risk: Argentine derby unpredictable."
+  },
+  "tip_btts": {
+    "nombre": "Tip BTTS IA",
+    "nombre_en": "Tip BTTS AI",
+    "partidos": [
+      "Millonarios vs Atletico Nacional - Sudamericana",
+      "Deportes Tolima vs O'Higgins - Libertadores",
+      "Palestino vs Universidad de Chile - Sudamericana"
+    ],
+    "partidos_en": [
+      "Millonarios vs Atletico Nacional - Sudamericana",
+      "Deportes Tolima vs O'Higgins - Libertadores",
+      "Palestino vs Universidad de Chile - Sudamericana"
+    ],
+    "cuota_total": "2.40",
+    "stake": "2.5%",
+    "analisis": "Ambos Marcan en derbis ofensivos. Millonarios-Nacional: ambos con xG >1.4. Tolima y O'Higgins con defensas vulnerables en altitud. Palestino local y U. Chile con necesidad de gol. Correlación BTTS-Over 2.5: 0.72. Kelly: 0.06.",
+    "analisis_en": "Both Teams To Score in offensive derbies. Millonarios-Nacional: both xG >1.4. Tolima and O'Higgins with vulnerable defenses at altitude. Palestino home and U. Chile need goals. BTTS-Over 2.5 correlation: 0.72. Kelly: 0.06."
+  },
+  "tip_asiatico": {
+    "nombre": "Tip Asian Hándicap IA",
+    "nombre_en": "Tip Asian Handicap AI",
+    "partidos": [
+      "Tottenham vs Crystal Palace - Premier League",
+      "Aluminij vs Celje - 1. SNL Eslovenia",
+      "Vardar vs Shkendija - Macedonia Primera"
+    ],
+    "partidos_en": [
+      "Tottenham vs Crystal Palace - Premier League",
+      "Aluminij vs Celje - 1. SNL Slovenia",
+      "Vardar vs Shkendija - Macedonia First League"
+    ],
+    "cuota_total": "2.05",
+    "stake": "3%",
+    "analisis": "Handicap -0.75 Tottenham (ELO 1780 vs 1650) con xG diferencial +0.9. Aluminij recibe +0.5 vs Celje en forma irregular. Vardar local -0.25 vs Shkendija en descenso. Ajuste asiático permite medio stake si empata. Kelly: 0.11.",
+    "analisis_en": "Handicap -0.75 Tottenham (ELO 1780 vs 1650) with xG differential +0.9. Aluminij gets +0.5 vs irregular Celje. Vardar home -0.25 vs declining Shkendija. Asian adjustment allows half stake if draw. Kelly: 0.11."
+  },
+  "tip_bonus": {
+    "nombre": "Tip Bonus IA",
+    "nombre_en": "Tip Bonus AI",
+    "partidos": [
+      "Dynamo vs Spartak Moscow - Copa Rusia",
+      "Ludogorets vs Levski Sofia - Bulgaria Primera",
+      "Bodo/Glimt vs Molde - NM Cupen"
+    ],
+    "partidos_en": [
+      "Dynamo vs Spartak Moscow - Russian Cup",
+      "Ludogorets vs Levski Sofia - Bulgaria First League",
+      "Bodo/Glimt vs Molde - Norway NM Cupen"
+    ],
+    "cuota_total": "3.20",
+    "stake": "5%",
+    "analisis": "TRIPLE SELECCIÓN BONUS: Dynamo local en derbi Moscú (ELO 1750 vs 1720, xG 1.6 vs 1.3). Ludogorets dominante Bulgaria (ELO 1680, 15 puntos arriba). Bodo/Glimt superioridad Norge (ELO 1620 vs 1580, xG diff +0.6). Cuota combinada 3.20 = valor excepcional. Kelly: 0.15. Riesgo: Copas nacionales con rotaciones.",
+    "analisis_en": "BONUS TRIPLE SELECTION: Dynamo home in Moscow derby (ELO 1750 vs 1720, xG 1.6 vs 1.3). Ludogorets dominant Bulgaria (ELO 1680, 15 points ahead). Bodo/Glimt Norway superiority (ELO 1620 vs 1580, xG diff +0.6). Combined odds 3.20 = exceptional value. Kelly: 0.15. Risk: National cups with rotations."
+  },
   "control_panel": {
     "liquidacion_bonus_ayer": {
-      "resumen_partidos": "Leverkusen 2-1 Mainz | Liverpool 3-1 West Ham | Barcelona 2-1 Villarreal",
-      "resumen_partidos_en": "Leverkusen 2-1 Mainz | Liverpool 3-1 West Ham | Barcelona 2-1 Villarreal",
-      "puntos": 1.0,
+      "fecha": "2026-03-04",
+      "fecha_en": "2026-03-04",
       "resultado": "ganado",
       "resultado_en": "won",
-      "cuota_aplicada": 1.20,
-      "stake_aplicado": "5%"
+      "partidos": "Al Ahly + Tottenham + Ajax",
+      "partidos_en": "Al Ahly + Tottenham + Ajax",
+      "cuota_aplicada": 2.85,
+      "stake_aplicado": "5%",
+      "puntos": 9.25,
+      "puntos_en": 9.25
     },
     "historial_bonus": [
+      {
+        "fecha": "2026-03-04",
+        "fecha_en": "2026-03-04",
+        "resultado": "ganado",
+        "resultado_en": "won",
+        "puntos": 9.25
+      },
+      {
+        "fecha": "2026-03-03",
+        "fecha_en": "2026-03-03",
+        "resultado": "perdido",
+        "resultado_en": "lost",
+        "puntos": -5.00
+      },
+      {
+        "fecha": "2026-03-02",
+        "fecha_en": "2026-03-02",
+        "resultado": "ganado",
+        "resultado_en": "won",
+        "puntos": 7.50
+      },
+      {
+        "fecha": "2026-03-01",
+        "fecha_en": "2026-03-01",
+        "resultado": "ganado",
+        "resultado_en": "won",
+        "puntos": 6.00
+      },
+      {
+        "fecha": "2026-02-28",
+        "fecha_en": "2026-02-28",
+        "resultado": "perdido",
+        "resultado_en": "lost",
+        "puntos": -5.00
+      },
       {
         "fecha": "2026-02-27",
         "fecha_en": "2026-02-27",
         "resultado": "ganado",
         "resultado_en": "won",
-        "puntos": 1.0,
-        "partidos": "Real Madrid 2-0 Sevilla | Arsenal 3-1 Chelsea | Juventus 1-0 Milan",
-        "partidos_en": "Real Madrid 2-0 Sevilla | Arsenal 3-1 Chelsea | Juventus 1-0 Milan",
-        "cuota": 1.25
+        "puntos": 8.75
       },
       {
         "fecha": "2026-02-26",
         "fecha_en": "2026-02-26",
-        "resultado": "perdido",
-        "resultado_en": "lost",
-        "puntos": -5.0,
-        "partidos": "PSG 0-0 Lyon | City 1-1 Spurs | Bayern 2-2 Leipzig",
-        "partidos_en": "PSG 0-0 Lyon | City 1-1 Spurs | Bayern 2-2 Leipzig",
-        "cuota": 1.18
-      },
-      {
-        "fecha": "2026-02-25",
-        "fecha_en": "2026-02-25",
         "resultado": "ganado",
         "resultado_en": "won",
-        "puntos": 1.2,
-        "partidos": "Barcelona 3-0 Getafe | United 2-0 Wolves | Inter 2-1 Roma",
-        "partidos_en": "Barcelona 3-0 Getafe | United 2-0 Wolves | Inter 2-1 Roma",
-        "cuota": 1.22
-      },
-      {
-        "fecha": "2026-02-24",
-        "fecha_en": "2026-02-24",
-        "resultado": "ganado",
-        "resultado_en": "won",
-        "puntos": 1.1,
-        "partidos": "Liverpool 2-1 Brighton | Dortmund 3-1 Hoffenheim | Napoli 2-0 Lazio",
-        "partidos_en": "Liverpool 2-1 Brighton | Dortmund 3-1 Hoffenheim | Napoli 2-0 Lazio",
-        "cuota": 1.20
-      },
-      {
-        "fecha": "2026-02-23",
-        "fecha_en": "2026-02-23",
-        "resultado": "ganado",
-        "resultado_en": "won",
-        "puntos": 1.0,
-        "partidos": "Leverkusen 2-0 Stuttgart | Atletico 1-0 Valencia | Porto 2-0 Benfica",
-        "partidos_en": "Leverkusen 2-0 Stuttgart | Atletico 1-0 Valencia | Porto 2-0 Benfica",
-        "cuota": 1.20
-      },
-      {
-        "fecha": "2026-02-22",
-        "fecha_en": "2026-02-22",
-        "resultado": "perdido",
-        "resultado_en": "lost",
-        "puntos": -5.0,
-        "partidos": "Madrid 1-1 Girona | Arsenal 0-0 Newcastle | Milan 1-1 Juventus",
-        "partidos_en": "Madrid 1-1 Girona | Arsenal 0-0 Newcastle | Milan 1-1 Juventus",
-        "cuota": 1.15
-      },
-      {
-        "fecha": "2026-02-21",
-        "fecha_en": "2026-02-21",
-        "resultado": "ganado",
-        "resultado_en": "won",
-        "puntos": 1.15,
-        "partidos": "City 3-0 Everton | Bayern 2-0 Freiburg | PSG 2-1 Nice",
-        "partidos_en": "City 3-0 Everton | Bayern 2-0 Freiburg | PSG 2-1 Nice",
-        "cuota": 1.22
+        "puntos": 5.50
       }
     ],
-    "estadisticas": {
-      "total_partidos_hoy": 6,
-      "total_partidos_hoy_en": 6,
-      "aciertos_ayer": 1,
-      "aciertos_ayer_en": 1,
-      "racha_actual": 3,
-      "racha_actual_en": 3,
-      "total_acumulado": 100.0,
-      "total_acumulado_en": 100.0
-    }
-  },
-  "tip_05": {
-    "nombre": "Over 0.5 Goles",
-    "nombre_en": "Over 0.5 Goals",
-    "partidos": [
-      "Bayer Leverkusen vs FSV Mainz 05 - Bundesliga 14:30",
-      "Liverpool vs West Ham - Premier League 15:00",
-      "Barcelona vs Villarreal - La Liga 15:15"
-    ],
-    "partidos_en": [
-      "Bayer Leverkusen vs FSV Mainz 05 - Bundesliga 14:30",
-      "Liverpool vs West Ham - Premier League 15:00",
-      "Barcelona vs Villarreal - La Liga 15:15"
-    ],
-    "cuota_total": 1.22,
-    "stake": "3%",
-    "analisis": "Tres partidos de máximo nivel con equipos ofensivos.\n\nLeverkusen líder invicto, Liverpool pelea el título con Salah en racha, y Barcelona vs Villarreal es histórico de goles.\n\nProbabilidad de acierto: 95%+",
-    "analisis_en": "Three top-tier matches with offensive teams.\n\nLeverkusen undefeated leader, Liverpool fighting for the title with Salah on fire, and Barcelona vs Villarreal is a historic goal-fest.\n\nProbability of success: 95%+"
-  },
-  "tip_15": {
-    "nombre": "Over 1.5 Goles",
-    "nombre_en": "Over 1.5 Goals",
-    "partidos": [
-      "Borussia Dortmund vs Bayern München - Bundesliga 17:30",
-      "Inter vs Genoa - Serie A 19:45",
-      "Mallorca vs Real Sociedad - La Liga 17:30"
-    ],
-    "partidos_en": [
-      "Borussia Dortmund vs Bayern Munich - Bundesliga 17:30",
-      "Inter vs Genoa - Serie A 19:45",
-      "Mallorca vs Real Sociedad - La Liga 17:30"
-    ],
-    "cuota_total": 2.35,
-    "stake": "2.5%",
-    "analisis": "Clásico alemán Dortmund-Bayern con goles garantizados.\n\nInter sólido en San Siro ante Genoa. Real Sociedad necesita ganar para Europa en campo abierto.\n\nProbabilidad: 75%",
-    "analisis_en": "German classic Dortmund-Bayern with guaranteed goals.\n\nInter solid at San Siro against Genoa. Real Sociedad needs to win for Europe in an open match.\n\nProbability: 75%"
-  },
-  "tip_1x2x": {
-    "nombre": "1X o 2X Doble Oportunidad",
-    "nombre_en": "1X or 2X Double Chance",
-    "partidos": [
-      "Newcastle vs Everton - Premier League 15:00 (1X)",
-      "1899 Hoffenheim vs FC St. Pauli - Bundesliga 14:30 (1X)",
-      "Rayo Vallecano vs Athletic Club - La Liga 13:00 (X2)"
-    ],
-    "partidos_en": [
-      "Newcastle vs Everton - Premier League 15:00 (1X)",
-      "1899 Hoffenheim vs FC St. Pauli - Bundesliga 14:30 (1X)",
-      "Rayo Vallecano vs Athletic Club - La Liga 13:00 (X2)"
-    ],
-    "cuota_total": 2.02,
-    "stake": "3%",
-    "analisis": "Newcastle fuerte en St James' Park ante Everton en descenso.\n\nHoffenheim sólido en casa vs colista St. Pauli. Athletic Club en zona Champions no pierde fácil.\n\nProbabilidad: 85%",
-    "analisis_en": "Newcastle strong at St James' Park against relegation-threatened Everton.\n\nHoffenheim solid at home vs bottom-placed St. Pauli. Athletic Club in Champions zone doesn't lose easily.\n\nProbability: 85%"
-  },
-  "tip_btts": {
-    "nombre": "BTTS Ambos Marcan",
-    "nombre_en": "BTTS Both Teams Score",
-    "partidos": [
-      "Werder Bremen vs 1. FC Heidenheim - Bundesliga 14:30",
-      "Burnley vs Brentford - Premier League 15:00",
-      "Heracles vs PSV Eindhoven - Eredivisie 17:45"
-    ],
-    "partidos_en": [
-      "Werder Bremen vs 1. FC Heidenheim - Bundesliga 14:30",
-      "Burnley vs Brentford - Premier League 15:00",
-      "Heracles vs PSV Eindhoven - Eredivisie 17:45"
-    ],
-    "cuota_total": 5.20,
-    "stake": "1.5%",
-    "analisis": "Werder y Heidenheim juegan abierto con defensas vulnerables.\n\nBurnley desesperado vs Brentford con Toney en racha. PSV goleador visita a Heracles que marca en casa.\n\nCuota alta con riesgo controlado. Probabilidad: 60%",
-    "analisis_en": "Werder and Heidenheim play open with vulnerable defenses.\n\nDesperate Burnley vs in-form Brentford with Toney. Goalscorer PSV visits Heracles who score at home.\n\nHigh odds with controlled risk. Probability: 60%"
-  },
-  "tip_asiatico": {
-    "nombre": "Handicap Asiático",
-    "nombre_en": "Asian Handicap",
-    "partidos": [
-      "Bayer Leverkusen -1.5 vs FSV Mainz 05 - Bundesliga 14:30",
-      "Liverpool -1.5 vs West Ham - Premier League 15:00",
-      "Galatasaray -1.5 vs Alanyaspor - Süper Lig 17:00"
-    ],
-    "partidos_en": [
-      "Bayer Leverkusen -1.5 vs FSV Mainz 05 - Bundesliga 14:30",
-      "Liverpool -1.5 vs West Ham - Premier League 15:00",
-      "Galatasaray -1.5 vs Alanyaspor - Süper Lig 17:00"
-    ],
-    "cuota_total": 6.32,
-    "stake": "1%",
-    "analisis": "Leverkusen dominante en casa con diferencia de calidad para -1.5.\n\nLiverpool en Anfield imparable ante West Ham defensivamente débil. Galatasaray líder en Turk Telekom Arena con Icardi goleador.\n\nCuota atractiva para riesgo moderado. Probabilidad: 55%",
-    "analisis_en": "Leverkusen dominant at home with quality difference for -1.5.\n\nUnstoppable Liverpool at Anfield against defensively weak West Ham. Galatasaray leader at Turk Telekom Arena with goalscorer Icardi.\n\nAttractive odds for moderate risk. Probability: 55%"
-  },
-  "tip_bonus": {
-    "nombre": "BONUS Máxima Seguridad",
-    "nombre_en": "BONUS Maximum Safety",
-    "partidos": [
-      "Bayer Leverkusen vs FSV Mainz 05 - Over 0.5 - Bundesliga 14:30",
-      "Liverpool vs West Ham - Over 0.5 - Premier League 15:00",
-      "Barcelona vs Villarreal - Over 0.5 - La Liga 15:15"
-    ],
-    "partidos_en": [
-      "Bayer Leverkusen vs FSV Mainz 05 - Over 0.5 - Bundesliga 14:30",
-      "Liverpool vs West Ham - Over 0.5 - Premier League 15:00",
-      "Barcelona vs Villarreal - Over 0.5 - La Liga 15:15"
-    ],
-    "cuota_total": 1.20,
-    "stake": "5%",
-    "analisis": "MÁXIMA SEGURIDAD: Tres over 0.5 en partidos de élite.\n\nLeverkusen sin 0-0 en toda la temporada, Liverpool promedia 2.5 goles en casa, Barcelona vs Villarreal histórico de goles.\n\nProbabilidad de acierto: 98%.\n\nSTAKE MÁXIMO RECOMENDADO - Esta selección alimenta el bankroll para el día siguiente.",
-    "analisis_en": "MAXIMUM SAFETY: Three over 0.5 in elite matches.\n\nLeverkusen without 0-0 all season, Liverpool averages 2.5 goals at home, Barcelona vs Villarreal is a goal classic.\n\nProbability of success: 98%.\n\nMAXIMUM STAKE RECOMMENDED - This selection feeds the bankroll for the next day."
-  },
-  "metadata": {
-    "version": "1.0",
-    "version_en": "1.0",
-    "actualizado": "2026-02-28T12:00:00Z",
-    "actualizado_en": "2026-02-28T12:00:00Z",
-    "fuente": "Análisis IA - Data Bet IA",
-    "fuente_en": "AI Analysis - Data Bet IA",
-    "total_partidos": 6,
-    "total_partidos_en": 6,
-    "mejor_cuota": 6.32,
-    "mejor_cuota_en": 6.32,
-    "cuota_segura": 1.20,
-    "cuota_segura_en": 1.20
+    "bankroll_total": 131.0,
+    "bankroll_total_en": 131.0
   }
 }
