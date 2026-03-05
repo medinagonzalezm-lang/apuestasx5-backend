@@ -67,4 +67,62 @@
       "Al Wakrah vs Al Shamal - BTTS Yes",
       "Al Shabab vs Al Ahli - BTTS Yes"
     ],
-    "cuota_total": "
+    "cuota_total": "2.20",
+    "stake": "2.5%",
+    "analisis": "QATAR BTTS: Al-Duhail ataca, Al-Sailiya necesita gol en casa. Al Wakrah-Shamal clásico ofensivo. BAHRAIN BTTS: Al Shabab-Al Ahli derbi ambos marcan 75% histórico. Kelly: 0.07. Riesgo: Correlación alta mismas ligas.",
+    "analisis_en": "QATAR BTTS: Al-Duhail attacks, Al-Sailiya needs goal at home. Al Wakrah-Shamal offensive derby. BAHRAIN BTTS: Al Shabab-Al Ahli derby both score 75% historic. Kelly: 0.07. Risk: High correlation same leagues."
+  },
+  "tip_asiatico": {
+    "nombre": "Tip Asian Hándicap IA",
+    "nombre_en": "Tip Asian Handicap AI",
+    "partidos": [
+      "Al-Duhail SC vs Al-Sailiya - Al-Duhail -0.75 AH",
+      "Al Ahli vs Al Shabab - Al Ahli -0.5 AH",
+      "Al Riyadh vs Damac - Al Riyadh -0.25 AH"
+    ],
+    "partidos_en": [
+      "Al-Duhail SC vs Al-Sailiya - Al-Duhail -0.75 AH",
+      "Al Ahli vs Al Shabab - Al Ahli -0.5 AH",
+      "Al Riyadh vs Damac - Al Riyadh -0.25 AH"
+    ],
+    "cuota_total": "2.10",
+    "stake": "3%",
+    "analisis": "AL-DUHAIL -0.75 AH: Líder Qatar (ELO 1720 vs 1580), ataque xG 1.9. AL AHLI -0.5 AH: Local Bahrain vs Shabab, factor cancha. AL RIYADH -0.25 AH: Visitante Saudi vs Damac, empate devuelve mitad. Kelly: 0.10. Riesgo: Mismas ligas que +0.5, correlación.",
+    "analisis_en": "AL-DUHAIL -0.75 AH: Qatar leader (ELO 1720 vs 1580), attack xG 1.9. AL AHLI -0.5 AH: Home Bahrain vs Shabab, home factor. AL RIYADH -0.25 AH: Away Saudi vs Damac, draw returns half. Kelly: 0.10. Risk: Same leagues as +0.5, correlation."
+  },
+  "tip_bonus": {
+    "nombre": "Tip Bonus IA",
+    "nombre_en": "Tip Bonus AI",
+    "partidos": [
+      "Al-Duhail SC vs Al-Sailiya - Al-Duhail -0.75 AH",
+      "Al Ahli vs Al Shabab - Al Ahli -0.5 AH",
+      "Al Wakrah vs Al Shamal - Al Wakrah 1X"
+    ],
+    "partidos_en": [
+      "Al-Duhail SC vs Al-Sailiya - Al-Duhail -0.75 AH",
+      "Al Ahli vs Al Shabab - Al Ahli -0.5 AH",
+      "Al Wakrah vs Al Shamal - Al Wakrah 1X"
+    ],
+    "cuota_total": "3.10",
+    "stake": "5%",
+    "analisis": "BONUS TRIPLE: AL-DUHAIL -0.75 AH dominante Qatar (ELO 1720, línea ataque xG 1.9). AL AHLI -0.5 AH local Bahrain fuerte. AL WAKRAH 1X factor cancha Qatar vs Shamal irregular. Cuota 3.10 = valor máximo con diversificación Arabia. Kelly: 0.15. RIESGO: Todos ligas árabes, correlación regional.",
+    "analisis_en": "BONUS TRIPLE: AL-DUHAIL -0.75 AH dominant Qatar (ELO 1720, attack line xG 1.9). AL AHLI -0.5 AH strong Bahrain home. AL WAKRAH 1X home Qatar factor vs irregular Shamal. Odds 3.10 = maximum value with Arabia diversification. Kelly: 0.15. RISK: All Arabian leagues, regional correlation."
+  },
+  "control_panel": {
+    "liquidacion_bonus_ayer": {
+      "fecha": "2026-03-04",
+      "fecha_en": "2026-03-04",
+      "resultado": "pendiente",
+      "resultado_en": "pending",
+      "partidos": "Sin resultados - Primer día",
+      "partidos_en": "No results - First day",
+      "cuota_aplicada": 0.0,
+      "stake_aplicado": "0%",
+      "puntos": 0.0,
+      "puntos_en": 0.0
+    },
+    "historial_bonus": [],
+    "bankroll_total": 100.0,
+    "bankroll_total_en": 100.0
+  }
+}
