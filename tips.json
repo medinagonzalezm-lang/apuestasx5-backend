@@ -4,125 +4,67 @@
     "nombre": "Tip + 0.5 IA",
     "nombre_en": "Tip + 0.5 AI",
     "partidos": [
-      "El Mokawloon vs Al Ahly - Al Ahly +0.5",
-      "Molde vs Bodo/Glimt - Molde +0.5",
-      "Lyon vs Lens - Lyon +0.5"
+      "Damac vs Al Riyadh - Damac +0.5",
+      "Al Kholood vs Al-Qadisiyah FC - Al Kholood +0.5",
+      "Throttur Reykjavik vs Fylkir - Throttur Reykjavik +0.5"
     ],
     "partidos_en": [
-      "El Mokawloon vs Al Ahly - Al Ahly +0.5",
-      "Molde vs Bodo/Glimt - Molde +0.5",
-      "Lyon vs Lens - Lyon +0.5"
+      "Damac vs Al Riyadh - Damac +0.5",
+      "Al Kholood vs Al-Qadisiyah FC - Al Kholood +0.5",
+      "Throttur Reykjavik vs Fylkir - Throttur Reykjavik +0.5"
     ],
-    "cuota_total": "2.10",
+    "cuota_total": "2.05",
     "stake": "3%",
-    "analisis": "AL AHLY +0.5: Visitante ELO 1850 vs 1650, xG diff +0.8. Victoria o empate cubierto. MOLDE +0.5: Local copa Noruega, H2H favorable 60%. LYON +0.5: Copa Francia motivación alta. Kelly: 0.09. Riesgo: Rotaciones copas nacionales.",
-    "analisis_en": "AL AHLY +0.5: Away ELO 1850 vs 1650, xG diff +0.8. Win or draw covered. MOLDE +0.5: Home Norwegian cup, 60% favorable H2H. LYON +0.5: French Cup high motivation. Kelly: 0.09. Risk: National cup rotations."
+    "analisis": "DAMAC +0.5: Local liga Saudi (ELO 1620 vs 1580), factor cancha Jeddah. AL KHOLOOD +0.5: Home advantage vs Qadisiyah irregular visita. THROTTUR +0.5: Copa Islandia local, Fylkir bajón forma. Kelly: 0.08. Riesgo: Ligas menores con poca liquidez.",
+    "analisis_en": "DAMAC +0.5: Home Saudi league (ELO 1620 vs 1580), Jeddah home factor. AL KHOLOOD +0.5: Home advantage vs irregular Qadisiyah away. THROTTUR +0.5: Iceland Cup home, Fylkir poor form. Kelly: 0.08. Risk: Minor leagues low liquidity."
   },
   "tip_15": {
     "nombre": "Tip + 1.5 IA",
     "nombre_en": "Tip + 1.5 AI",
     "partidos": [
-      "Tigres UANL vs Puebla - Over 1.5 goles",
-      "Atlas vs Club Tijuana - Over 1.5 goles",
-      "Monterrey vs Club Queretaro - Over 1.5 goles"
+      "Al-Sailiya vs Al-Duhail SC - Over 1.5 goles",
+      "Al Wakrah vs Al Shamal - Over 1.5 goles",
+      "Al Riffa vs Muharraq - Over 1.5 goles"
     ],
     "partidos_en": [
-      "Tigres UANL vs Puebla - Over 1.5 goals",
-      "Atlas vs Club Tijuana - Over 1.5 goals",
-      "Monterrey vs Club Queretaro - Over 1.5 goals"
+      "Al-Sailiya vs Al-Duhail SC - Over 1.5 goals",
+      "Al Wakrah vs Al Shamal - Over 1.5 goals",
+      "Al Riffa vs Muharraq - Over 1.5 goals"
     ],
-    "cuota_total": "1.72",
+    "cuota_total": "1.68",
     "stake": "4%",
-    "analisis": "TIGRES-PUEBLA Over 1.5: Tigres xG 1.8 vs defensa débil. ATLAS-TIJUANA Over 1.5: Clásico ofensivo, 75% BTTS histórico. MONTERREY-QUERETARO Over 1.5: Superioridad local garantiza gol. Margen cubre 82%. Kelly: 0.13. Riesgo: Rotaciones jornada entre semana.",
-    "analisis_en": "TIGRES-PUEBLA Over 1.5: Tigres xG 1.8 vs weak defense. ATLAS-TIJUANA Over 1.5: Offensive derby, 75% BTTS history. MONTERREY-QUERETARO Over 1.5: Home superiority guarantees goal. Margin covers 82%. Kelly: 0.13. Risk: Midweek fixture rotations."
+    "analisis": "QATAR Over 1.5: Al-Duhail ataque potente (xG 1.9), Al-Sailiya obligado a marcar. Al Wakrah-Shamal clásico con goles. BAHRAIN Over 1.5: Al Riffa-Muharraq derbi histórico 80% Over 1.5. Kelly: 0.11. Riesgo: Horario temprano Arabia poco habitual.",
+    "analisis_en": "QATAR Over 1.5: Al-Duhail potent attack (xG 1.9), Al-Sailiya forced to score. Al Wakrah-Shamal derby with goals. BAHRAIN Over 1.5: Al Riffa-Muharraq historic derby 80% Over 1.5. Kelly: 0.11. Risk: Early Arabia schedule unusual."
   },
   "tip_1x2x": {
     "nombre": "Tip 1X o 2X IA",
     "nombre_en": "Tip 1X or 2X AI",
     "partidos": [
-      "Boca Juniors vs Lanus - Boca 1X",
-      "Atletico Nacional vs Millonarios - Millonarios X2",
-      "O'Higgins vs Deportes Tolima - O'Higgins 1X"
+      "Tira vs Hapoel Bnei Musmus - Tira 1X",
+      "Al Sulaibikhat vs Al Jazira - Al Jazira X2",
+      "Yarmouk vs Al Sahel - Yarmouk 1X"
     ],
     "partidos_en": [
-      "Boca Juniors vs Lanus - Boca 1X",
-      "Atletico Nacional vs Millonarios - Millonarios X2",
-      "O'Higgins vs Deportes Tolima - O'Higgins 1X"
+      "Tira vs Hapoel Bnei Musmus - Tira 1X",
+      "Al Sulaibikhat vs Al Jazira - Al Jazira X2",
+      "Yarmouk vs Al Sahel - Yarmouk 1X"
     ],
-    "cuota_total": "1.95",
+    "cuota_total": "1.88",
     "stake": "3.5%",
-    "analisis": "BOCA 1X: ELO 1820 vs 1780, factor local La Bombonera. MILLONARIOS X2: Nacional visita, Millonarios mejor forma actual. O'HIGGINS 1X: Altitud Chile factor decisivo vs Tolima. Kelly: 0.10. Riesgo: Clásicos impredecibles.",
-    "analisis_en": "BOCA 1X: ELO 1820 vs 1780, La Bombonera home factor. MILLONARIOS X2: Nacional away, Millonarios better current form. O'HIGGINS 1X: Chile altitude decisive factor vs Tolima. Kelly: 0.10. Risk: Unpredictable derbies."
+    "analisis": "ISRAEL Liga Alef: Tira local medio tabla, Hapoel Bnei visita débil. KUWAIT Division 1: Al Jazira mejor visita vs Sulaibikhat colista. Yarmouk vs Al Sahel equilibrado, factor local decide. Kelly: 0.09. Riesgo: Ligas menores sin datos xG fiables.",
+    "analisis_en": "ISRAEL Liga Alef: Tira home mid-table, Hapoel Bnei weak away. KUWAIT Division 1: Al Jazira better away vs Sulaibikhat bottom. Yarmouk vs Al Sahel balanced, home factor decisive. Kelly: 0.09. Risk: Minor leagues no reliable xG data."
   },
   "tip_btts": {
     "nombre": "Tip BTTS IA",
     "nombre_en": "Tip BTTS AI",
     "partidos": [
-      "Millonarios vs Atletico Nacional - BTTS Si",
-      "Atlas vs Club Tijuana - BTTS Si",
-      "Universidad de Chile vs Palestino - BTTS Si"
+      "Al-Sailiya vs Al-Duhail SC - BTTS Si",
+      "Al Wakrah vs Al Shamal - BTTS Si",
+      "Al Shabab vs Al Ahli - BTTS Si"
     ],
     "partidos_en": [
-      "Millonarios vs Atletico Nacional - BTTS Yes",
-      "Atlas vs Club Tijuana - BTTS Yes",
-      "Universidad de Chile vs Palestino - BTTS Yes"
+      "Al-Sailiya vs Al-Duhail SC - BTTS Yes",
+      "Al Wakrah vs Al Shamal - BTTS Yes",
+      "Al Shabab vs Al Ahli - BTTS Yes"
     ],
-    "cuota_total": "2.35",
-    "stake": "2.5%",
-    "analisis": "MILLONARIOS-NACIONAL BTTS: Ambos necesitan gol Sudamericana, xG combinado 2.8. ATLAS-TIJUANA BTTS: Clásico mexicano 70% Over 2.5 histórico. U.CHILE-PALESTINO BTTS: Necesidad resultados ambos, defensas vulnerables. Correlación BTTS-Over 2.5: 0.75. Kelly: 0.07.",
-    "analisis_en": "MILLONARIOS-NACIONAL BTTS: Both need goals Sudamericana, combined xG 2.8. ATLAS-TIJUANA BTTS: Mexican derby 70% Over 2.5 history. U.CHILE-PALESTINO BTTS: Both need results, vulnerable defenses. BTTS-Over 2.5 correlation: 0.75. Kelly: 0.07."
-  },
-  "tip_asiatico": {
-    "nombre": "Tip Asian Hándicap IA",
-    "nombre_en": "Tip Asian Handicap AI",
-    "partidos": [
-      "Tottenham vs Crystal Palace - Tottenham -1.0 AH",
-      "Al Ahly vs El Mokawloon - Al Ahly -0.75 AH",
-      "Ludogorets vs Levski Sofia - Ludogorets -0.5 AH"
-    ],
-    "partidos_en": [
-      "Tottenham vs Crystal Palace - Tottenham -1.0 AH",
-      "Al Ahly vs El Mokawloon - Al Ahly -0.75 AH",
-      "Ludogorets vs Levski Sofia - Ludogorets -0.5 AH"
-    ],
-    "cuota_total": "2.00",
-    "stake": "3%",
-    "analisis": "TOTTENHAM -1.0 AH: ELO 1780 vs 1650, xG diff +0.9. AL AHLY -0.75 AH: ELO gap 200 puntos, xG 2.1 vs 1.3. LUDOGORETS -0.5 AH: Líder Bulgaria, 12 puntos arriba, 70% victorias. Kelly: 0.12. Riesgo: Tottenham inconsistente últimos partidos.",
-    "analisis_en": "TOTTENHAM -1.0 AH: ELO 1780 vs 1650, xG diff +0.9. AL AHLY -0.75 AH: 200 ELO points gap, xG 2.1 vs 1.3. LUDOGORETS -0.5 AH: Bulgaria leader, 12 points ahead, 70% wins. Kelly: 0.12. Risk: Tottenham inconsistent recent matches."
-  },
-  "tip_bonus": {
-    "nombre": "Tip Bonus IA",
-    "nombre_en": "Tip Bonus AI",
-    "partidos": [
-      "Al Ahly vs El Mokawloon - Al Ahly -0.75 AH",
-      "Ludogorets vs Levski Sofia - Ludogorets -0.5 AH",
-      "Molde vs Bodo/Glimt - Molde 1X"
-    ],
-    "partidos_en": [
-      "Al Ahly vs El Mokawloon - Al Ahly -0.75 AH",
-      "Ludogorets vs Levski Sofia - Ludogorets -0.5 AH",
-      "Molde vs Bodo/Glimt - Molde 1X"
-    ],
-    "cuota_total": "3.15",
-    "stake": "5%",
-    "analisis": "BONUS TRIPLE: AL AHLY -0.75 AH dominante Egipto (ELO 1850 vs 1650, 85% victorias liga). LUDOGORETS -0.5 AH imparable Bulgaria (ELO 1680, +12 pts líder). MOLDE 1X factor cancha copa Noruega (60% H2H local vs Bodo/Glimt). Cuota 3.15 = valor excepcional. Kelly: 0.16.",
-    "analisis_en": "BONUS TRIPLE: AL AHLY -0.75 AH dominant Egypt (ELO 1850 vs 1650, 85% league wins). LUDOGORETS -0.5 AH unstoppable Bulgaria (ELO 1680, +12 pts leader). MOLDE 1X home factor Norwegian cup (60% H2H home vs Bodo/Glimt). Odds 3.15 = exceptional value. Kelly: 0.16."
-  },
-  "control_panel": {
-    "liquidacion_bonus_ayer": {
-      "fecha": "2026-03-04",
-      "fecha_en": "2026-03-04",
-      "resultado": "pendiente",
-      "resultado_en": "pending",
-      "partidos": "Sin resultados - Primer día",
-      "partidos_en": "No results - First day",
-      "cuota_aplicada": 0.0,
-      "stake_aplicado": "0%",
-      "puntos": 0.0,
-      "puntos_en": 0.0
-    },
-    "historial_bonus": [],
-    "bankroll_total": 100.0,
-    "bankroll_total_en": 100.0
-  }
-}
+    "cuota_total": "
