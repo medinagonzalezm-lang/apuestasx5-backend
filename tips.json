@@ -1,121 +1,121 @@
 {
-  "fecha": "2026-03-05",
+  "fecha": "2026-04-28",
   "tip_05": {
     "nombre": "Tip + 0.5 IA",
     "nombre_en": "Tip + 0.5 AI",
     "partidos": [
-      "Damac vs Al Riyadh - Damac +0.5",
-      "Al Kholood vs Al-Qadisiyah FC - Al Kholood +0.5",
-      "Throttur Reykjavik vs Fylkir - Throttur Reykjavik +0.5"
+      "Arema FC vs Persebaya Surabaya - Over 0.5 goles",
+      "Fakirerpool vs Rahmatgonj MFS - Over 0.5 goles",
+      "Abahani vs PWD Sports Club - Over 0.5 goles"
     ],
     "partidos_en": [
-      "Damac vs Al Riyadh - Damac +0.5",
-      "Al Kholood vs Al-Qadisiyah FC - Al Kholood +0.5",
-      "Throttur Reykjavik vs Fylkir - Throttur Reykjavik +0.5"
+      "Arema FC vs Persebaya Surabaya - Over 0.5 goals",
+      "Fakirerpool vs Rahmatgonj MFS - Over 0.5 goals",
+      "Abahani vs PWD Sports Club - Over 0.5 goals"
     ],
-    "cuota_total": "2.05",
-    "stake": "3%",
-    "analisis": "DAMAC +0.5: Local liga Saudi (ELO 1620 vs 1580), factor cancha Jeddah. AL KHOLOOD +0.5: Home advantage vs Qadisiyah irregular visita. THROTTUR +0.5: Copa Islandia local, Fylkir bajón forma. Kelly: 0.08. Riesgo: Ligas menores con poca liquidez.",
-    "analisis_en": "DAMAC +0.5: Home Saudi league (ELO 1620 vs 1580), Jeddah home factor. AL KHOLOOD +0.5: Home advantage vs irregular Qadisiyah away. THROTTUR +0.5: Iceland Cup home, Fylkir poor form. Kelly: 0.08. Risk: Minor leagues low liquidity."
+    "cuota_total": "1.15",
+    "stake": "10%",
+    "analisis": "Ligas asiáticas de la mañana con alta frecuencia de goles tempranos. Arema y Abahani muestran ofensivas consistentes. Probabilidad estadística >90%. Kelly: 0.15.",
+    "analisis_en": "Asian morning leagues with high frequency of early goals. Arema and Abahani show consistent offenses. Statistical probability >90%. Kelly: 0.15."
   },
   "tip_15": {
     "nombre": "Tip + 1.5 IA",
     "nombre_en": "Tip + 1.5 AI",
     "partidos": [
-      "Al-Sailiya vs Al-Duhail SC - Over 1.5 goles",
-      "Al Wakrah vs Al Shamal - Over 1.5 goles",
-      "Al Riffa vs Muharraq - Over 1.5 goles"
+      "Arsenal U18 vs Crystal Palace U18 - Over 1.5 goles",
+      "Tottenham Hotspur U18 vs West Ham United U18 - Over 1.5 goles",
+      "Southampton U18 vs Aston Villa U18 - Over 1.5 goles"
     ],
     "partidos_en": [
-      "Al-Sailiya vs Al-Duhail SC - Over 1.5 goals",
-      "Al Wakrah vs Al Shamal - Over 1.5 goals",
-      "Al Riffa vs Muharraq - Over 1.5 goals"
+      "Arsenal U18 vs Crystal Palace U18 - Over 1.5 goals",
+      "Tottenham Hotspur U18 vs West Ham United U18 - Over 1.5 goals",
+      "Southampton U18 vs Aston Villa U18 - Over 1.5 goals"
     ],
-    "cuota_total": "1.68",
-    "stake": "4%",
-    "analisis": "QATAR Over 1.5: Al-Duhail ataque potente (xG 1.9), Al-Sailiya obligado a marcar. Al Wakrah-Shamal clásico con goles. BAHRAIN Over 1.5: Al Riffa-Muharraq derbi histórico 80% Over 1.5. Kelly: 0.11. Riesgo: Horario temprano Arabia poco habitual.",
-    "analisis_en": "QATAR Over 1.5: Al-Duhail potent attack (xG 1.9), Al-Sailiya forced to score. Al Wakrah-Shamal derby with goals. BAHRAIN Over 1.5: Al Riffa-Muharraq historic derby 80% Over 1.5. Kelly: 0.11. Risk: Early Arabia schedule unusual."
+    "cuota_total": "1.72",
+    "stake": "5%",
+    "analisis": "Categoría U18 Premier League: Defensas en desarrollo y alta vocación ofensiva. Promedio histórico de la liga sugiere 3+ goles por partido. Kelly: 0.10.",
+    "analisis_en": "U18 Premier League category: Developing defenses and high offensive vocation. League historical average suggests 3+ goals per match. Kelly: 0.10."
   },
   "tip_1x2x": {
     "nombre": "Tip 1X o 2X IA",
     "nombre_en": "Tip 1X or 2X AI",
     "partidos": [
-      "Tira vs Hapoel Bnei Musmus - Tira 1X",
-      "Al Sulaibikhat vs Al Jazira - Al Jazira X2",
-      "Yarmouk vs Al Sahel - Yarmouk 1X"
+      "PSBS Biak Numfor vs Malut United - PSBS Biak 1X",
+      "Blackburn Rovers U18 vs Everton U18 - Blackburn 1X",
+      "Melaka vs Johor Darul Takzim FC - Johor 2X"
     ],
     "partidos_en": [
-      "Tira vs Hapoel Bnei Musmus - Tira 1X",
-      "Al Sulaibikhat vs Al Jazira - Al Jazira X2",
-      "Yarmouk vs Al Sahel - Yarmouk 1X"
+      "PSBS Biak Numfor vs Malut United - PSBS Biak 1X",
+      "Blackburn Rovers U18 vs Everton U18 - Blackburn 1X",
+      "Melaka vs Johor Darul Takzim FC - Johor 2X"
     ],
-    "cuota_total": "1.88",
-    "stake": "3.5%",
-    "analisis": "ISRAEL Liga Alef: Tira local medio tabla, Hapoel Bnei visita débil. KUWAIT Division 1: Al Jazira mejor visita vs Sulaibikhat colista. Yarmouk vs Al Sahel equilibrado, factor local decide. Kelly: 0.09. Riesgo: Ligas menores sin datos xG fiables.",
-    "analisis_en": "ISRAEL Liga Alef: Tira home mid-table, Hapoel Bnei weak away. KUWAIT Division 1: Al Jazira better away vs Sulaibikhat bottom. Yarmouk vs Al Sahel balanced, home factor decisive. Kelly: 0.09. Risk: Minor leagues no reliable xG data."
+    "cuota_total": "1.85",
+    "stake": "4%",
+    "analisis": "Análisis de solidez local. PSBS fuerte en casa; Blackburn U18 consistente; Johor domina la liga malaya sin oposición real. Kelly: 0.08.",
+    "analisis_en": "Analysis of home solidity. PSBS strong at home; Blackburn U18 consistent; Johor dominates Malaysian league without real opposition. Kelly: 0.08."
   },
   "tip_btts": {
     "nombre": "Tip BTTS IA",
     "nombre_en": "Tip BTTS AI",
     "partidos": [
-      "Al-Sailiya vs Al-Duhail SC - BTTS Si",
-      "Al Wakrah vs Al Shamal - BTTS Si",
-      "Al Shabab vs Al Ahli - BTTS Si"
+      "Royal Leopards vs Green Mamba - BTTS Si",
+      "Khenchela vs USM Alger - BTTS Si",
+      "JS Saoura vs CR Belouizdad - BTTS Si"
     ],
     "partidos_en": [
-      "Al-Sailiya vs Al-Duhail SC - BTTS Yes",
-      "Al Wakrah vs Al Shamal - BTTS Yes",
-      "Al Shabab vs Al Ahli - BTTS Yes"
+      "Royal Leopards vs Green Mamba - BTTS Yes",
+      "Khenchela vs USM Alger - BTTS Yes",
+      "JS Saoura vs CR Belouizdad - BTTS Yes"
     ],
     "cuota_total": "2.20",
-    "stake": "2.5%",
-    "analisis": "QATAR BTTS: Al-Duhail ataca, Al-Sailiya necesita gol en casa. Al Wakrah-Shamal clásico ofensivo. BAHRAIN BTTS: Al Shabab-Al Ahli derbi ambos marcan 75% histórico. Kelly: 0.07. Riesgo: Correlación alta mismas ligas.",
-    "analisis_en": "QATAR BTTS: Al-Duhail attacks, Al-Sailiya needs goal at home. Al Wakrah-Shamal offensive derby. BAHRAIN BTTS: Al Shabab-Al Ahli derby both score 75% historic. Kelly: 0.07. Risk: High correlation same leagues."
+    "stake": "3%",
+    "analisis": "Ligas de Eswatini y Argelia con paridad competitiva. Estadísticas de enfrentamientos previos muestran alto índice de ambos marcan en derbis. Kelly: 0.07.",
+    "analisis_en": "Eswatini and Algerian leagues with competitive parity. Previous matchup stats show high rate of both teams scoring in derbies. Kelly: 0.07."
   },
   "tip_asiatico": {
     "nombre": "Tip Asian Hándicap IA",
     "nombre_en": "Tip Asian Handicap AI",
     "partidos": [
-      "Al-Duhail SC vs Al-Sailiya - Al-Duhail -0.75 AH",
-      "Al Ahli vs Al Shabab - Al Ahli -0.5 AH",
-      "Al Riyadh vs Damac - Al Riyadh -0.25 AH"
+      "BUL vs NEC - BUL -0.5 AH",
+      "Mbarara City vs Express - Mbarara City -0.25 AH",
+      "Estoril U23 vs Gil Vicente U23 - Estoril -0.5 AH"
     ],
     "partidos_en": [
-      "Al-Duhail SC vs Al-Sailiya - Al-Duhail -0.75 AH",
-      "Al Ahli vs Al Shabab - Al Ahli -0.5 AH",
-      "Al Riyadh vs Damac - Al Riyadh -0.25 AH"
+      "BUL vs NEC - BUL -0.5 AH",
+      "Mbarara City vs Express - Mbarara City -0.25 AH",
+      "Estoril U23 vs Gil Vicente U23 - Estoril -0.5 AH"
     ],
     "cuota_total": "2.10",
     "stake": "3%",
-    "analisis": "AL-DUHAIL -0.75 AH: Líder Qatar (ELO 1720 vs 1580), ataque xG 1.9. AL AHLI -0.5 AH: Local Bahrain vs Shabab, factor cancha. AL RIYADH -0.25 AH: Visitante Saudi vs Damac, empate devuelve mitad. Kelly: 0.10. Riesgo: Mismas ligas que +0.5, correlación.",
-    "analisis_en": "AL-DUHAIL -0.75 AH: Qatar leader (ELO 1720 vs 1580), attack xG 1.9. AL AHLI -0.5 AH: Home Bahrain vs Shabab, home factor. AL RIYADH -0.25 AH: Away Saudi vs Damac, draw returns half. Kelly: 0.10. Risk: Same leagues as +0.5, correlation."
+    "analisis": "Superioridad técnica local en Uganda y Portugal U23. BUL posee mejor xG (1.8) que NEC. Estoril U23 es el más consistente del bloque. Kelly: 0.09.",
+    "analisis_en": "Local technical superiority in Uganda and Portugal U23. BUL has better xG (1.8) than NEC. Estoril U23 is the most consistent in the block. Kelly: 0.09."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus IA",
     "nombre_en": "Tip Bonus AI",
     "partidos": [
-      "Al-Duhail SC vs Al-Sailiya - Al-Duhail -0.75 AH",
-      "Al Ahli vs Al Shabab - Al Ahli -0.5 AH",
-      "Al Wakrah vs Al Shamal - Al Wakrah 1X"
+      "Al-Hilal Saudi FC vs Damac - Al-Hilal Win",
+      "Paris Saint Germain vs Bayern München - Over 2.5 goals",
+      "Al Khaleej Saihat vs Al Najma - Al Khaleej Win"
     ],
     "partidos_en": [
-      "Al-Duhail SC vs Al-Sailiya - Al-Duhail -0.75 AH",
-      "Al Ahli vs Al Shabab - Al Ahli -0.5 AH",
-      "Al Wakrah vs Al Shamal - Al Wakrah 1X"
+      "Al-Hilal Saudi FC vs Damac - Al-Hilal Win",
+      "Paris Saint Germain vs Bayern München - Over 2.5 goals",
+      "Al Khaleej Saihat vs Al Najma - Al Khaleej Win"
     ],
-    "cuota_total": "3.10",
+    "cuota_total": "3.25",
     "stake": "5%",
-    "analisis": "BONUS TRIPLE: AL-DUHAIL -0.75 AH dominante Qatar (ELO 1720, línea ataque xG 1.9). AL AHLI -0.5 AH local Bahrain fuerte. AL WAKRAH 1X factor cancha Qatar vs Shamal irregular. Cuota 3.10 = valor máximo con diversificación Arabia. Kelly: 0.15. RIESGO: Todos ligas árabes, correlación regional.",
-    "analisis_en": "BONUS TRIPLE: AL-DUHAIL -0.75 AH dominant Qatar (ELO 1720, attack line xG 1.9). AL AHLI -0.5 AH strong Bahrain home. AL WAKRAH 1X home Qatar factor vs irregular Shamal. Odds 3.10 = maximum value with Arabia diversification. Kelly: 0.15. RISK: All Arabian leagues, regional correlation."
+    "analisis": "BONUS TRIPLE: Al-Hilal (dominante Saudi, ELO 1850), PSG vs Bayern (historia goleadora), Al Khaleej (solidez local Bahrain). Máxima seguridad por ELO y forma. Kelly: 0.12.",
+    "analisis_en": "TRIPLE BONUS: Al-Hilal (Saudi dominant, ELO 1850), PSG vs Bayern (goalscoring history), Al Khaleej (Bahrain local solidity). Maximum security by ELO and form. Kelly: 0.12."
   },
   "control_panel": {
     "liquidacion_bonus_ayer": {
-      "fecha": "2026-03-04",
-      "fecha_en": "2026-03-04",
+      "fecha": "2026-04-27",
+      "fecha_en": "2026-04-27",
       "resultado": "pendiente",
       "resultado_en": "pending",
-      "partidos": "Sin resultados - Primer día",
-      "partidos_en": "No results - First day",
+      "partidos": "En proceso de actualización",
+      "partidos_en": "Updating in progress",
       "cuota_aplicada": 0.0,
       "stake_aplicado": "0%",
       "puntos": 0.0,
