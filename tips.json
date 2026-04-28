@@ -15,8 +15,8 @@
     ],
     "cuota_total": "1.15",
     "stake": "10%",
-    "analisis": "Ligas asiáticas de la mañana con alta frecuencia de goles tempranos. Arema y Abahani muestran ofensivas consistentes. Probabilidad estadística >90%. Kelly: 0.15.",
-    "analisis_en": "Asian morning leagues with high frequency of early goals. Arema and Abahani show consistent offenses. Statistical probability >90%. Kelly: 0.15."
+    "analisis": "Ligas asiáticas con alta frecuencia de goles tempranos. Selección basada en promedios de gol en los primeros 30 min >85%.",
+    "analisis_en": "Asian leagues with high early goal frequency. Selection based on goal averages in the first 30 min >85%."
   },
   "tip_15": {
     "nombre": "Tip + 1.5 IA",
@@ -33,8 +33,8 @@
     ],
     "cuota_total": "1.72",
     "stake": "5%",
-    "analisis": "Categoría U18 Premier League: Defensas en desarrollo y alta vocación ofensiva. Promedio histórico de la liga sugiere 3+ goles por partido. Kelly: 0.10.",
-    "analisis_en": "U18 Premier League category: Developing defenses and high offensive vocation. League historical average suggests 3+ goals per match. Kelly: 0.10."
+    "analisis": "Premier U18: Categoría con alta rotación y defensas permisivas. Promedio histórico de la competición superior a 2.5 goles por partido.",
+    "analisis_en": "Premier U18: Category with high rotation and permissive defenses. Historical competition average >2.5 goals per match."
   },
   "tip_1x2x": {
     "nombre": "Tip 1X o 2X IA",
@@ -42,17 +42,17 @@
     "partidos": [
       "PSBS Biak Numfor vs Malut United - PSBS Biak 1X",
       "Blackburn Rovers U18 vs Everton U18 - Blackburn 1X",
-      "Melaka vs Johor Darul Takzim FC - Johor 2X"
+      "Andijan vs Dinamo Samarqand - Andijan 1X"
     ],
     "partidos_en": [
       "PSBS Biak Numfor vs Malut United - PSBS Biak 1X",
       "Blackburn Rovers U18 vs Everton U18 - Blackburn 1X",
-      "Melaka vs Johor Darul Takzim FC - Johor 2X"
+      "Andijan vs Dinamo Samarqand - Andijan 1X"
     ],
-    "cuota_total": "1.85",
+    "cuota_total": "1.78",
     "stake": "4%",
-    "analisis": "Análisis de solidez local. PSBS fuerte en casa; Blackburn U18 consistente; Johor domina la liga malaya sin oposición real. Kelly: 0.08.",
-    "analisis_en": "Analysis of home solidity. PSBS strong at home; Blackburn U18 consistent; Johor dominates Malaysian league without real opposition. Kelly: 0.08."
+    "analisis": "Doble oportunidad asegurada por tendencia local y consistencia defensiva en los tramos finales de sus respectivas ligas.",
+    "analisis_en": "Double chance secured by home trend and defensive consistency in the final stages of their respective leagues."
   },
   "tip_btts": {
     "nombre": "Tip BTTS IA",
@@ -69,8 +69,8 @@
     ],
     "cuota_total": "2.20",
     "stake": "3%",
-    "analisis": "Ligas de Eswatini y Argelia con paridad competitiva. Estadísticas de enfrentamientos previos muestran alto índice de ambos marcan en derbis. Kelly: 0.07.",
-    "analisis_en": "Eswatini and Algerian leagues with competitive parity. Previous matchup stats show high rate of both teams scoring in derbies. Kelly: 0.07."
+    "analisis": "Derbis y encuentros de alta paridad en África. Los enfrentamientos directos muestran una alta tasa de intercambio de goles.",
+    "analisis_en": "Derbies and high-parity matches in Africa. Direct encounters show a high rate of goal exchange."
   },
   "tip_asiatico": {
     "nombre": "Tip Asian Hándicap IA",
@@ -87,26 +87,26 @@
     ],
     "cuota_total": "2.10",
     "stake": "3%",
-    "analisis": "Superioridad técnica local en Uganda y Portugal U23. BUL posee mejor xG (1.8) que NEC. Estoril U23 es el más consistente del bloque. Kelly: 0.09.",
-    "analisis_en": "Local technical superiority in Uganda and Portugal U23. BUL has better xG (1.8) than NEC. Estoril U23 is the most consistent in the block. Kelly: 0.09."
+    "analisis": "Favoritismo técnico justificado por posesión y xG en ligas de menor profundidad, facilitando el hándicap asiático.",
+    "analisis_en": "Technical favoritism justified by possession and xG in lower-depth leagues, facilitating Asian handicap."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus IA",
     "nombre_en": "Tip Bonus AI",
     "partidos": [
       "Al-Hilal Saudi FC vs Damac - Al-Hilal Win",
-      "Paris Saint Germain vs Bayern München - Over 2.5 goals",
-      "Al Khaleej Saihat vs Al Najma - Al Khaleej Win"
+      "Melaka vs Johor Darul Takzim FC - Johor Win",
+      "Pakhtakor vs Nasaf - Pakhtakor Win"
     ],
     "partidos_en": [
       "Al-Hilal Saudi FC vs Damac - Al-Hilal Win",
-      "Paris Saint Germain vs Bayern München - Over 2.5 goals",
-      "Al Khaleej Saihat vs Al Najma - Al Khaleej Win"
+      "Melaka vs Johor Darul Takzim FC - Johor Win",
+      "Pakhtakor vs Nasaf - Pakhtakor Win"
     ],
-    "cuota_total": "3.25",
-    "stake": "5%",
-    "analisis": "BONUS TRIPLE: Al-Hilal (dominante Saudi, ELO 1850), PSG vs Bayern (historia goleadora), Al Khaleej (solidez local Bahrain). Máxima seguridad por ELO y forma. Kelly: 0.12.",
-    "analisis_en": "TRIPLE BONUS: Al-Hilal (Saudi dominant, ELO 1850), PSG vs Bayern (goalscoring history), Al Khaleej (Bahrain local solidity). Maximum security by ELO and form. Kelly: 0.12."
+    "cuota_total": "2.95",
+    "stake": "8%",
+    "analisis": "BONUS SEGURIDAD: Triple victoria de favoritos claros (Líderes con ELO muy superior). Seleccionados por su historial de victorias consecutivas y dominio absoluto en sus ligas.",
+    "analisis_en": "SAFETY BONUS: Triple win of clear favorites (Leaders with much higher ELO). Selected for their consecutive winning streak and absolute dominance in their leagues."
   },
   "control_panel": {
     "liquidacion_bonus_ayer": {
