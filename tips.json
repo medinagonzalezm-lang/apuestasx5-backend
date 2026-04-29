@@ -1,117 +1,117 @@
 {
-  "fecha": "2026-04-28",
+  "fecha": "2026-04-29",
   "tip_05": {
     "nombre": "Tip + 0.5 IA",
     "nombre_en": "Tip + 0.5 AI",
     "partidos": [
-      "Arema FC vs Persebaya Surabaya - Over 0.5 goles",
-      "Fakirerpool vs Rahmatgonj MFS - Over 0.5 goles",
-      "Abahani vs PWD Sports Club - Over 0.5 goles"
+      "16:00 - Werder Bremen W vs Bayern Munich W - Over 0.5 goles",
+      "18:00 - Arsenal W vs Leicester W - Over 0.5 goles",
+      "17:00 - Nantes W vs Lyon W - Over 0.5 goles"
     ],
     "partidos_en": [
-      "Arema FC vs Persebaya Surabaya - Over 0.5 goals",
-      "Fakirerpool vs Rahmatgonj MFS - Over 0.5 goals",
-      "Abahani vs PWD Sports Club - Over 0.5 goals"
+      "16:00 - Werder Bremen W vs Bayern Munich W - Over 0.5 goals",
+      "18:00 - Arsenal W vs Leicester W - Over 0.5 goals",
+      "17:00 - Nantes W vs Lyon W - Over 0.5 goals"
     ],
-    "cuota_total": "1.15",
+    "cuota_total": "1.18",
     "stake": "10%",
-    "analisis": "Ligas asiáticas con alta frecuencia de goles tempranos. Selección basada en promedios de gol en los primeros 30 min >85%.",
-    "analisis_en": "Asian leagues with high early goal frequency. Selection based on goal averages in the first 30 min >85%."
+    "analisis": "Ligas femeninas europeas con alta frecuencia de goles. Selección basada en promedios de gol en la primera mitad superiores al 80%.",
+    "analisis_en": "European women's leagues with high goal frequency. Selection based on first-half goal averages exceeding 80%."
   },
   "tip_15": {
     "nombre": "Tip + 1.5 IA",
     "nombre_en": "Tip + 1.5 AI",
     "partidos": [
-      "Arsenal U18 vs Crystal Palace U18 - Over 1.5 goles",
-      "Tottenham Hotspur U18 vs West Ham United U18 - Over 1.5 goles",
-      "Southampton U18 vs Aston Villa U18 - Over 1.5 goles"
+      "11:30 - Manchester United U18 vs Liverpool U18 - Over 1.5 goles",
+      "15:00 - Atalanta U20 vs Juventus U20 - Over 1.5 goles",
+      "18:00 - Corinthians U20 vs Athletico PR U20 - Over 1.5 goles"
     ],
     "partidos_en": [
-      "Arsenal U18 vs Crystal Palace U18 - Over 1.5 goals",
-      "Tottenham Hotspur U18 vs West Ham United U18 - Over 1.5 goals",
-      "Southampton U18 vs Aston Villa U18 - Over 1.5 goals"
+      "11:30 - Manchester United U18 vs Liverpool U18 - Over 1.5 goals",
+      "15:00 - Atalanta U20 vs Juventus U20 - Over 1.5 goals",
+      "18:00 - Corinthians U20 vs Athletico PR U20 - Over 1.5 goals"
     ],
-    "cuota_total": "1.72",
+    "cuota_total": "1.65",
     "stake": "5%",
-    "analisis": "Premier U18: Categoría con alta rotación y defensas permisivas. Promedio histórico de la competición superior a 2.5 goles por partido.",
-    "analisis_en": "Premier U18: Category with high rotation and permissive defenses. Historical competition average >2.5 goals per match."
+    "analisis": "Categorías juveniles (U18/U20) con defensas permisivas y alta rotación. Promedio histórico de estos cruces superior a 2.5 goles.",
+    "analisis_en": "Youth categories (U18/U20) with permissive defenses and high rotation. Historical average of these matchups exceeds 2.5 goals."
   },
   "tip_1x2x": {
     "nombre": "Tip 1X o 2X IA",
     "nombre_en": "Tip 1X or 2X AI",
     "partidos": [
-      "PSBS Biak Numfor vs Malut United - PSBS Biak 1X",
-      "Blackburn Rovers U18 vs Everton U18 - Blackburn 1X",
-      "Andijan vs Dinamo Samarqand - Andijan 1X"
+      "19:15 - Sporting CP vs Tondela - Sporting CP 1X",
+      "10:00 - Machida Zelvia vs Jubilo Iwata - Machida 1X",
+      "18:45 - Boreham Wood vs Forest Green - Forest Green X2"
     ],
     "partidos_en": [
-      "PSBS Biak Numfor vs Malut United - PSBS Biak 1X",
-      "Blackburn Rovers U18 vs Everton U18 - Blackburn 1X",
-      "Andijan vs Dinamo Samarqand - Andijan 1X"
+      "19:15 - Sporting CP vs Tondela - Sporting CP 1X",
+      "10:00 - Machida Zelvia vs Jubilo Iwata - Machida 1X",
+      "18:45 - Boreham Wood vs Forest Green - Forest Green X2"
     ],
-    "cuota_total": "1.78",
+    "cuota_total": "1.58",
     "stake": "4%",
-    "analisis": "Doble oportunidad asegurada por tendencia local y consistencia defensiva en los tramos finales de sus respectivas ligas.",
-    "analisis_en": "Double chance secured by home trend and defensive consistency in the final stages of their respective leagues."
+    "analisis": "Doble oportunidad basada en la fortaleza local del Sporting y Machida, sumado a la racha positiva de Forest Green en la National League.",
+    "analisis_en": "Double chance based on the home strength of Sporting and Machida, combined with Forest Green's positive streak in the National League."
   },
   "tip_btts": {
     "nombre": "Tip BTTS IA",
     "nombre_en": "Tip BTTS AI",
     "partidos": [
-      "Royal Leopards vs Green Mamba - BTTS Si",
-      "Khenchela vs USM Alger - BTTS Si",
-      "JS Saoura vs CR Belouizdad - BTTS Si"
+      "19:00 - Atletico Madrid vs Arsenal - BTTS Si",
+      "23:00 - NY Red Bulls vs NYCFC - BTTS Si",
+      "22:00 - Caracas FC vs Racing Club - BTTS Si"
     ],
     "partidos_en": [
-      "Royal Leopards vs Green Mamba - BTTS Yes",
-      "Khenchela vs USM Alger - BTTS Yes",
-      "JS Saoura vs CR Belouizdad - BTTS Yes"
+      "19:00 - Atletico Madrid vs Arsenal - BTTS Yes",
+      "23:00 - NY Red Bulls vs NYCFC - BTTS Yes",
+      "22:00 - Caracas FC vs Racing Club - BTTS Yes"
     ],
-    "cuota_total": "2.20",
+    "cuota_total": "2.12",
     "stake": "3%",
-    "analisis": "Derbis y encuentros de alta paridad en África. Los enfrentamientos directos muestran una alta tasa de intercambio de goles.",
-    "analisis_en": "Derbies and high-parity matches in Africa. Direct encounters show a high rate of goal exchange."
+    "analisis": "Cruces de eliminación directa y derbis territoriales donde ambos equipos presentan métricas de xG (goles esperados) elevadas.",
+    "analisis_en": "Knockout matches and local derbies where both teams show high xG (expected goals) metrics."
   },
   "tip_asiatico": {
     "nombre": "Tip Asian Hándicap IA",
     "nombre_en": "Tip Asian Handicap AI",
     "partidos": [
-      "BUL vs NEC - BUL -0.5 AH",
-      "Mbarara City vs Express - Mbarara City -0.25 AH",
-      "Estoril U23 vs Gil Vicente U23 - Estoril -0.5 AH"
+      "12:00 - Buriram United vs Rayong FC - Buriram -0.75 AH",
+      "17:00 - Lyon W vs Nantes W - Lyon -1.5 AH",
+      "22:00 - Mirassol vs Always Ready - Mirassol -0.5 AH"
     ],
     "partidos_en": [
-      "BUL vs NEC - BUL -0.5 AH",
-      "Mbarara City vs Express - Mbarara City -0.25 AH",
-      "Estoril U23 vs Gil Vicente U23 - Estoril -0.5 AH"
+      "12:00 - Buriram United vs Rayong FC - Buriram -0.75 AH",
+      "17:00 - Lyon W vs Nantes W - Lyon -1.5 AH",
+      "22:00 - Mirassol vs Always Ready - Mirassol -0.5 AH"
     ],
-    "cuota_total": "2.10",
+    "cuota_total": "2.05",
     "stake": "3%",
-    "analisis": "Favoritismo técnico justificado por posesión y xG en ligas de menor profundidad, facilitando el hándicap asiático.",
-    "analisis_en": "Technical favoritism justified by possession and xG in lower-depth leagues, facilitating Asian handicap."
+    "analisis": "Hándicaps ajustados por superioridad técnica clara y dominio de posesión proyectado superior al 65%.",
+    "analisis_en": "Handicaps adjusted for clear technical superiority and projected possession dominance exceeding 65%."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus IA",
     "nombre_en": "Tip Bonus AI",
     "partidos": [
-      "Al-Hilal Saudi FC vs Damac - Al-Hilal Win",
-      "Melaka vs Johor Darul Takzim FC - Johor Win",
-      "Pakhtakor vs Nasaf - Pakhtakor Win"
+      "19:15 - Sporting CP vs Tondela - Sporting CP Win",
+      "12:00 - Buriram United vs Rayong FC - Buriram Win",
+      "16:00 - Bayern Munich W vs Werder Bremen W - Bayern Win"
     ],
     "partidos_en": [
-      "Al-Hilal Saudi FC vs Damac - Al-Hilal Win",
-      "Melaka vs Johor Darul Takzim FC - Johor Win",
-      "Pakhtakor vs Nasaf - Pakhtakor Win"
+      "19:15 - Sporting CP vs Tondela - Sporting CP Win",
+      "12:00 - Buriram United vs Rayong FC - Buriram Win",
+      "16:00 - Bayern Munich W vs Werder Bremen W - Bayern Win"
     ],
-    "cuota_total": "2.95",
-    "stake": "8%",
-    "analisis": "BONUS SEGURIDAD: Triple victoria de favoritos claros (Líderes con ELO muy superior). Seleccionados por su historial de victorias consecutivas y dominio absoluto en sus ligas.",
-    "analisis_en": "SAFETY BONUS: Triple win of clear favorites (Leaders with much higher ELO). Selected for their consecutive winning streak and absolute dominance in their leagues."
+    "cuota_total": "2.10",
+    "stake": "10%",
+    "analisis": "BONUS SEGURIDAD: Triple victoria de favoritos absolutos. Selección casi infalible basada en la disparidad de plantillas y necesidad de puntos.",
+    "analisis_en": "SAFETY BONUS: Triple win of absolute favorites. Almost infallible selection based on squad disparity and point requirements."
   },
   "control_panel": {
     "liquidacion_bonus_ayer": {
-      "fecha": "2026-04-27",
-      "fecha_en": "2026-04-27",
+      "fecha": "2026-04-28",
+      "fecha_en": "2026-04-28",
       "resultado": "pendiente",
       "resultado_en": "pending",
       "partidos": "En proceso de actualización",
