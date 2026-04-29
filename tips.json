@@ -5,18 +5,18 @@
     "nombre_en": "Tip + 0.5 AI",
     "partidos": [
       "16:00 - Werder Bremen W vs Bayern Munich W - Over 0.5 goles",
-      "18:00 - Arsenal W vs Leicester W - Over 0.5 goles",
-      "17:00 - Nantes W vs Lyon W - Over 0.5 goles"
+      "17:00 - Nantes W vs Lyon W - Over 0.5 goles",
+      "18:00 - Arsenal W vs Leicester W - Over 0.5 goles"
     ],
     "partidos_en": [
       "16:00 - Werder Bremen W vs Bayern Munich W - Over 0.5 goals",
-      "18:00 - Arsenal W vs Leicester W - Over 0.5 goals",
-      "17:00 - Nantes W vs Lyon W - Over 0.5 goals"
+      "17:00 - Nantes W vs Lyon W - Over 0.5 goals",
+      "18:00 - Arsenal W vs Leicester W - Over 0.5 goals"
     ],
     "cuota_total": "1.18",
     "stake": "10%",
-    "analisis": "Ligas femeninas europeas con alta frecuencia de goles. Selección basada en promedios de gol en la primera mitad superiores al 80%.",
-    "analisis_en": "European women's leagues with high goal frequency. Selection based on first-half goal averages exceeding 80%."
+    "analisis": "Cronología de ligas femeninas: Iniciamos en Alemania, seguimos en Francia y cerramos en Inglaterra. Alta probabilidad de gol temprano basada en estadísticas de presión alta[cite: 4, 5].",
+    "analisis_en": "Women's leagues timeline: Starting in Germany, followed by France, and ending in England. High early goal probability based on high-pressure stats[cite: 4, 5]."
   },
   "tip_15": {
     "nombre": "Tip + 1.5 IA",
@@ -33,44 +33,44 @@
     ],
     "cuota_total": "1.65",
     "stake": "5%",
-    "analisis": "Categorías juveniles (U18/U20) con defensas permisivas y alta rotación. Promedio histórico de estos cruces superior a 2.5 goles.",
-    "analisis_en": "Youth categories (U18/U20) with permissive defenses and high rotation. Historical average of these matchups exceeds 2.5 goals."
+    "analisis": "Bloque juvenil ordenado por inicio de jornada: Inglaterra U18 al mediodía, Italia Primavera por la tarde y Brasil Sub-20 al cierre[cite: 2, 3, 5].",
+    "analisis_en": "Youth block ordered by kickoff: England U18 at noon, Italy Primavera in the afternoon, and Brazil U20 at the close[cite: 2, 3, 5]."
   },
   "tip_1x2x": {
     "nombre": "Tip 1X o 2X IA",
     "nombre_en": "Tip 1X or 2X AI",
     "partidos": [
-      "19:15 - Sporting CP vs Tondela - Sporting CP 1X",
       "10:00 - Machida Zelvia vs Jubilo Iwata - Machida 1X",
-      "18:45 - Boreham Wood vs Forest Green - Forest Green X2"
+      "18:45 - Boreham Wood vs Forest Green - Forest Green X2",
+      "19:15 - Sporting CP vs Tondela - Sporting CP 1X"
     ],
     "partidos_en": [
-      "19:15 - Sporting CP vs Tondela - Sporting CP 1X",
       "10:00 - Machida Zelvia vs Jubilo Iwata - Machida 1X",
-      "18:45 - Boreham Wood vs Forest Green - Forest Green X2"
+      "18:45 - Boreham Wood vs Forest Green - Forest Green X2",
+      "19:15 - Sporting CP vs Tondela - Sporting CP 1X"
     ],
     "cuota_total": "1.58",
     "stake": "4%",
-    "analisis": "Doble oportunidad basada en la fortaleza local del Sporting y Machida, sumado a la racha positiva de Forest Green en la National League.",
-    "analisis_en": "Double chance based on the home strength of Sporting and Machida, combined with Forest Green's positive streak in the National League."
+    "analisis": "Doble oportunidad estructurada desde la J1 League japonesa (mañana) hasta la Primeira Liga portuguesa (noche)[cite: 1, 5].",
+    "analisis_en": "Double chance structured from the Japanese J1 League (morning) to the Portuguese Primeira Liga (night)[cite: 1, 5]."
   },
   "tip_btts": {
     "nombre": "Tip BTTS IA",
     "nombre_en": "Tip BTTS AI",
     "partidos": [
       "19:00 - Atletico Madrid vs Arsenal - BTTS Si",
-      "23:00 - NY Red Bulls vs NYCFC - BTTS Si",
-      "22:00 - Caracas FC vs Racing Club - BTTS Si"
+      "22:00 - Caracas FC vs Racing Club - BTTS Si",
+      "23:00 - NY Red Bulls vs NYCFC - BTTS Si"
     ],
     "partidos_en": [
       "19:00 - Atletico Madrid vs Arsenal - BTTS Yes",
-      "23:00 - NY Red Bulls vs NYCFC - BTTS Yes",
-      "22:00 - Caracas FC vs Racing Club - BTTS Yes"
+      "22:00 - Caracas FC vs Racing Club - BTTS Yes",
+      "23:00 - NY Red Bulls vs NYCFC - BTTS Yes"
     ],
     "cuota_total": "2.12",
     "stake": "3%",
-    "analisis": "Cruces de eliminación directa y derbis territoriales donde ambos equipos presentan métricas de xG (goles esperados) elevadas.",
-    "analisis_en": "Knockout matches and local derbies where both teams show high xG (expected goals) metrics."
+    "analisis": "Secuencia de alta intensidad: UEFA Champions League (tarde), CONMEBOL Sudamericana y el derbi de la US Open Cup al final del día[cite: 5, 6].",
+    "analisis_en": "High-intensity sequence: UEFA Champions League (afternoon), CONMEBOL Sudamericana, and the US Open Cup derby at the end of the day[cite: 5, 6]."
   },
   "tip_asiatico": {
     "nombre": "Tip Asian Hándicap IA",
@@ -87,26 +87,26 @@
     ],
     "cuota_total": "2.05",
     "stake": "3%",
-    "analisis": "Hándicaps ajustados por superioridad técnica clara y dominio de posesión proyectado superior al 65%.",
-    "analisis_en": "Handicaps adjusted for clear technical superiority and projected possession dominance exceeding 65%."
+    "analisis": "Orden cronológico: Dominio técnico en Tailandia (12h), Francia (17h) y cierre con la Libertadores en Brasil (22h)[cite: 2, 4, 5].",
+    "analisis_en": "Chronological order: Technical dominance in Thailand (12h), France (17h), and closing with the Libertadores in Brazil (22h)[cite: 2, 4, 5]."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus IA",
     "nombre_en": "Tip Bonus AI",
     "partidos": [
-      "19:15 - Sporting CP vs Tondela - Sporting CP Win",
       "12:00 - Buriram United vs Rayong FC - Buriram Win",
-      "16:00 - Bayern Munich W vs Werder Bremen W - Bayern Win"
+      "16:00 - Bayern Munich W vs Werder Bremen W - Bayern Win",
+      "19:15 - Sporting CP vs Tondela - Sporting CP Win"
     ],
     "partidos_en": [
-      "19:15 - Sporting CP vs Tondela - Sporting CP Win",
       "12:00 - Buriram United vs Rayong FC - Buriram Win",
-      "16:00 - Bayern Munich W vs Werder Bremen W - Bayern Win"
+      "16:00 - Bayern Munich W vs Werder Bremen W - Bayern Win",
+      "19:15 - Sporting CP vs Tondela - Sporting CP Win"
     ],
     "cuota_total": "2.10",
     "stake": "10%",
-    "analisis": "BONUS SEGURIDAD: Triple victoria de favoritos absolutos. Selección casi infalible basada en la disparidad de plantillas y necesidad de puntos.",
-    "analisis_en": "SAFETY BONUS: Triple win of absolute favorites. Almost infallible selection based on squad disparity and point requirements."
+    "analisis": "BONUS SEGURIDAD: Tripleta de favoritos absolutos ordenada por horario para seguimiento de bankroll continuo durante la jornada[cite: 2, 4, 5].",
+    "analisis_en": "SAFETY BONUS: Triple set of absolute favorites ordered by time for continuous bankroll tracking throughout the matchday[cite: 2, 4, 5]."
   },
   "control_panel": {
     "liquidacion_bonus_ayer": {
