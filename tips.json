@@ -4,109 +4,109 @@
     "nombre": "Tip + 0.5 IA",
     "nombre_en": "Tip + 0.5 AI",
     "partidos": [
-      "12:00 - Real Madrid vs Osasuna - Gana Real Madrid",
-      "12:30 - PSV vs Almere City - Gana PSV",
-      "13:00 - Bayern Munich vs Augsburg - Gana Bayern Munich"
+      "15:00 - Club Africain vs Stade Tunisien - Gana Club Africain",
+      "15:00 - CS Sfaxien vs Olympique Béja - Gana CS Sfaxien",
+      "16:00 - CR Khemis Zemamra vs Wydad AC - Gana Wydad AC"
     ],
     "partidos_en": [
-      "12:00 - Real Madrid vs Osasuna - Real Madrid Win",
-      "12:30 - PSV vs Almere City - PSV Win",
-      "13:00 - Bayern Munich vs Augsburg - Bayern Munich Win"
+      "15:00 - Club Africain vs Stade Tunisien - Club Africain Win",
+      "15:00 - CS Sfaxien vs Olympique Béja - CS Sfaxien Win",
+      "16:00 - CR Khemis Zemamra vs Wydad AC - Wydad AC Win"
     ],
-    "cuota_total": "1.32",
+    "cuota_total": "1.82",
     "stake": "10%",
-    "analisis": "Mercados analizados matemáticamente mediante ventaja de localía y alto volumen de xG a favor. Probabilidad de victoria local estimada por encima del 88%.",
-    "analisis_en": "Markets mathematically analyzed through home advantage and high xG volume. Estimated home win probability above 88%."
+    "analisis": "Análisis cuantitativo de máxima probabilidad para el mercado de victoria simple. Se priorizan dinámicas de juego con clara superioridad estadística.",
+    "analisis_en": "Quantitative analysis of maximum probability for the straight win market. Game dynamics with clear statistical superiority are prioritized."
   },
   "tip_15": {
     "nombre": "Tip + 1.5 IA",
     "nombre_en": "Tip + 1.5 AI",
     "partidos": [
-      "13:30 - Club Brugge vs Kortrijk - Gana Club Brugge",
-      "14:00 - Olympiacos vs Lamia - Gana Olympiacos",
-      "14:30 - Dinamo Zagreb vs Slaven Belupo - Gana Dinamo Zagreb"
+      "18:15 - Juan Pablo II College vs Universitario - Gana Universitario",
+      "18:30 - Eldense vs Marbella - Gana Eldense",
+      "21:30 - River Plate vs Atletico Tucuman - Gana River Plate"
     ],
     "partidos_en": [
-      "13:30 - Club Brugge vs Kortrijk - Club Brugge Win",
-      "14:00 - Olympiacos vs Lamia - Olympiacos Win",
-      "14:30 - Dinamo Zagreb vs Slaven Belupo - Dinamo Zagreb Win"
+      "18:15 - Juan Pablo II College vs Universitario - Universitario Win",
+      "18:30 - Eldense vs Marbella - Eldense Win",
+      "21:30 - River Plate vs Atletico Tucuman - River Plate Win"
     ],
-    "cuota_total": "1.58",
+    "cuota_total": "1.95",
     "stake": "5%",
-    "analisis": "Clara superioridad en ELO adaptativo. Los equipos locales presentan una tendencia ganadora sólida en sus ligas domésticas.",
-    "analisis_en": "Clear superiority in adaptive ELO. Home teams show a solid winning trend in their domestic leagues."
+    "analisis": "Selección estricta de conjuntos con tendencia ganadora y alta fiabilidad en competiciones nacionales.",
+    "analisis_en": "Strict selection of teams with winning trends and high reliability in national competitions."
   },
   "tip_1x2x": {
     "nombre": "Tip 1X o 2X IA",
     "nombre_en": "Tip 1X or 2X AI",
     "partidos": [
-      "15:00 - Inter vs Cagliari - Gana Inter",
-      "15:30 - RB Leipzig vs Bochum - Gana RB Leipzig",
-      "16:00 - Arsenal vs Bournemouth - Gana Arsenal"
+      "20:30 - Santa Fe vs Internacional de Bogota - Gana Santa Fe",
+      "21:15 - The Strongest vs ABB - Gana The Strongest",
+      "21:30 - Internacional vs Fluminense - Gana Internacional"
     ],
     "partidos_en": [
-      "15:00 - Inter vs Cagliari - Inter Win",
-      "15:30 - RB Leipzig vs Bochum - RB Leipzig Win",
-      "16:00 - Arsenal vs Bournemouth - Arsenal Win"
+      "20:30 - Santa Fe vs Internacional de Bogota - Santa Fe Win",
+      "21:15 - The Strongest vs ABB - The Strongest Win",
+      "21:30 - Internacional vs Fluminense - Internacional Win"
     ],
-    "cuota_total": "1.65",
+    "cuota_total": "1.74",
     "stake": "4%",
-    "analisis": "Favoritos con consistencia táctica y diferenciación en el Momentum Estructural en una ventana de 10 partidos.",
-    "analisis_en": "Favorites with tactical consistency and differentiation in Structural Momentum within a 10-match window."
+    "analisis": "Predicciones rigurosas basadas en la fuerza histórica y local de los equipos analizados.",
+    "analisis_en": "Rigorous predictions based on the historical and home strength of the analyzed teams."
   },
   "tip_btts": {
     "nombre": "Tip BTTS IA",
     "nombre_en": "Tip BTTS AI",
     "partidos": [
-      "16:30 - Monaco vs Le Havre - Gana Monaco",
-      "17:00 - Celtic vs Hearts - Gana Celtic",
-      "17:30 - Red Bull Salzburg vs Austria Wien - Gana Red Bull Salzburg"
+      "23:00 - Club Guarani vs Nacional Asuncion - Gana Club Guarani",
+      "23:00 - Albion FC vs Club Nacional - Gana Club Nacional",
+      "23:00 - Club America vs U.N.A.M. - Pumas - Gana Club America"
     ],
     "partidos_en": [
-      "16:30 - Monaco vs Le Havre - Monaco Win",
-      "17:00 - Celtic vs Hearts - Celtic Win",
-      "17:30 - Red Bull Salzburg vs Austria Wien - Red Bull Salzburg Win"
+      "23:00 - Club Guarani vs Nacional Asuncion - Club Guarani Win",
+      "23:00 - Albion FC vs Club Nacional - Club Nacional Win",
+      "23:00 - Club America vs U.N.A.M. - Pumas - Club America Win"
     ],
-    "cuota_total": "1.98",
+    "cuota_total": "2.15",
     "stake": "3%",
-    "analisis": "Modelos cuantitativos respaldan la victoria local con un diferencial xG - xGA superior a +0.7 goles por encuentro.",
-    "analisis_en": "Quantitative models support home wins with an xG - xGA differential above +0.7 goals per match."
+    "analisis": "Proyecciones algorítmicas de ventaja de plantilla y capacidad ofensiva para consolidar las opciones de triunfo.",
+    "analisis_en": "Algorithmic projections of squad advantage and attacking capacity to consolidate winning options."
   },
   "tip_asiatico": {
     "nombre": "Tip Asian Hándicap IA",
     "nombre_en": "Tip Asian Handicap AI",
     "partidos": [
-      "18:00 - Galatasaray vs Sivasspor - Gana Galatasaray",
-      "18:30 - Benfica vs Estoril - Gana Benfica",
-      "19:00 - Ajax vs Zwolle - Gana Ajax"
+      "12:00 - Nykobing FC vs Brønshøj - Gana Nykobing FC",
+      "12:00 - HIFK Helsinki vs Reipas - Gana HIFK Helsinki",
+      "15:00 - US Ben Guerdane vs AS Soliman - Gana US Ben Guerdane"
     ],
     "partidos_en": [
-      "18:00 - Galatasaray vs Sivasspor - Galatasaray Win",
-      "18:30 - Benfica vs Estoril - Benfica Win",
-      "19:00 - Ajax vs Zwolle - Ajax Win"
+      "12:00 - Nykobing FC vs Brønshøj - Nykobing FC Win",
+      "12:00 - HIFK Helsinki vs Reipas - HIFK Helsinki Win",
+      "15:00 - US Ben Guerdane vs AS Soliman - US Ben Guerdane Win"
     ],
-    "cuota_total": "2.05",
+    "cuota_total": "2.10",
     "stake": "3%",
-    "analisis": "Alta probabilidad de triunfo directo basado en el criterio de Kelly optimizado y valor de plantilla superior.",
-    "analisis_en": "High probability of direct victory based on optimized Kelly criterion and superior squad value."
+    "analisis": "Análisis matemático estricto sobre rendimiento local para mitigar riesgos en ligas regionales.",
+    "analisis_en": "Strict mathematical analysis of home performance to mitigate risks in regional leagues."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus IA",
     "nombre_en": "Tip Bonus AI",
     "partidos": [
-      "19:30 - Manchester City vs Wolverhampton - Gana Manchester City",
-      "20:00 - Barcelona vs Getafe - Gana Barcelona",
-      "20:30 - Young Boys vs Lausanne - Gana Young Boys"
+      "10:00 - Portimonense vs Chaves - Gana Portimonense",
+      "10:00 - Inhulets vs Probiy Horodenka - Gana Inhulets",
+      "10:30 - Badalona vs L'Hospitalet - Gana Badalona"
     ],
     "partidos_en": [
-      "19:30 - Manchester City vs Wolverhampton - Manchester City Win",
-      "20:00 - Barcelona vs Getafe - Barcelona Win",
-      "20:30 - Young Boys vs Lausanne - Young Boys Win"
+      "10:00 - Portimonense vs Chaves - Portimonense Win",
+      "10:00 - Inhulets vs Probiy Horodenka - Inhulets Win",
+      "10:30 - Badalona vs L'Hospitalet - Badalona Win"
     ],
-    "cuota_total": "2.42",
+    "cuota_total": "2.40",
     "stake": "10%",
-    "analisis": "BONUS SEGURIDAD: Selección de favoritos absolutos con altísima fiabilidad estadística y plantillas notablemente superiores.",
-    "analisis_en": "SAFETY BONUS: Selection of absolute favorites with very high statistical reliability and significantly superior squads."
+    "analisis": "BONUS SEGURIDAD: Máxima fiabilidad matemática y volumen competitivo con partidos completamente nuevos para evitar duplicidades.",
+    "analisis_en": "SAFETY BONUS: Maximum mathematical reliability and competitive volume with entirely new matches to avoid duplicates."
   },
   "control_panel": {
     "liquidacion_bonus_ayer": {
