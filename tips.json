@@ -2,69 +2,79 @@
   "fecha": "2026-05-11",
   "tip_05": {
     "nombre": "Tip + 0.5 IA",
+    "nombre_en": "Tip + 0.5 AI",
     "partidos": [
-      "18:45 - Napoli vs Bologna - Más de 8.5 córners (1.72)",
-      "19:00 - Tottenham vs Leeds - Más de 2.5 goles (1.72)"
+      "18:45 - Napoli vs Bologna - Más de 8.5 córners (Cuota: 1.72)",
+      "19:00 - Tottenham vs Leeds - Más de 2.5 goles (Cuota: 1.72)"
     ],
     "cuota_total": "2.96",
     "stake": "10%",
-    "analisis": "Bloque de intensidad: Verticalidad ofensiva y mercado de córners contrastado para hoy [cite: 2026-01-21]."
+    "analisis": "Bloque de alta intensidad: Se explota la verticalidad del Napoli y la tendencia over histórica del Tottenham con cuotas reales contrastadas.",
+    "analisis_en": "High-intensity block: Exploiting Napoli's verticality and Tottenham's historical over trend with contrasted real odds."
   },
   "tip_15": {
     "nombre": "Tip + 1.5 IA",
+    "nombre_en": "Tip + 1.5 AI",
     "partidos": [
-      "19:15 - Benfica vs SC Braga - Gana Benfica (1) (1.41)",
-      "19:00 - Rayo Vallecano vs Girona - Gana o Empata Girona (X2) (1.44)"
+      "19:15 - Benfica vs SC Braga - Gana Benfica (1) (Cuota: 1.41)",
+      "19:00 - Rayo Vallecano vs Girona - Gana o Empata Girona (X2) (Cuota: 1.44)"
     ],
     "cuota_total": "2.03",
     "stake": "5%",
-    "analisis": "Superioridad técnica: Inercia ganadora del Girona y localía del Benfica en Da Luz [cite: 2026-01-21]."
+    "analisis": "Superioridad técnica contrastada: Inercia ganadora del Girona y la solidez local del Benfica en Da Luz como bases de fiabilidad.",
+    "analisis_en": "Contrasted technical superiority: Girona's winning momentum and Benfica's home strength at Da Luz as reliability bases."
   },
   "tip_1x2x": {
     "nombre": "Tip 1X o 2X IA",
+    "nombre_en": "Tip 1X or 2X AI",
     "partidos": [
-      "23:30 - Cerro Largo vs Penarol - Gana Penarol (2) (1.65)",
-      "16:00 - Malmö FF W vs Häcken W - Gana Malmö FF W (1) (1.50)"
+      "23:30 - Cerro Largo vs Penarol - Gana Penarol (2) (Cuota: 1.65)",
+      "16:00 - Malmö FF W vs Häcken W - Gana Malmö FF W (1) (Cuota: 1.50)"
     ],
     "cuota_total": "2.47",
     "stake": "4%",
-    "analisis": "Mercado directo: Favoritos claros en Uruguay y Suecia sin coberturas adicionales [cite: 2026-01-21]."
+    "analisis": "Se confía en la jerarquía de Peñarol como visitante en Uruguay y el dominio del Malmö FF en la liga femenina sueca.",
+    "analisis_en": "Confiding in Peñarol's hierarchy as away team in Uruguay and Malmö FF's dominance in the Swedish women's league."
   },
   "tip_btts": {
     "nombre": "Tip BTTS IA",
+    "nombre_en": "Tip BTTS AI",
     "partidos": [
-      "12:00 - Bali United vs Pusamania Borneo - Más de 2.5 goles (1.53)",
-      "22:30 - Sol de América vs Guaireña - Ambos Marcan: SÍ (1.90)"
+      "12:00 - Bali United vs Pusamania Borneo - Más de 2.5 goles (Cuota: 1.53)",
+      "22:30 - Sol de América vs Guaireña - Ambos Marcan: SÍ (Cuota: 1.90)"
     ],
     "cuota_total": "2.91",
     "stake": "3%",
-    "analisis": "Eficiencia ofensiva: Cuotas basadas en la alta tendencia goleadora de ligas exóticas [cite: 2026-01-21]."
+    "analisis": "Ajuste de valor real: Se combina la eficiencia ofensiva en Indonesia con la tendencia goleadora histórica en la liga paraguaya.",
+    "analisis_en": "Real value adjustment: Combining offensive efficiency in Indonesia with the historical scoring trend in the Paraguayan league."
   },
   "tip_asiatico": {
     "nombre": "Tip Asian Hándicap IA",
+    "nombre_en": "Tip Asian Handicap AI",
     "partidos": [
-      "15:00 - Opava vs Artis - Más de 2.5 goles (1.85)",
-      "15:00 - Benfica U23 vs Sporting Braga U23 - Hándicap 0.0 Benfica U23 (1.55)"
+      "15:00 - Opava vs Artis - Más de 2.5 goles (Cuota: 1.85)",
+      "15:00 - Benfica U23 vs Sporting Braga U23 - Hándicap Asiático 0.0 Benfica U23 (Cuota: 1.55)"
     ],
     "cuota_total": "2.87",
     "stake": "3%",
-    "analisis": "Seguro asiático: Protección de capital con hándicap nulo y línea de goles en ligas secundarias [cite: 2026-01-21]."
+    "analisis": "Uso de seguros: Se opta por la dinámica over en la liga checa y el hándicap nulo en el torneo sub-23 luso por estabilidad estadística.",
+    "analisis_en": "Using insurance: Opting for over dynamics in the Czech league and the draw-no-bet in the Portuguese U23 tournament for statistical stability."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus IA",
+    "nombre_en": "Tip Bonus AI",
     "partidos": [
-      "23:00 - Cerro Porteno vs Club Guarani - Gana Cerro Porteno (1) (1.85)",
-      "17:00 - Randers FC vs Odense - Más de 2.5 goles (1.65)"
+      "23:00 - Cerro Porteno vs Club Guarani - Gana Cerro Porteno (1) (Cuota: 1.85)",
+      "17:00 - Randers FC vs Odense - Más de 2.5 goles (Cuota: 1.65)"
     ],
     "cuota_total": "3.05",
     "stake": "10%",
-    "analisis": "BONUS SEGURIDAD: Máxima fiabilidad basada en la jerarquía de Cerro Porteño y la tendencia over de Dinamarca. Sin repeticiones para blindar el bankroll [cite: 2026-01-21, 2026-01-28].",
-    "analisis_en": "SAFETY BONUS: Maximum reliability based on Cerro Porteño's hierarchy and Denmark's over trend. No repetitions to shield the bankroll [cite: 2026-01-21, 2026-01-28]."
+    "analisis": "BONUS SEGURIDAD: Máxima fiabilidad basada en la jerarquía de Cerro Porteño y la tendencia over de Dinamarca para asegurar el rigor del bankroll.",
+    "analisis_en": "SAFETY BONUS: Maximum reliability based on Cerro Porteño's hierarchy and Denmark's over trend to ensure bankroll rigor."
   },
   "control_panel": {
     "bankroll_actual": 129.62,
-    "diversificacion": "100% Real (12 eventos únicos)",
-    "fuente": "Exclusiva JSON A (11/05/2026)",
-    "estrategia": "Protocolo de Análisis Matemático con cuotas finales verificadas en Bet365 [cite: 2026-01-20]."
+    "fuente_cuotas": "Bet365 (Final Corregido 11/05/2026)",
+    "estrategia": "Protocolo de Análisis Matemático con diversificación total de 12 eventos únicos y cuotas verificadas."
   }
 }
