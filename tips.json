@@ -1,103 +1,70 @@
 {
-  "fecha": "2026-05-10",
+  "fecha": "2026-05-11",
   "tip_05": {
     "nombre": "Tip + 0.5 IA",
-    "nombre_en": "Tip + 0.5 AI",
     "partidos": [
-      "14:45 - Feyenoord vs AZ Alkmaar - Más de 9.5 córners (Cuota: 1.72)",
-      "18:45 - AC Milan vs Atalanta - Ambos Marcan: SÍ (Cuota: 1.66)"
+      "18:45 - Napoli vs Bologna - Más de 8.5 córners (1.72)",
+      "19:00 - Tottenham vs Leeds - Más de 2.5 goles (1.72)"
     ],
-    "partidos_en": [
-      "14:45 - Feyenoord vs AZ Alkmaar - Over 9.5 corners (Odds: 1.72)",
-      "18:45 - AC Milan vs Atalanta - Both Teams to Score: YES (Odds: 1.66)"
-    ],
-    "cuota_total": "2.85",
+    "cuota_total": "2.96",
     "stake": "10%",
-    "analisis": "Se explota el alto volumen de centros en Róterdam y la paridad ofensiva contrastada en San Siro con cuotas reales corroboradas [cite: 2026-01-21].",
-    "analisis_en": "Exploiting high corner volume in Rotterdam and proven offensive parity at San Siro with corroborated real odds [cite: 2026-01-21]."
+    "analisis": "Bloque de intensidad: Verticalidad ofensiva y mercado de córners contrastado para hoy [cite: 2026-01-21]."
   },
   "tip_15": {
     "nombre": "Tip + 1.5 IA",
-    "nombre_en": "Tip + 1.5 AI",
     "partidos": [
-      "14:15 - Athletic Club vs Valencia - Gana Athletic Club (1) (Cuota: 1.70)",
-      "16:30 - Union St. Gilloise vs KV Mechelen - Hándicap Asiático -1.0 Union St. Gilloise (Cuota: 1.65)"
+      "19:15 - Benfica vs SC Braga - Gana Benfica (1) (1.41)",
+      "19:00 - Rayo Vallecano vs Girona - Gana o Empata Girona (X2) (1.44)"
     ],
-    "partidos_en": [
-      "14:15 - Athletic Club vs Valencia - Athletic Club Win (1) (Odds: 1.70)",
-      "16:30 - Union St. Gilloise vs KV Mechelen - Union St. Gilloise Asian Handicap -1.0 (Odds: 1.65)"
-    ],
-    "cuota_total": "2.80",
+    "cuota_total": "2.03",
     "stake": "5%",
-    "analisis": "La solidez local de los leones en San Mamés combinada con la jerarquía del líder belga ante un rival inferior [cite: 2026-01-21].",
-    "analisis_en": "The lions' home solidity at San Mamés combined with the Belgian leader's hierarchy against an inferior opponent [cite: 2026-01-21]."
+    "analisis": "Superioridad técnica: Inercia ganadora del Girona y localía del Benfica en Da Luz [cite: 2026-01-21]."
   },
   "tip_1x2x": {
     "nombre": "Tip 1X o 2X IA",
-    "nombre_en": "Tip 1X or 2X AI",
     "partidos": [
-      "22:00 - River Plate vs San Lorenzo - Más de 1.5 goles de River Plate (Cuota: 1.50)",
-      "13:00 - AS Roma W vs Sassuolo W - Hándicap Asiático -1.5 Roma W (Cuota: 2.15)"
+      "23:30 - Cerro Largo vs Penarol - Gana Penarol (2) (1.65)",
+      "16:00 - Malmö FF W vs Häcken W - Gana Malmö FF W (1) (1.50)"
     ],
-    "partidos_en": [
-      "22:00 - River Plate vs San Lorenzo - River Plate Over 1.5 Goals (Odds: 1.50)",
-      "13:00 - AS Roma W vs Sassuolo W - Roma W Asian Handicap -1.5 (Odds: 2.15)"
-    ],
-    "cuota_total": "3.22",
+    "cuota_total": "2.47",
     "stake": "4%",
-    "analisis": "Se aprovecha el valor real del hándicap de la Roma femenina y la alta probabilidad estadística de River marcando en el Monumental [cite: 2026-01-21].",
-    "analisis_en": "Taking advantage of Roma Women's real handicap value and the high statistical probability of River scoring at the Monumental [cite: 2026-01-21]."
+    "analisis": "Mercado directo: Favoritos claros en Uruguay y Suecia sin coberturas adicionales [cite: 2026-01-21]."
   },
   "tip_btts": {
     "nombre": "Tip BTTS IA",
-    "nombre_en": "Tip BTTS AI",
     "partidos": [
-      "14:45 - Ajax vs Utrecht - Más de 2.5 goles (Cuota: 1.50)",
-      "23:00 - CF Pachuca vs Toluca - Ambos Marcan: SÍ (Cuota: 1.53)"
+      "12:00 - Bali United vs Pusamania Borneo - Más de 2.5 goles (1.53)",
+      "22:30 - Sol de América vs Guaireña - Ambos Marcan: SÍ (1.90)"
     ],
-    "partidos_en": [
-      "14:45 - Ajax vs Utrecht - Over 2.5 goals (Odds: 1.50)",
-      "23:00 - CF Pachuca vs Toluca - Both Teams to Score: YES (Odds: 1.53)"
-    ],
-    "cuota_total": "2.29",
+    "cuota_total": "2.91",
     "stake": "3%",
-    "analisis": "Mercados de goles basados en las transiciones rápidas holandesas y la alta efectividad ofensiva mutua corroborada en México [cite: 2026-01-21].",
-    "analisis_en": "Goal markets based on Dutch rapid transitions and corroborated high mutual offensive efficiency in Mexico [cite: 2026-01-21]."
+    "analisis": "Eficiencia ofensiva: Cuotas basadas en la alta tendencia goleadora de ligas exóticas [cite: 2026-01-21]."
   },
   "tip_asiatico": {
     "nombre": "Tip Asian Hándicap IA",
-    "nombre_en": "Tip Asian Handicap AI",
     "partidos": [
-      "19:00 - Barcelona vs Real Madrid - Hándicap Asiático +0.5 Real Madrid (Cuota: 2.25)",
-      "14:45 - Twente vs Sparta Rotterdam - Gana Twente (1) (Cuota: 1.38)"
+      "15:00 - Opava vs Artis - Más de 2.5 goles (1.85)",
+      "15:00 - Benfica U23 vs Sporting Braga U23 - Hándicap 0.0 Benfica U23 (1.55)"
     ],
-    "partidos_en": [
-      "19:00 - Barcelona vs Real Madrid - Real Madrid Asian Handicap +0.5 (Odds: 2.25)",
-      "14:45 - Twente vs Sparta Rotterdam - Twente Win (1) (Odds: 1.38)"
-    ],
-    "cuota_total": "3.10",
+    "cuota_total": "2.87",
     "stake": "3%",
-    "analisis": "Ajuste de cuota: La doble oportunidad blanca en el Clásico mantiene un valor alto, complementada con la fiabilidad local del Twente [cite: 2026-01-21].",
-    "analisis_en": "Odds adjustment: Madrid's double chance in the Clásico maintains high value, complemented by Twente's home reliability [cite: 2026-01-21]."
+    "analisis": "Seguro asiático: Protección de capital con hándicap nulo y línea de goles en ligas secundarias [cite: 2026-01-21]."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus IA",
-    "nombre_en": "Tip Bonus AI",
     "partidos": [
-      "18:00 - Al-Ittihad FC vs Damac - Gana Al-Ittihad (1) (Cuota: 1.44)",
-      "22:30 - Club Nacional vs Cerro - Hándicap Asiático -1.0 Club Nacional (Cuota: 1.57)"
+      "23:00 - Cerro Porteno vs Club Guarani - Gana Cerro Porteno (1) (1.85)",
+      "17:00 - Randers FC vs Odense - Más de 2.5 goles (1.65)"
     ],
-    "partidos_en": [
-      "18:00 - Al-Ittihad FC vs Damac - Al-Ittihad Win (1) (Odds: 1.44)",
-      "22:30 - Club Nacional vs Cerro - Club Nacional Asian Handicap -1.0 (Odds: 1.57)"
-    ],
-    "cuota_total": "2.26",
+    "cuota_total": "3.05",
     "stake": "10%",
-    "analisis": "BONUS SEGURIDAD: Máxima fiabilidad matemática basada en jerarquía de plantillas y localía contrastada en Arabia y Uruguay [cite: 2026-01-21, 2026-01-28].",
-    "analisis_en": "SAFETY BONUS: Maximum mathematical reliability based on squad hierarchy and proven home advantage in Arabia and Uruguay [cite: 2026-01-21, 2026-01-28]."
+    "analisis": "BONUS SEGURIDAD: Máxima fiabilidad basada en la jerarquía de Cerro Porteño y la tendencia over de Dinamarca. Sin repeticiones para blindar el bankroll [cite: 2026-01-21, 2026-01-28].",
+    "analisis_en": "SAFETY BONUS: Maximum reliability based on Cerro Porteño's hierarchy and Denmark's over trend. No repetitions to shield the bankroll [cite: 2026-01-21, 2026-01-28]."
   },
   "control_panel": {
-    "bankroll_actual": 117.02,
-    "estrategia": "Protocolo de Análisis Matemático aplicado con cuotas reales corroboradas [cite: 2026-01-20, 2026-01-28]."
+    "bankroll_actual": 129.62,
+    "diversificacion": "100% Real (12 eventos únicos)",
+    "fuente": "Exclusiva JSON A (11/05/2026)",
+    "estrategia": "Protocolo de Análisis Matemático con cuotas finales verificadas en Bet365 [cite: 2026-01-20]."
   }
 }
