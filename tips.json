@@ -1,80 +1,80 @@
 {
-  "fecha": "2026-05-11",
+  "fecha": "2026-05-13",
   "tip_05": {
     "nombre": "Tip + 0.5 IA",
     "nombre_en": "Tip + 0.5 AI",
     "partidos": [
-      "18:45 - Napoli vs Bologna - Más de 8.5 córners (Cuota: 1.72)",
-      "19:00 - Tottenham vs Leeds - Más de 2.5 goles (Cuota: 1.72)"
+      "19:00 - Manchester City vs Crystal Palace - Resultado y más de 2.5 goles (Cuota: 1.72)",
+      "12:30 - Dynamo Kyiv vs Kolos Kovalivka - Dynamo Kyiv gana y más de 1.5 goles (Cuota: 1.53)"
     ],
-    "cuota_total": "2.96",
+    "cuota_total": "2.63",
     "stake": "10%",
-    "analisis": "Bloque de alta intensidad: Se explota la verticalidad del Napoli y la tendencia over histórica del Tottenham con cuotas reales contrastadas.",
-    "analisis_en": "High-intensity block: Exploiting Napoli's verticality and Tottenham's historical over trend with contrasted real odds."
+    "analisis": "MÁXIMA PRESIÓN: Bloque principal de recuperación. El rigor histórico de City y Dynamo en casa es la base para sanear el bankroll tras la jornada anterior.",
+    "analisis_en": "MAXIMUM PRESSURE: Main recovery block. Historical rigor of City and Dynamo at home is the foundation to heal the bankroll after the previous day."
   },
   "tip_15": {
     "nombre": "Tip + 1.5 IA",
     "nombre_en": "Tip + 1.5 AI",
     "partidos": [
-      "19:15 - Benfica vs SC Braga - Gana Benfica (1) (Cuota: 1.41)",
-      "19:00 - Rayo Vallecano vs Girona - Gana o Empata Girona (X2) (Cuota: 1.44)"
+      "19:30 - Alaves vs Barcelona - Gana Barcelona (2) (Cuota: 2.00)",
+      "17:00 - Villarreal vs Sevilla - Gana Villarreal (1) (Cuota: 1.95)"
     ],
-    "cuota_total": "2.03",
+    "cuota_total": "3.90",
     "stake": "5%",
-    "analisis": "Superioridad técnica contrastada: Inercia ganadora del Girona y la solidez local del Benfica en Da Luz como bases de fiabilidad.",
-    "analisis_en": "Contrasted technical superiority: Girona's winning momentum and Benfica's home strength at Da Luz as reliability bases."
+    "analisis": "VALOR LA LIGA: Cuotas optimizadas en España para maximizar el retorno del stake medio. Se confía en la superioridad técnica del Barcelona y Villarreal.",
+    "analisis_en": "LA LIGA VALUE: Optimized odds in Spain to maximize medium stake return. Relying on Barcelona and Villarreal technical superiority."
   },
   "tip_1x2x": {
     "nombre": "Tip 1X o 2X IA",
     "nombre_en": "Tip 1X or 2X AI",
     "partidos": [
-      "23:30 - Cerro Largo vs Penarol - Gana Penarol (2) (Cuota: 1.65)",
-      "16:00 - Malmö FF W vs Häcken W - Gana Malmö FF W (1) (Cuota: 1.50)"
+      "19:00 - Rangers vs Hibernian - Gana Rangers (1) (Cuota: 1.50)",
+      "19:00 - Motherwell vs Celtic - Gana Celtic (2) (Cuota: 1.62)"
     ],
-    "cuota_total": "2.47",
+    "cuota_total": "2.43",
     "stake": "4%",
-    "analisis": "Se confía en la jerarquía de Peñarol como visitante en Uruguay y el dominio del Malmö FF en la liga femenina sueca.",
-    "analisis_en": "Confiding in Peñarol's hierarchy as away team in Uruguay and Malmö FF's dominance in the Swedish women's league."
+    "analisis": "DOMINIO ESCOCÉS: Rigor histórico en la Premiership. El Old Firm en jornada de miércoles es una de las apuestas más estables por jerarquía de plantilla.",
+    "analisis_en": "SCOTTISH DOMINANCE: Historical rigor in the Premiership. The Old Firm on a Wednesday matchday is one of the most stable bets by squad hierarchy."
   },
   "tip_btts": {
     "nombre": "Tip BTTS IA",
     "nombre_en": "Tip BTTS AI",
     "partidos": [
-      "12:00 - Bali United vs Pusamania Borneo - Más de 2.5 goles (Cuota: 1.53)",
-      "22:30 - Sol de América vs Guaireña - Ambos Marcan: SÍ (Cuota: 1.90)"
+      "18:00 - Slavia Praha vs FK Jablonec - Gana Slavia Praha y más de 2.5 goles (Cuota: 2.25)",
+      "17:15 - Ludogorets vs Levski Sofia - Gana Ludogorets (1) (Cuota: 1.76)"
     ],
-    "cuota_total": "2.91",
+    "cuota_total": "3.96",
     "stake": "3%",
-    "analisis": "Ajuste de valor real: Se combina la eficiencia ofensiva en Indonesia con la tendencia goleadora histórica en la liga paraguaya.",
-    "analisis_en": "Real value adjustment: Combining offensive efficiency in Indonesia with the historical scoring trend in the Paraguayan league."
+    "analisis": "MERCADO DIRECTO: Ajuste de cuotas al alza en República Checa y Bulgaria. Se busca capitalizar la solvencia local con alta producción ofensiva.",
+    "analisis_en": "DIRECT MARKET: Upward odds adjustment in Czech Republic and Bulgaria. Seeking to capitalize on local solvency with high offensive production."
   },
   "tip_asiatico": {
     "nombre": "Tip Asian Hándicap IA",
     "nombre_en": "Tip Asian Handicap AI",
     "partidos": [
-      "15:00 - Opava vs Artis - Más de 2.5 goles (Cuota: 1.85)",
-      "15:00 - Benfica U23 vs Sporting Braga U23 - Hándicap Asiático 0.0 Benfica U23 (Cuota: 1.55)"
+      "19:00 - Lazio vs Inter - Gana Inter (2) (Cuota: 1.66)",
+      "19:00 - Heart Of Midlothian vs Falkirk - Gana Hearts (1) (Cuota: 1.39)"
     ],
-    "cuota_total": "2.87",
+    "cuota_total": "2.31",
     "stake": "3%",
-    "analisis": "Uso de seguros: Se opta por la dinámica over en la liga checa y el hándicap nulo en el torneo sub-23 luso por estabilidad estadística.",
-    "analisis_en": "Using insurance: Opting for over dynamics in the Czech league and the draw-no-bet in the Portuguese U23 tournament for statistical stability."
+    "analisis": "CALIDAD TÉCNICA: Ajuste final para el Hearts (1.39). Se combina con el Inter (1.66) para un bloque estable que protege el capital.",
+    "analisis_en": "TECHNICAL QUALITY: Final adjustment for Hearts (1.39). Combined with Inter (1.66) for a stable block that protects capital."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus IA",
     "nombre_en": "Tip Bonus AI",
     "partidos": [
-      "23:00 - Cerro Porteno vs Club Guarani - Gana Cerro Porteno (1) (Cuota: 1.85)",
-      "17:00 - Randers FC vs Odense - Más de 2.5 goles (Cuota: 1.65)"
+      "17:00 - Espanyol vs Athletic Club - Gana Athletic Club (2) (Cuota: 2.70)",
+      "19:00 - Lens vs Paris Saint Germain - PSG gana y más de 2.5 goles (Cuota: 3.25)"
     ],
-    "cuota_total": "3.05",
+    "cuota_total": "8.77",
     "stake": "10%",
-    "analisis": "BONUS SEGURIDAD: Máxima fiabilidad basada en la jerarquía de Cerro Porteño y la tendencia over de Dinamarca para asegurar el rigor del bankroll.",
-    "analisis_en": "SAFETY BONUS: Maximum reliability based on Cerro Porteño's hierarchy and Denmark's over trend to ensure bankroll rigor."
+    "analisis": "BONUS RECUPERACIÓN TOTAL: Se explota la cuota de 3.25 del PSG. Es el bloque con mayor potencial de la jornada para restaurar el bankroll de 129.62 €.",
+    "analisis_en": "TOTAL RECOVERY BONUS: Taking advantage of PSG's 3.25 odds. This is the block with the highest potential of the day to restore the 129.62 € bankroll."
   },
   "control_panel": {
     "bankroll_actual": 129.62,
-    "fuente_cuotas": "Bet365 (Final Corregido 11/05/2026)",
-    "estrategia": "Protocolo de Análisis Matemático con diversificación total de 12 eventos únicos y cuotas verificadas."
+    "fuente_cuotas": "Operadores España (Verificado 13/05/2026)",
+    "estrategia": "Protocolo de Recuperación: Optimización de cuotas y diversificación en 12 eventos únicos para sanear cuentas [cite: 2026-01-20, 2026-01-28, 2026-05-13]."
   }
 }
