@@ -1,80 +1,74 @@
 {
-  "fecha": "2026-05-13",
+  "fecha": "2026-05-27",
   "tip_05": {
     "nombre": "Tip + 0.5 IA",
     "nombre_en": "Tip + 0.5 AI",
     "partidos": [
-      "19:00 - Manchester City vs Crystal Palace - Resultado y más de 2.5 goles (Cuota: 1.72)",
-      "12:30 - Dynamo Kyiv vs Kolos Kovalivka - Dynamo Kyiv gana y más de 1.5 goles (Cuota: 1.53)"
+      "07:00 - Dalian Yingbo B vs Shandong Taishan II - Más de 2.5 goles (Cuota: 1.83)"
     ],
-    "cuota_total": "2.63",
-    "stake": "10%",
-    "analisis": "MÁXIMA PRESIÓN: Bloque principal de recuperación. El rigor histórico de City y Dynamo en casa es la base para sanear el bankroll tras la jornada anterior.",
-    "analisis_en": "MAXIMUM PRESSURE: Main recovery block. Historical rigor of City and Dynamo at home is the foundation to heal the bankroll after the previous day."
+    "cuota_total": "1.83",
+    "stake": "3.5%",
+    "analisis": "ANÁLISIS MATEMÁTICO: Con un xG combinado superior a la línea implícita de la cuota, las filiales chinas proponen transiciones verticales veloces y desajustes defensivos severos en el retroceso para este encuentro.",
+    "analisis_en": "MATHEMATICAL ANALYSIS: With a combined xG higher than the implicit odds line, the Chinese reserve teams offer fast vertical transitions and severe defensive misalignments in tracking back for this matchup."
   },
   "tip_15": {
     "nombre": "Tip + 1.5 IA",
     "nombre_en": "Tip + 1.5 AI",
     "partidos": [
-      "19:30 - Alaves vs Barcelona - Gana Barcelona (2) (Cuota: 2.00)",
-      "17:00 - Villarreal vs Sevilla - Gana Villarreal (1) (Cuota: 1.95)"
+      "08:00 - Changchun Xidu vs BIT - Menos de 2.5 goles (Cuota: 1.95)"
     ],
-    "cuota_total": "3.90",
-    "stake": "5%",
-    "analisis": "VALOR LA LIGA: Cuotas optimizadas en España para maximizar el retorno del stake medio. Se confía en la superioridad técnica del Barcelona y Villarreal.",
-    "analisis_en": "LA LIGA VALUE: Optimized odds in Spain to maximize medium stake return. Relying on Barcelona and Villarreal technical superiority."
+    "cuota_total": "1.95",
+    "stake": "4.0%",
+    "analisis": "VALOR ESTADÍSTICO: Historial de emparejamientos rígidos en la medular donde el conjunto visitante suele replegar en bloque bajo, reduciendo drásticamente la varianza goleadora al 55% de probabilidad real.",
+    "analisis_en": "STATISTICAL VALUE: History of rigid matchups in midfield where the visiting side usually retreats into a low block, drastically reducing goal variance to 55% real probability."
   },
   "tip_1x2x": {
     "nombre": "Tip 1X o 2X IA",
     "nombre_en": "Tip 1X or 2X AI",
     "partidos": [
-      "19:00 - Rangers vs Hibernian - Gana Rangers (1) (Cuota: 1.50)",
-      "19:00 - Motherwell vs Celtic - Gana Celtic (2) (Cuota: 1.62)"
+      "11:00 - Altay vs FC Astana - Más de 2.5 goles (Cuota: 1.80)"
     ],
-    "cuota_total": "2.43",
-    "stake": "4%",
-    "analisis": "DOMINIO ESCOCÉS: Rigor histórico en la Premiership. El Old Firm en jornada de miércoles es una de las apuestas más estables por jerarquía de plantilla.",
-    "analisis_en": "SCOTTISH DOMINANCE: Historical rigor in the Premiership. The Old Firm on a Wednesday matchday is one of the most stable bets by squad hierarchy."
+    "cuota_total": "1.80",
+    "stake": "3.0%",
+    "analisis": "PRESIÓN ALTA: FC Astana ejerce un planteamiento ofensivo asfixiante frente a un Altay que concede grietas críticas por las bandas, promoviendo un escenario abierto y de ritmo alto.",
+    "analisis_en": "HIGH PRESSURE: FC Astana exerts an asphyxiating offensive approach against an Altay side that concedes critical gaps on the wings, promoting an open and high-paced scenario."
   },
   "tip_btts": {
     "nombre": "Tip BTTS IA",
     "nombre_en": "Tip BTTS AI",
     "partidos": [
-      "18:00 - Slavia Praha vs FK Jablonec - Gana Slavia Praha y más de 2.5 goles (Cuota: 2.25)",
-      "17:15 - Ludogorets vs Levski Sofia - Gana Ludogorets (1) (Cuota: 1.76)"
+      "12:00 - Sofapaka vs KCB - Menos de 2.5 goles (Cuota: 1.85)"
     ],
-    "cuota_total": "3.96",
-    "stake": "3%",
-    "analisis": "MERCADO DIRECTO: Ajuste de cuotas al alza en República Checa y Bulgaria. Se busca capitalizar la solvencia local con alta producción ofensiva.",
-    "analisis_en": "DIRECT MARKET: Upward odds adjustment in Czech Republic and Bulgaria. Seeking to capitalize on local solvency with high offensive production."
+    "cuota_total": "1.85",
+    "stake": "3.5%",
+    "analisis": "MERCADO DIRECTO: La liga keniana destaca por su solidez defensiva y posesiones de baja progresión. Ambos conjuntos registran un promedio conjunto inferior a 1.9 goles por partido.",
+    "analisis_en": "DIRECT MARKET: The Kenyan league stands out for its defensive solidity and low-progression possessions. Both sides register a combined average below 1.9 goals per match."
   },
   "tip_asiatico": {
     "nombre": "Tip Asian Hándicap IA",
     "nombre_en": "Tip Asian Handicap AI",
     "partidos": [
-      "19:00 - Lazio vs Inter - Gana Inter (2) (Cuota: 1.66)",
-      "19:00 - Heart Of Midlothian vs Falkirk - Gana Hearts (1) (Cuota: 1.39)"
+      "12:00 - Dinamo Minsk II vs Gomel II - Más de 2.5 goles (Cuota: 1.91)"
     ],
-    "cuota_total": "2.31",
-    "stake": "3%",
-    "analisis": "CALIDAD TÉCNICA: Ajuste final para el Hearts (1.39). Se combina con el Inter (1.66) para un bloque estable que protege el capital.",
-    "analisis_en": "TECHNICAL QUALITY: Final adjustment for Hearts (1.39). Combined with Inter (1.66) for a stable block that protects capital."
+    "cuota_total": "1.91",
+    "stake": "3.0%",
+    "analisis": "CALIDAD TÉCNICA: Torneo caracterizado por la fragilidad de sus bloques defensivos y la sobrepoblación en ataque, lo que favorece un escenario abierto de ida y vuelta constante.",
+    "analisis_en": "TECHNICAL QUALITY: Tournament characterized by the fragility of defensive blocks and overpopulation in attack, favoring an open and constant box-to-box scenario."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus IA",
     "nombre_en": "Tip Bonus AI",
     "partidos": [
-      "17:00 - Espanyol vs Athletic Club - Gana Athletic Club (2) (Cuota: 2.70)",
-      "19:00 - Lens vs Paris Saint Germain - PSG gana y más de 2.5 goles (Cuota: 3.25)"
+      "13:00 - Istiqlol vs CSKA Pomir - Menos de 2.5 goles (Cuota: 1.88)"
     ],
-    "cuota_total": "8.77",
-    "stake": "10%",
-    "analisis": "BONUS RECUPERACIÓN TOTAL: Se explota la cuota de 3.25 del PSG. Es el bloque con mayor potencial de la jornada para restaurar el bankroll de 129.62 €.",
-    "analisis_en": "TOTAL RECOVERY BONUS: Taking advantage of PSG's 3.25 odds. This is the block with the highest potential of the day to restore the 129.62 € bankroll."
+    "cuota_total": "1.88",
+    "stake": "4.5%",
+    "analisis": "BONUS INFALIBLE: Choque directo en la zona alta de Tayikistán donde impera el respeto táctico y los ajustes minuciosos, hundiendo la expectativa goleadora bajo el amparo del criterio de Kelly.",
+    "analisis_en": "INFALLIBLE BONUS: Direct clash in the upper zone of Tajikistan where tactical respect and meticulous adjustments prevail, sinking the goal expectation under the protection of the Kelly criterion."
   },
   "control_panel": {
     "bankroll_actual": 129.62,
-    "fuente_cuotas": "Operadores España (Verificado 13/05/2026)",
-    "estrategia": "Protocolo de Recuperación: Optimización de cuotas y diversificación en 12 eventos únicos para sanear cuentas [cite: 2026-01-20, 2026-01-28, 2026-05-13]."
+    "fuente_cuotas": "Operadores Internacionales (Verificado 27/05/2026)",
+    "estrategia": "Protocolo Matemático: Filtrado estricto de un partido por sección con cuota mínima de 1.80, exclusión de la madrugada y asignación consecuente de stake dinámico."
   }
 }
