@@ -1,94 +1,81 @@
 {
-  "fecha": "2026-05-27",
+  "fecha": "2026-08-05",
   "tip_ah_1": {
     "nombre": "Tip AH 1",
     "nombre_en": "Tip AH 1",
     "partidos": [
-      "07:00 - Dalian Yingbo B vs Shandong Taishan II (Más de 2.5 Gol Asiático)"
+      "19:30 CEST - CSKA 1948 vs Pafos (CSKA 1948 +2.0 AH)"
     ],
     "partidos_en": [
-      "07:00 - Dalian Yingbo B vs Shandong Taishan II (Over 2.5 Asian Goal)"
+      "19:30 CEST - CSKA 1948 vs Pafos (CSKA 1948 +2.0 AH)"
     ],
-    "cuota_total": "1.83",
-    "stake": "Stake 3.5%",
-    "analisis": "ANÁLISIS MATEMÁTICO: Con un xG combinado superior a la línea implícita de la cuota, las filiales chinas proponen transiciones verticales veloces y desajustes defensivos severos en la línea asiática de goles.",
-    "analisis_en": "MATHEMATICAL ANALYSIS: With a combined xG higher than the implicit odds line, the Chinese reserve teams offer fast vertical transitions and severe defensive misalignments on the Asian goal line."
+    "cuota_total": "1.65",
+    "stake": "Stake 5%",
+    "analisis": "Análisis matemático y estadístico basado en la cobertura del hándicap asiático +2.0 a favor de CSKA 1948.",
+    "analisis_en": "Mathematical and statistical analysis based on the Asian handicap +2.0 coverage for CSKA 1948."
   },
   "tip_ah_2": {
     "nombre": "Tip AH 2",
     "nombre_en": "Tip AH 2",
     "partidos": [
-      "08:00 - Changchun Xidu vs BIT (Menos de 2.5 Gol Asiático)"
+      "18:00 CEST - AC Oulu vs IFK Mariehamn (AC Oulu -0.5 AH)"
     ],
     "partidos_en": [
-      "08:00 - Changchun Xidu vs BIT (Under 2.5 Asian Goal)"
+      "18:00 CEST - AC Oulu vs IFK Mariehamn (AC Oulu -0.5 AH)"
     ],
-    "cuota_total": "1.95",
-    "stake": "Stake 4.0%",
-    "analisis": "VALOR ESTADÍSTICO: Historial de emparejamientos rígidos en la medular donde el conjunto visitante suele replegar en bloque bajo, reduciendo drásticamente la varianza a favor de la línea asiática inferior.",
-    "analisis_en": "STATISTICAL VALUE: History of rigid matchups in midfield where the visiting side usually retreats into a low block, drastically reducing goal variance under the lower Asian goal line."
+    "cuota_total": "1.70",
+    "stake": "Stake 5%",
+    "analisis": "Línea de hándicap asiático -0.5 asignada a la victoria local de AC Oulu con alto valor esperado.",
+    "analisis_en": "Asian handicap line -0.5 assigned to AC Oulu home win showing high expected value."
   },
   "tip_ah_3": {
     "nombre": "Tip AH 3",
     "nombre_en": "Tip AH 3",
     "partidos": [
-      "11:00 - Altay vs FC Astana (Más de 2.5/3.0 Gol Asiático)"
+      "21:15 CEST - KR Reykjavík vs HK Kópavogur (KR Reykjavík -0.5 AH)"
     ],
     "partidos_en": [
-      "11:00 - Altay vs FC Astana (Over 2.5/3.0 Asian Goal)"
+      "21:15 CEST - KR Reykjavík vs HK Kópavogur (KR Reykjavík -0.5 AH)"
     ],
-    "cuota_total": "1.80",
-    "stake": "Stake 3.0%",
-    "analisis": "PRESIÓN ALTA: FC Astana ejerce un planteamiento ofensivo asfixiante frente a un Altay que concede grietas críticas por las bandas, favoreciendo la cobertura de la línea de gol asiática.",
-    "analisis_en": "HIGH PRESSURE: FC Astana exerts an asphyxiating offensive approach against an Altay side that concedes critical gaps on the wings, favoring coverage of the Asian goal line."
+    "cuota_total": "1.70",
+    "stake": "Stake 5%",
+    "analisis": "Proyección estadística que respalda la línea asiática -0.5 a favor de KR Reykjavík.",
+    "analisis_en": "Statistical projection supporting the -0.5 Asian line for KR Reykjavík."
   },
   "tip_ah_4": {
     "nombre": "Tip AH 4",
     "nombre_en": "Tip AH 4",
     "partidos": [
-      "12:00 - Sofapaka vs KCB (Menos de 2.5 Gol Asiático)"
+      "19:15 CEST - Midtjylland vs Ferencváros (Ferencváros -0.5 AH)"
     ],
     "partidos_en": [
-      "12:00 - Sofapaka vs KCB (Under 2.5 Asian Goal)"
+      "19:15 CEST - Midtjylland vs Ferencváros (Ferencváros -0.5 AH)"
     ],
-    "cuota_total": "1.85",
-    "stake": "Stake 3.5%",
-    "analisis": "MERCADO ASIÁTICO: La liga keniana destaca por su solidez defensiva y posesiones de baja progresión. Ambos conjuntos registran un promedio conjunto inferior a 1.9 goles por partido.",
-    "analisis_en": "ASIAN MARKET: The Kenyan league stands out for its defensive solidity and low-progression possessions. Both sides register a combined average below 1.9 goals per match."
+    "cuota_total": "1.70",
+    "stake": "Stake 5%",
+    "analisis": "Selección basada en el hándicap asiático -0.5 para Ferencváros según los parámetros del modelo predictivo.",
+    "analisis_en": "Selection based on the -0.5 Asian handicap for Ferencváros according to predictive model parameters."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus",
     "nombre_en": "Tip Bonus",
-    "partidos": [
-      "13:00 - Istiqlol vs CSKA Pomir (Menos de 2.5 Gol Asiático)"
-    ],
-    "partidos_en": [
-      "13:00 - Istiqlol vs CSKA Pomir (Under 2.5 Asian Goal)"
-    ],
-    "cuota_total": "1.88",
-    "stake": "Stake 4.5%",
-    "analisis": "MÁXIMA SEGURIDAD ASIÁTICA: Choque directo en la zona alta de Tayikistán donde impera el respeto táctico y los ajustes minuciosos, ajustando la expectativa a una línea asiática conservadora bajo el criterio de Kelly.",
-    "analisis_en": "HIGH ASIAN SAFETY: Direct clash in the upper zone of Tajikistan where tactical respect and meticulous adjustments prevail, adjusting expectations to a conservative Asian line under Kelly criterion."
+    "partidos": [],
+    "partidos_en": [],
+    "cuota_total": "1.00",
+    "stake": "Stake 0%",
+    "analisis": "Pendiente de definición.",
+    "analisis_en": "Pending definition."
   },
   "control_panel": {
-    "bankroll_actual": 129.62,
     "liquidacion_bonus_ayer": {
-      "puntos": "+3.96",
-      "resultado": "ganado",
-      "resultado_en": "won",
-      "cuota_aplicada": "1.88",
-      "stake_aplicado": "4.5%",
-      "partidos": "Istiqlol vs CSKA Pomir (Menos de 2.5 Gol Asiático)",
-      "partidos_en": "Istiqlol vs CSKA Pomir (Under 2.5 Asian Goal)"
+      "puntos": "0.00",
+      "resultado": "pendiente",
+      "resultado_en": "pending",
+      "cuota_aplicada": "1.00",
+      "stake_aplicado": "0%",
+      "partidos": "Sin datos",
+      "partidos_en": "No data"
     },
-    "historial_bonus": [
-      {
-        "fecha": "2026-05-26",
-        "fecha_en": "2026-05-26",
-        "resultado": "ganado",
-        "resultado_en": "won",
-        "puntos": "+3.96"
-      }
-    ]
+    "historial_bonus": []
   }
 }
