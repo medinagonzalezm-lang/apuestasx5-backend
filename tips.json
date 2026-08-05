@@ -1,74 +1,94 @@
 {
   "fecha": "2026-05-27",
-  "tip_05": {
-    "nombre": "Tip + 0.5 IA",
-    "nombre_en": "Tip + 0.5 AI",
+  "tip_ah_1": {
+    "nombre": "Tip AH 1",
+    "nombre_en": "Tip AH 1",
     "partidos": [
-      "07:00 - Dalian Yingbo B vs Shandong Taishan II - Más de 2.5 goles (Cuota: 1.83)"
+      "07:00 - Dalian Yingbo B vs Shandong Taishan II (Más de 2.5 Gol Asiático)"
+    ],
+    "partidos_en": [
+      "07:00 - Dalian Yingbo B vs Shandong Taishan II (Over 2.5 Asian Goal)"
     ],
     "cuota_total": "1.83",
-    "stake": "3.5%",
-    "analisis": "ANÁLISIS MATEMÁTICO: Con un xG combinado superior a la línea implícita de la cuota, las filiales chinas proponen transiciones verticales veloces y desajustes defensivos severos en el retroceso para este encuentro.",
-    "analisis_en": "MATHEMATICAL ANALYSIS: With a combined xG higher than the implicit odds line, the Chinese reserve teams offer fast vertical transitions and severe defensive misalignments in tracking back for this matchup."
+    "stake": "Stake 3.5%",
+    "analisis": "ANÁLISIS MATEMÁTICO: Con un xG combinado superior a la línea implícita de la cuota, las filiales chinas proponen transiciones verticales veloces y desajustes defensivos severos en la línea asiática de goles.",
+    "analisis_en": "MATHEMATICAL ANALYSIS: With a combined xG higher than the implicit odds line, the Chinese reserve teams offer fast vertical transitions and severe defensive misalignments on the Asian goal line."
   },
-  "tip_15": {
-    "nombre": "Tip + 1.5 IA",
-    "nombre_en": "Tip + 1.5 AI",
+  "tip_ah_2": {
+    "nombre": "Tip AH 2",
+    "nombre_en": "Tip AH 2",
     "partidos": [
-      "08:00 - Changchun Xidu vs BIT - Menos de 2.5 goles (Cuota: 1.95)"
+      "08:00 - Changchun Xidu vs BIT (Menos de 2.5 Gol Asiático)"
+    ],
+    "partidos_en": [
+      "08:00 - Changchun Xidu vs BIT (Under 2.5 Asian Goal)"
     ],
     "cuota_total": "1.95",
-    "stake": "4.0%",
-    "analisis": "VALOR ESTADÍSTICO: Historial de emparejamientos rígidos en la medular donde el conjunto visitante suele replegar en bloque bajo, reduciendo drásticamente la varianza goleadora al 55% de probabilidad real.",
-    "analisis_en": "STATISTICAL VALUE: History of rigid matchups in midfield where the visiting side usually retreats into a low block, drastically reducing goal variance to 55% real probability."
+    "stake": "Stake 4.0%",
+    "analisis": "VALOR ESTADÍSTICO: Historial de emparejamientos rígidos en la medular donde el conjunto visitante suele replegar en bloque bajo, reduciendo drásticamente la varianza a favor de la línea asiática inferior.",
+    "analisis_en": "STATISTICAL VALUE: History of rigid matchups in midfield where the visiting side usually retreats into a low block, drastically reducing goal variance under the lower Asian goal line."
   },
-  "tip_1x2x": {
-    "nombre": "Tip 1X o 2X IA",
-    "nombre_en": "Tip 1X or 2X AI",
+  "tip_ah_3": {
+    "nombre": "Tip AH 3",
+    "nombre_en": "Tip AH 3",
     "partidos": [
-      "11:00 - Altay vs FC Astana - Más de 2.5 goles (Cuota: 1.80)"
+      "11:00 - Altay vs FC Astana (Más de 2.5/3.0 Gol Asiático)"
+    ],
+    "partidos_en": [
+      "11:00 - Altay vs FC Astana (Over 2.5/3.0 Asian Goal)"
     ],
     "cuota_total": "1.80",
-    "stake": "3.0%",
-    "analisis": "PRESIÓN ALTA: FC Astana ejerce un planteamiento ofensivo asfixiante frente a un Altay que concede grietas críticas por las bandas, promoviendo un escenario abierto y de ritmo alto.",
-    "analisis_en": "HIGH PRESSURE: FC Astana exerts an asphyxiating offensive approach against an Altay side that concedes critical gaps on the wings, promoting an open and high-paced scenario."
+    "stake": "Stake 3.0%",
+    "analisis": "PRESIÓN ALTA: FC Astana ejerce un planteamiento ofensivo asfixiante frente a un Altay que concede grietas críticas por las bandas, favoreciendo la cobertura de la línea de gol asiática.",
+    "analisis_en": "HIGH PRESSURE: FC Astana exerts an asphyxiating offensive approach against an Altay side that concedes critical gaps on the wings, favoring coverage of the Asian goal line."
   },
-  "tip_btts": {
-    "nombre": "Tip BTTS IA",
-    "nombre_en": "Tip BTTS AI",
+  "tip_ah_4": {
+    "nombre": "Tip AH 4",
+    "nombre_en": "Tip AH 4",
     "partidos": [
-      "12:00 - Sofapaka vs KCB - Menos de 2.5 goles (Cuota: 1.85)"
+      "12:00 - Sofapaka vs KCB (Menos de 2.5 Gol Asiático)"
+    ],
+    "partidos_en": [
+      "12:00 - Sofapaka vs KCB (Under 2.5 Asian Goal)"
     ],
     "cuota_total": "1.85",
-    "stake": "3.5%",
-    "analisis": "MERCADO DIRECTO: La liga keniana destaca por su solidez defensiva y posesiones de baja progresión. Ambos conjuntos registran un promedio conjunto inferior a 1.9 goles por partido.",
-    "analisis_en": "DIRECT MARKET: The Kenyan league stands out for its defensive solidity and low-progression possessions. Both sides register a combined average below 1.9 goals per match."
-  },
-  "tip_asiatico": {
-    "nombre": "Tip Asian Hándicap IA",
-    "nombre_en": "Tip Asian Handicap AI",
-    "partidos": [
-      "12:00 - Dinamo Minsk II vs Gomel II - Más de 2.5 goles (Cuota: 1.91)"
-    ],
-    "cuota_total": "1.91",
-    "stake": "3.0%",
-    "analisis": "CALIDAD TÉCNICA: Torneo caracterizado por la fragilidad de sus bloques defensivos y la sobrepoblación en ataque, lo que favorece un escenario abierto de ida y vuelta constante.",
-    "analisis_en": "TECHNICAL QUALITY: Tournament characterized by the fragility of defensive blocks and overpopulation in attack, favoring an open and constant box-to-box scenario."
+    "stake": "Stake 3.5%",
+    "analisis": "MERCADO ASIÁTICO: La liga keniana destaca por su solidez defensiva y posesiones de baja progresión. Ambos conjuntos registran un promedio conjunto inferior a 1.9 goles por partido.",
+    "analisis_en": "ASIAN MARKET: The Kenyan league stands out for its defensive solidity and low-progression possessions. Both sides register a combined average below 1.9 goals per match."
   },
   "tip_bonus": {
-    "nombre": "Tip Bonus IA",
-    "nombre_en": "Tip Bonus AI",
+    "nombre": "Tip Bonus",
+    "nombre_en": "Tip Bonus",
     "partidos": [
-      "13:00 - Istiqlol vs CSKA Pomir - Menos de 2.5 goles (Cuota: 1.88)"
+      "13:00 - Istiqlol vs CSKA Pomir (Menos de 2.5 Gol Asiático)"
+    ],
+    "partidos_en": [
+      "13:00 - Istiqlol vs CSKA Pomir (Under 2.5 Asian Goal)"
     ],
     "cuota_total": "1.88",
-    "stake": "4.5%",
-    "analisis": "BONUS INFALIBLE: Choque directo en la zona alta de Tayikistán donde impera el respeto táctico y los ajustes minuciosos, hundiendo la expectativa goleadora bajo el amparo del criterio de Kelly.",
-    "analisis_en": "INFALLIBLE BONUS: Direct clash in the upper zone of Tajikistan where tactical respect and meticulous adjustments prevail, sinking the goal expectation under the protection of the Kelly criterion."
+    "stake": "Stake 4.5%",
+    "analisis": "MÁXIMA SEGURIDAD ASIÁTICA: Choque directo en la zona alta de Tayikistán donde impera el respeto táctico y los ajustes minuciosos, ajustando la expectativa a una línea asiática conservadora bajo el criterio de Kelly.",
+    "analisis_en": "HIGH ASIAN SAFETY: Direct clash in the upper zone of Tajikistan where tactical respect and meticulous adjustments prevail, adjusting expectations to a conservative Asian line under Kelly criterion."
   },
   "control_panel": {
     "bankroll_actual": 129.62,
-    "fuente_cuotas": "Operadores Internacionales (Verificado 27/05/2026)",
-    "estrategia": "Protocolo Matemático: Filtrado estricto de un partido por sección con cuota mínima de 1.80, exclusión de la madrugada y asignación consecuente de stake dinámico."
+    "liquidacion_bonus_ayer": {
+      "puntos": "+3.96",
+      "resultado": "ganado",
+      "resultado_en": "won",
+      "cuota_aplicada": "1.88",
+      "stake_aplicado": "4.5%",
+      "partidos": "Istiqlol vs CSKA Pomir (Menos de 2.5 Gol Asiático)",
+      "partidos_en": "Istiqlol vs CSKA Pomir (Under 2.5 Asian Goal)"
+    },
+    "historial_bonus": [
+      {
+        "fecha": "2026-05-26",
+        "fecha_en": "2026-05-26",
+        "resultado": "ganado",
+        "resultado_en": "won",
+        "puntos": "+3.96"
+      }
+    ]
   }
 }
