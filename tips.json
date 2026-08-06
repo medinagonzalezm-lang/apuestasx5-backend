@@ -4,43 +4,43 @@
     "nombre": "Tip AH 1",
     "nombre_en": "Tip AH 1",
     "partidos": [
-      "20:00 CEST - Portuguesa U20 vs Juventus U20 (Portuguesa U20 0.0 AH)"
+      "20:00 CEST - Portuguesa U20 vs Juventus U20 (Portuguesa U20 -0.25 AH)"
     ],
     "partidos_en": [
-      "20:00 CEST - Portuguesa U20 vs Juventus U20 (Portuguesa U20 0.0 AH)"
+      "20:00 CEST - Portuguesa U20 vs Juventus U20 (Portuguesa U20 -0.25 AH)"
     ],
-    "cuota_total": "1.57",
+    "cuota_total": "1.85",
     "stake": "Stake 4%",
-    "analisis": "Probabilidad implícita bruta del 63,7%. Apuesta al mercado de empate no válido en categoría juvenil con valor numérico favorable.",
-    "analisis_en": "Gross implicit probability of 63.7%. Draw no bet coverage in youth league with favorable numerical value."
+    "analisis": "Línea dividida (-0.0, -0.5) a cuota 1.85. Ofrece media devolución en caso de empate y ganancia completa con la victoria local.",
+    "analisis_en": "Split line (-0.0, -0.5) at 1.85 odds. Offers half refund on a draw and full win on a home victory."
   },
   "tip_ah_2": {
     "nombre": "Tip AH 2",
     "nombre_en": "Tip AH 2",
     "partidos": [
-      "01:00 CEST - Guarani-RS vs Grêmio Esportivo Brasil (Guarani-RS +0.5 AH)"
+      "20:00 CEST - Guarani-RS vs Grêmio Esportivo Brasil (Guarani-RS +0.25 AH)"
     ],
     "partidos_en": [
-      "01:00 CEST - Guarani-RS vs Grêmio Esportivo Brasil (Guarani-RS +0.5 AH)"
+      "20:00 CEST - Guarani-RS vs Grêmio Esportivo Brasil (Guarani-RS +0.25 AH)"
     ],
-    "cuota_total": "1.61",
+    "cuota_total": "1.925",
     "stake": "Stake 3%",
-    "analisis": "Probabilidad implícita bruta del 62,1%. Excelente colchón defensivo con el medio gol a favor que cubre victoria local y empate.",
-    "analisis_en": "Gross implicit probability of 62.1%. Solid defensive cushion with the half-goal advantage covering home win and draw."
+    "analisis": "Línea defensiva (+0.0, +0.5) a cuota 1.925. Otorga media ganancia con empate y cobro total si gana el conjunto local.",
+    "analisis_en": "Defensive line (+0.0, +0.5) at 1.925 odds. Yields half win on a draw and full payout on a home victory."
   },
   "tip_ah_3": {
     "nombre": "Tip AH 3",
     "nombre_en": "Tip AH 3",
     "partidos": [
-      "01:00 CEST - Vitória vs Atlético Paranaense (Vitória +0.5 AH)"
+      "01:00 CEST - Vitória vs Athletico Paranaense (Vitória +0.5 AH)"
     ],
     "partidos_en": [
-      "01:00 CEST - Vitória vs Atlético Paranaense (Vitória +0.5 AH)"
+      "01:00 CEST - Vitória vs Athletico Paranaense (Vitória +0.5 AH)"
     ],
     "cuota_total": "1.73",
     "stake": "Stake 2.5%",
-    "analisis": "Probabilidad implícita bruta del 57,8%. Cobertura de doble oportunidad frente a un rival de marcada solidez defensiva.",
-    "analisis_en": "Gross implicit probability of 57.8%. Double chance protection against an opponent with marked defensive stability."
+    "analisis": "Doble oportunidad (+0.5 AH) a cuota 1.73 que cubre tanto la victoria local como el empate frente a un rival exigente.",
+    "analisis_en": "Double chance (+0.5 AH) at 1.73 odds covering both home win and draw against a tough opponent."
   },
   "tip_ah_4": {
     "nombre": "Tip AH 4",
@@ -51,10 +51,10 @@
     "partidos_en": [
       "21:00 CEST - Benfica vs Hearts (Hearts +2.75 AH)"
     ],
-    "cuota_total": "1.90",
+    "cuota_total": "1.85",
     "stake": "Stake 2%",
-    "analisis": "Línea de amplio margen asiático (+2.75) que amortigua derrotas por 2 o 3 goles ante la condición de favorito del Benfica.",
-    "analisis_en": "Wide Asian handicap (+2.75) mitigating even 2 or 3-goal defeat scenarios given Benfica's favorite status."
+    "analisis": "Amplio margen de +2.75 a cuota 1.85 que protege ante derrotas ajustadas del equipo visitante en feudo europeo.",
+    "analisis_en": "Wide cushion of +2.75 at 1.85 odds protecting against narrow away defeats in European play."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus",
@@ -67,8 +67,8 @@
     ],
     "cuota_total": "1.50",
     "stake": "Stake 5%",
-    "analisis": "Opción de máxima probabilidad implícita bruta (66,7%). La línea 0.0 brinda cobertura de devolución en empate con la valoración más sólida del mercado.",
-    "analisis_en": "Selection with the highest gross implicit probability (66.7%). The 0.0 line provides full refund coverage on a draw with strong market backing."
+    "analisis": "Selección principal a cuota 1.50 con línea 0.0 (Empate no válido). Máxima probabilidad implícita con seguro de devolución.",
+    "analisis_en": "Top selection at 1.50 odds with 0.0 line (Draw no bet). Highest implicit probability with full refund protection on a draw."
   },
   "control_panel": {
     "liquidacion_bonus_ayer": {
