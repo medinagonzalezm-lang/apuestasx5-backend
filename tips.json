@@ -1,80 +1,84 @@
 {
-  "fecha": "2026-08-05",
+  "fecha": "2026-08-06",
   "tip_ah_1": {
     "nombre": "Tip AH 1",
     "nombre_en": "Tip AH 1",
     "partidos": [
-      "19:30 CEST - CSKA 1948 vs Pafos (CSKA 1948 +2.0 AH)"
+      "20:00 CEST - Portuguesa U20 vs Juventus U20 (Portuguesa U20 0.0 AH)"
     ],
     "partidos_en": [
-      "19:30 CEST - CSKA 1948 vs Pafos (CSKA 1948 +2.0 AH)"
+      "20:00 CEST - Portuguesa U20 vs Juventus U20 (Portuguesa U20 0.0 AH)"
     ],
-    "cuota_total": "1.65",
-    "stake": "Stake 5%",
-    "analisis": "Análisis matemático y estadístico basado en la cobertura del hándicap asiático +2.0 a favor de CSKA 1948.",
-    "analisis_en": "Mathematical and statistical analysis based on the Asian handicap +2.0 coverage for CSKA 1948."
+    "cuota_total": "1.57",
+    "stake": "Stake 4%",
+    "analisis": "Probabilidad implícita bruta del 63,7%. Apuesta al mercado de empate no válido en categoría juvenil con valor numérico favorable.",
+    "analisis_en": "Gross implicit probability of 63.7%. Draw no bet coverage in youth league with favorable numerical value."
   },
   "tip_ah_2": {
     "nombre": "Tip AH 2",
     "nombre_en": "Tip AH 2",
     "partidos": [
-      "18:00 CEST - AC Oulu vs IFK Mariehamn (AC Oulu -0.5 AH)"
+      "01:00 CEST - Guarani-RS vs Grêmio Esportivo Brasil (Guarani-RS +0.5 AH)"
     ],
     "partidos_en": [
-      "18:00 CEST - AC Oulu vs IFK Mariehamn (AC Oulu -0.5 AH)"
+      "01:00 CEST - Guarani-RS vs Grêmio Esportivo Brasil (Guarani-RS +0.5 AH)"
     ],
-    "cuota_total": "1.70",
-    "stake": "Stake 5%",
-    "analisis": "Línea de hándicap asiático -0.5 asignada a la victoria local de AC Oulu con alto valor esperado.",
-    "analisis_en": "Asian handicap line -0.5 assigned to AC Oulu home win showing high expected value."
+    "cuota_total": "1.61",
+    "stake": "Stake 3%",
+    "analisis": "Probabilidad implícita bruta del 62,1%. Excelente colchón defensivo con el medio gol a favor que cubre victoria local y empate.",
+    "analisis_en": "Gross implicit probability of 62.1%. Solid defensive cushion with the half-goal advantage covering home win and draw."
   },
   "tip_ah_3": {
     "nombre": "Tip AH 3",
     "nombre_en": "Tip AH 3",
     "partidos": [
-      "21:15 CEST - KR Reykjavík vs HK Kópavogur (KR Reykjavík -0.5 AH)"
+      "01:00 CEST - Vitória vs Atlético Paranaense (Vitória +0.5 AH)"
     ],
     "partidos_en": [
-      "21:15 CEST - KR Reykjavík vs HK Kópavogur (KR Reykjavík -0.5 AH)"
+      "01:00 CEST - Vitória vs Atlético Paranaense (Vitória +0.5 AH)"
     ],
-    "cuota_total": "1.70",
-    "stake": "Stake 5%",
-    "analisis": "Proyección estadística que respalda la línea asiática -0.5 a favor de KR Reykjavík.",
-    "analisis_en": "Statistical projection supporting the -0.5 Asian line for KR Reykjavík."
+    "cuota_total": "1.73",
+    "stake": "Stake 2.5%",
+    "analisis": "Probabilidad implícita bruta del 57,8%. Cobertura de doble oportunidad frente a un rival de marcada solidez defensiva.",
+    "analisis_en": "Gross implicit probability of 57.8%. Double chance protection against an opponent with marked defensive stability."
   },
   "tip_ah_4": {
     "nombre": "Tip AH 4",
     "nombre_en": "Tip AH 4",
     "partidos": [
-      "19:15 CEST - Midtjylland vs Ferencváros (Ferencváros -0.5 AH)"
+      "21:00 CEST - Benfica vs Hearts (Hearts +2.75 AH)"
     ],
     "partidos_en": [
-      "19:15 CEST - Midtjylland vs Ferencváros (Ferencváros -0.5 AH)"
+      "21:00 CEST - Benfica vs Hearts (Hearts +2.75 AH)"
     ],
-    "cuota_total": "1.70",
-    "stake": "Stake 5%",
-    "analisis": "Selección basada en el hándicap asiático -0.5 para Ferencváros según los parámetros del modelo predictivo.",
-    "analisis_en": "Selection based on the -0.5 Asian handicap for Ferencváros according to predictive model parameters."
+    "cuota_total": "1.90",
+    "stake": "Stake 2%",
+    "analisis": "Línea de amplio margen asiático (+2.75) que amortigua derrotas por 2 o 3 goles ante la condición de favorito del Benfica.",
+    "analisis_en": "Wide Asian handicap (+2.75) mitigating even 2 or 3-goal defeat scenarios given Benfica's favorite status."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus",
     "nombre_en": "Tip Bonus",
-    "partidos": [],
-    "partidos_en": [],
-    "cuota_total": "1.00",
-    "stake": "Stake 0%",
-    "analisis": "Pendiente de definición.",
-    "analisis_en": "Pending definition."
+    "partidos": [
+      "21:00 CEST - Universitario de Vinto vs Real Potosí (Universitario de Vinto 0.0 AH)"
+    ],
+    "partidos_en": [
+      "21:00 CEST - Universitario de Vinto vs Real Potosí (Universitario de Vinto 0.0 AH)"
+    ],
+    "cuota_total": "1.50",
+    "stake": "Stake 5%",
+    "analisis": "Opción de máxima probabilidad implícita bruta (66,7%). La línea 0.0 brinda cobertura de devolución en empate con la valoración más sólida del mercado.",
+    "analisis_en": "Selection with the highest gross implicit probability (66.7%). The 0.0 line provides full refund coverage on a draw with strong market backing."
   },
   "control_panel": {
     "liquidacion_bonus_ayer": {
       "puntos": "0.00",
       "resultado": "pendiente",
       "resultado_en": "pending",
-      "cuota_aplicada": "1.00",
-      "stake_aplicado": "0%",
-      "partidos": "Sin datos",
-      "partidos_en": "No data"
+      "cuota_aplicada": "1.50",
+      "stake_aplicado": "5%",
+      "partidos": "21:00 CEST - Universitario de Vinto vs Real Potosí (Universitario de Vinto 0.0 AH)",
+      "partidos_en": "21:00 CEST - Universitario de Vinto vs Real Potosí (Universitario de Vinto 0.0 AH)"
     },
     "historial_bonus": []
   }
