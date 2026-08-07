@@ -1,84 +1,84 @@
 {
-  "fecha": "2026-08-06",
+  "fecha": "2026-08-07",
   "tip_ah_1": {
     "nombre": "Tip AH 1",
     "nombre_en": "Tip AH 1",
     "partidos": [
-      "20:00 CEST - Portuguesa U20 vs Juventus U20 (Portuguesa U20 -0.25 AH)"
+      "22:00 CEST - Rosario Central vs Aldosivi (Rosario Central -0.5 AH)"
     ],
     "partidos_en": [
-      "20:00 CEST - Portuguesa U20 vs Juventus U20 (Portuguesa U20 -0.25 AH)"
+      "22:00 CEST - Rosario Central vs Aldosivi (Rosario Central -0.5 AH)"
     ],
-    "cuota_total": "1.85",
-    "stake": "Stake 4%",
-    "analisis": "Línea dividida (-0.0, -0.5) a cuota 1.85. Ofrece media devolución en caso de empate y ganancia completa con la victoria local.",
-    "analisis_en": "Split line (-0.0, -0.5) at 1.85 odds. Offers half refund on a draw and full win on a home victory."
+    "cuota_total": "1.475",
+    "stake": "Stake 5%",
+    "analisis": "Victoria directa del conjunto local apoyada en su solidez en casa y la necesidad de sumar tres puntos para afianzar su posición en la tabla.",
+    "analisis_en": "Straight home win supported by strong home form and the imperative need to secure three points to consolidate table standing."
   },
   "tip_ah_2": {
     "nombre": "Tip AH 2",
     "nombre_en": "Tip AH 2",
     "partidos": [
-      "20:00 CEST - Guarani-RS vs Grêmio Esportivo Brasil (Guarani-RS +0.25 AH)"
+      "21:00 CEST - Wycombe vs Stevenage (Wycombe -0.25 AH)"
     ],
     "partidos_en": [
-      "20:00 CEST - Guarani-RS vs Grêmio Esportivo Brasil (Guarani-RS +0.25 AH)"
+      "21:00 CEST - Wycombe vs Stevenage (Wycombe -0.25 AH)"
     ],
     "cuota_total": "1.925",
     "stake": "Stake 3%",
-    "analisis": "Línea defensiva (+0.0, +0.5) a cuota 1.925. Otorga media ganancia con empate y cobro total si gana el conjunto local.",
-    "analisis_en": "Defensive line (+0.0, +0.5) at 1.925 odds. Yields half win on a draw and full payout on a home victory."
+    "analisis": "Línea dividida (-0.0, -0.5) a cuota 1.925. Ofrece cobertura del 50% del importe en caso de empate y ganancia completa si el equipo local logra el triunfo.",
+    "analisis_en": "Split line (-0.0, -0.5) at 1.925 odds. Provides a 50% stake refund on a draw and full win on a home victory."
   },
   "tip_ah_3": {
     "nombre": "Tip AH 3",
     "nombre_en": "Tip AH 3",
     "partidos": [
-      "01:00 CEST - Vitória vs Athletico Paranaense (Vitória +0.5 AH)"
+      "21:00 CEST - Middlesbrough vs Wrexham (Middlesbrough -0.75 AH)"
     ],
     "partidos_en": [
-      "01:00 CEST - Vitória vs Athletico Paranaense (Vitória +0.5 AH)"
+      "21:00 CEST - Middlesbrough vs Wrexham (Middlesbrough -0.75 AH)"
     ],
-    "cuota_total": "1.73",
-    "stake": "Stake 2.5%",
-    "analisis": "Doble oportunidad (+0.5 AH) a cuota 1.73 que cubre tanto la victoria local como el empate frente a un rival exigente.",
-    "analisis_en": "Double chance (+0.5 AH) at 1.73 odds covering both home win and draw against a tough opponent."
+    "cuota_total": "1.825",
+    "stake": "Stake 3%",
+    "analisis": "Línea dividida (-0.5, -1.0) a cuota 1.825. Asegura media ganancia si la victoria es por la mínima y cobro completo con dos o más goles de margen.",
+    "analisis_en": "Split line (-0.5, -1.0) at 1.825 odds. Yields half win on a one-goal victory and full payout with a two-goal margin."
   },
   "tip_ah_4": {
     "nombre": "Tip AH 4",
     "nombre_en": "Tip AH 4",
     "partidos": [
-      "21:00 CEST - Benfica vs Hearts (Hearts +2.75 AH)"
+      "20:30 CEST - Ferrocarril Midland vs Deportivo Maipú (Ferrocarril Midland -0.75 AH)"
     ],
     "partidos_en": [
-      "21:00 CEST - Benfica vs Hearts (Hearts +2.75 AH)"
+      "20:30 CEST - Ferrocarril Midland vs Deportivo Maipú (Ferrocarril Midland -0.75 AH)"
     ],
-    "cuota_total": "1.85",
+    "cuota_total": "2.200",
     "stake": "Stake 2%",
-    "analisis": "Amplio margen de +2.75 a cuota 1.85 que protege ante derrotas ajustadas del equipo visitante en feudo europeo.",
-    "analisis_en": "Wide cushion of +2.75 at 1.85 odds protecting against narrow away defeats in European play."
+    "analisis": "Apuesta de valor con hándicap dividido (-0.75) aprovechando la gran cuota local frente a un rival endeble como visitante.",
+    "analisis_en": "Value bet with a split handicap (-0.75) taking advantage of high home odds against a weak away opponent."
   },
   "tip_bonus": {
     "nombre": "Tip Bonus",
     "nombre_en": "Tip Bonus",
     "partidos": [
-      "21:00 CEST - Universitario de Vinto vs Real Potosí (Universitario de Vinto 0.0 AH)"
+      "20:45 CEST - Wolves vs Port Vale (Port Vale +2.0 AH)"
     ],
     "partidos_en": [
-      "21:00 CEST - Universitario de Vinto vs Real Potosí (Universitario de Vinto 0.0 AH)"
+      "20:45 CEST - Wolves vs Port Vale (Port Vale +2.0 AH)"
     ],
-    "cuota_total": "1.50",
-    "stake": "Stake 5%",
-    "analisis": "Selección principal a cuota 1.50 con línea 0.0 (Empate no válido). Máxima probabilidad implícita con seguro de devolución.",
-    "analisis_en": "Top selection at 1.50 odds with 0.0 line (Draw no bet). Highest implicit probability with full refund protection on a draw."
+    "cuota_total": "1.675",
+    "stake": "Stake 10%",
+    "analisis": "SELECCIÓN DE MÁXIMA CONFIANZA (Tip Bonus IA). Amplia protección asiática de +2.0 goles que otorga la mayor probabilidad implícita de la jornada, permitiendo perder hasta por dos goles para el reembolso completo.",
+    "analisis_en": "TOP CONFIDENCE SELECTION (Tip Bonus IA). Wide Asian cushion of +2.0 goals offering the highest implicit probability of the day, allowing a defeat by up to two goals for a full refund."
   },
   "control_panel": {
     "liquidacion_bonus_ayer": {
       "puntos": "0.00",
       "resultado": "pendiente",
       "resultado_en": "pending",
-      "cuota_aplicada": "1.50",
-      "stake_aplicado": "5%",
-      "partidos": "21:00 CEST - Universitario de Vinto vs Real Potosí (Universitario de Vinto 0.0 AH)",
-      "partidos_en": "21:00 CEST - Universitario de Vinto vs Real Potosí (Universitario de Vinto 0.0 AH)"
+      "cuota_aplicada": "1.675",
+      "stake_aplicado": "10%",
+      "partidos": "20:45 CEST - Wolves vs Port Vale (Port Vale +2.0 AH)",
+      "partidos_en": "20:45 CEST - Wolves vs Port Vale (Port Vale +2.0 AH)"
     },
     "historial_bonus": []
   }
